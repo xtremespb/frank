@@ -24009,7 +24009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd87e418-6c06-4001-a294-7419edb58e9f")
-		(property "Reference" "ZERO"
+		(property "Reference" "ZERO1"
 			(at 342.9 97.79 0)
 			(effects
 				(font
@@ -24017,11 +24017,12 @@
 				)
 			)
 		)
-		(property "Value" "rp2040-zero"
+		(property "Value" "RP 2040 Zero"
 			(at 342.9 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(bold yes)
 				)
 			)
 		)
@@ -24124,7 +24125,7 @@
 		(instances
 			(project ""
 				(path "/621f55f1-01af-437d-a2cb-120cc66267c2"
-					(reference "ZERO")
+					(reference "ZERO1")
 					(unit 1)
 				)
 			)
