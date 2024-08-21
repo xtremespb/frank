@@ -19500,7 +19500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b5a4a9c-2bd1-418d-b36d-734f4bb61051")
-		(property "Reference" "LED1"
+		(property "Reference" "L1"
 			(at 307.0225 212.09 0)
 			(effects
 				(font
@@ -19552,7 +19552,7 @@
 		(instances
 			(project ""
 				(path "/621f55f1-01af-437d-a2cb-120cc66267c2"
-					(reference "LED1")
+					(reference "L1")
 					(unit 1)
 				)
 			)
