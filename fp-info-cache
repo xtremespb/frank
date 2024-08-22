@@ -1,4 +1,4 @@
-23846891068210801
+23783169798251432
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54648,272 +54648,6 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
-Custom_Components
-3.5mm_6_contacts_4_conductors_audio_plug
-Headphones with microphone connector, 3.5mm, 4 pins.
-3.5mm jack mic microphone phones headphones 4pins audio plug
-0
-6
-4
-Custom_Components
-BNC_connector
-BNC connector for PCB mounting.
-BNC connector
-0
-2
-2
-Custom_Components
-Capacitor_Disc_D6_P5
-Capacitor 6mm Disc, Pitch 5mm
-Capacitor
-0
-2
-2
-Custom_Components
-Capacitor_Disc_D6_P7.5
-Capacitor 6mm Disc, Pitch 7.5mm
-Capacitor
-0
-2
-2
-Custom_Components
-Cliff_UT1x_SPDT_ON-ON_Switch
-PCliff UT1D/E/F/G/H SPDT toggle swith. Horizontal through hole mounted.
-swithc toggle spdt
-0
-5
-4
-Custom_Components
-Cliff_UT1x_SPDT_ON-ON_Switch_Short
-PCliff UT1D/E/F/G/H SPDT toggle swith. Horizontal through hole mounted.
-swithc toggle spdt
-0
-5
-4
-Custom_Components
-Connection_Pads_03
-Three connection pads.
-Just a "Net tie" as an more or less elegant way to connect two different nets without disturbing ERC and DRC. Make connection between the pads by yourself.
-0
-3
-3
-Custom_Components
-Connector_Mini-DIN_Female_6Pin_2rows
-A footprint for the generic 6 pin Mini-DIN through hole connector with shell.
-mini din 6pin connector socket
-0
-9
-6
-Custom_Components
-Diode_DO-35_SOD27_Horizontal_RM10
-Diode, DO-35,  SOD27, Horizontal, RM 10mm
-Diode, DO-35, SOD27, Horizontal, RM 10mm, 1N4148,
-0
-2
-2
-Custom_Components
-KiCad-Logo_5mm_Copper
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Custom_Components
-KiCad-Logo_5mm_SolderMask
-KiCad Logo
-Logo KiCad
-0
-0
-0
-Custom_Components
-Microampermeter
-
-
-0
-2
-2
-Custom_Components
-Microampermeter_Small
-
-microampermeter
-0
-2
-2
-Custom_Components
-MountingHole_2.5x3.0mm
-Mounting Hole 2.5mm x 3.0mm, no annular
-mounting hole 2.5mm no annular
-0
-0
-0
-Custom_Components
-PJ311_3.5mm_Jack
-PJ311 6pin SMD 3.5mm stereo headphones jack.
-headphones jack plug stereo 3.5mm PJ311
-0
-6
-6
-Custom_Components
-PJ320D_3.5mm_Jack
-Headphones with microphone connector, 3.5mm, 4 pins.
-3.5mm jack mic microphone phones headphones 4pins audio plug
-0
-4
-4
-Custom_Components
-PJ320D_3.5mm_Jack_Short
-Headphones with microphone connector, 3.5mm, 4 pins.
-3.5mm jack mic microphone phones headphones 4pins audio plug
-0
-4
-4
-Custom_Components
-PJ320E_3.5mm_Jack
-Headphones with microphone connector, 3.5mm, 4 pins.
-3.5mm jack mic microphone phones headphones 4pins audio plug
-0
-5
-5
-Custom_Components
-PJ320E_Headphones_Plug_Short
-Headphones with microphone connector, 3.5mm, 4 pins.
-3.5mm jack mic microphone phones headphones 4pins audio plug
-0
-5
-5
-Custom_Components
-PJ31060-I_3.5mm_Jack
-PJ31060-I 6pin SMD 3.5mm headphones jack.
-headphones jack plug stereo 3.5mm PJ31060-I PJ31060
-0
-6
-6
-Custom_Components
-Philmore_30-20001_SPDT_ON-ON_Switch
-Philmore 30-2000x SPDT toggle swith. Horizontal through hole mounted.
-swithc toggle spdt
-0
-5
-4
-Custom_Components
-Potentiometer_Trimmer_2x4
-Potentiometer, Trimmer, Spectrol Type 36M, Econtrim, Rev A, 02 Aug 2010,
-Potentiometer, Trimmer, Spectrol Type 36M, Econtrim, Rev A, 02 Aug 2010,
-0
-3
-3
-Custom_Components
-Potentiometer_Trimmer_Bourns_3362X
-Spindle Trimmer Potentiometer, Bourns 3266W, https://www.bourns.com/pdfs/3266.pdf
-Spindle Trimmer Potentiometer   Bourns 3266W
-0
-3
-3
-Custom_Components
-Potentiometer_Trimmer_Vertical_Multi_Compatible
-Potentiometer, vertically mounted, Omeg PC16PU, Omeg PC16PU, Omeg PC16PU, Vishay/Spectrol 248GJ/249GJ Single, Vishay/Spectrol 248GJ/249GJ Single, Vishay/Spectrol 248GJ/249GJ Single, Vishay/Spectrol 248GH/249GH Single, Vishay/Spectrol 148/149 Single, Vishay/Spectrol 148/149 Single, Vishay/Spectrol 148/149 Single, Vishay/Spectrol 148A/149A Single with mounting plates, Vishay/Spectrol 148/149 Double, Vishay/Spectrol 148A/149A Double with mounting plates, Piher PC-16 Single, Piher PC-16 Single, Piher PC-16 Single, Piher PC-16SV Single, Piher PC-16 Double, Piher PC-16 Triple, Piher T16H Single, Piher T16L Single, Piher T16H Double, Alps RK163 Single, Alps RK163 Double, Alps RK097 Single, Alps RK097 Double, Bourns PTV09A-2 Single with mounting sleve Single, Bourns PTV09A-1 with mounting sleve Single, Bourns PRS11S Single, Alps RK09K Single with mounting sleve Single, Alps RK09K with mounting sleve Single, Alps RK09L Single, Alps RK09L Single, Alps RK09L Double, Alps RK09L Double, Alps RK09Y Single, Bourns 3339S Single, Bourns 3339S Single, Bourns 3339P Single, Bourns 3339H Single, Vishay T7YA Single, Suntan TSR-3386H Single, Suntan TSR-3386H Single, Suntan TSR-3386P Single, Vishay T73XX Single, Vishay T73XX Single, Vishay T73YP Single, Piher PT-6h Single, http://www.piher-nacesa.com/pdf/11-PT6v03.pdf
-Potentiometer vertical  Omeg PC16PU  Omeg PC16PU  Omeg PC16PU  Vishay/Spectrol 248GJ/249GJ Single  Vishay/Spectrol 248GJ/249GJ Single  Vishay/Spectrol 248GJ/249GJ Single  Vishay/Spectrol 248GH/249GH Single  Vishay/Spectrol 148/149 Single  Vishay/Spectrol 148/149 Single  Vishay/Spectrol 148/149 Single  Vishay/Spectrol 148A/149A Single with mounting plates  Vishay/Spectrol 148/149 Double  Vishay/Spectrol 148A/149A Double with mounting plates  Piher PC-16 Single  Piher PC-16 Single  Piher PC-16 Single  Piher PC-16SV Single  Piher PC-16 Double  Piher PC-16 Triple  Piher T16H Single  Piher T16L Single  Piher T16H Double  Alps RK163 Single  Alps RK163 Double  Alps RK097 Single  Alps RK097 Double  Bourns PTV09A-2 Single with mounting sleve Single  Bourns PTV09A-1 with mounting sleve Single  Bourns PRS11S Single  Alps RK09K Single with mounting sleve Single  Alps RK09K with mounting sleve Single  Alps RK09L Single  Alps RK09L Single  Alps RK09L Double  Alps RK09L Double  Alps RK09Y Single  Bourns 3339S Single  Bourns 3339S Single  Bourns 3339P Single  Bourns 3339H Single  Vishay T7YA Single  Suntan TSR-3386H Single  Suntan TSR-3386H Single  Suntan TSR-3386P Single  Vishay T73XX Single  Vishay T73XX Single  Vishay T73YP Single  Piher PT-6h Single
-0
-6
-3
-Custom_Components
-Resistor_Horizontal_2W
-Resistor, Axial, RM 20mm,
-Resistor Axial RM 20mm
-0
-2
-2
-Custom_Components
-Resistor_Vertical_RM2.5mm
-Resistor, Vertical, RM 2.5mm, 1/4W,
-Resistor, Vertical, RM 2.5mm, 1/4W,
-0
-2
-2
-Custom_Components
-Seiko_MS621FE-FL11E_Battery
-Seiko MS621FE-FL11E 3.0V backup battery.
-seiko battery MS621FE FL11E backup power voltage cell
-0
-2
-2
-Custom_Components
-Slide_Switch_SPDT_ThroughHole
-
-switch, 1p2t, slide, spdt
-0
-3
-3
-Custom_Components
-Small_Tumbler_SW
-Small Tumbler Switch
-SWITCH DEV TOGGLE ILLUM SPDT
-0
-3
-3
-Custom_Components
-Switch_Slide_SPDT_THT_5MS1S102AM6QES
-SPDT slide switch. Through hole right angle mounting.
-switch slide spdt
-0
-5
-4
-Custom_Components
-Symbol_Screw_Type1_SilkscreenTop
-
-symbol screw drawing
-0
-0
-0
-Custom_Components
-Symbol_Screw_Type2_SilkscreenTop
-
-symbol screw drawing
-0
-0
-0
-Custom_Components
-Symbol_Screw_Type3_SilkscreenTop
-
-symbol screw drawing
-0
-0
-0
-Custom_Components
-Symbol_Screw_Type4_SilkscreenTop
-
-symbol screw drawing
-0
-0
-0
-Custom_Components
-Tumbler_SW
-Tumbler Switch x2
-SWITCH DEV TOGGLE ILLUM SPDT
-0
-3
-3
-Custom_Components
-Tumbler_SW_x2
-Tumbler Switch x2
-SWITCH DEV TOGGLE ILLUM SPDT
-0
-6
-6
-Custom_Components
-USB_Mini-B_THT_Horizontal
-Horizontally mounted through hole Mini-USB connector.
-connector usb tht throughhole
-0
-9
-6
-Custom_Components
-USB_Mini-B_THT_Vertical
-Vertical Mini USB connector with through hole mount.
-mini USB vertical connector
-0
-7
-6
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -64918,6 +64652,13 @@ Yellow 5381 Series LED
 2
 2
 LIBS
+AV_MOD_III-8.4-5
+SMD Crystal SERIES SMD0603/4 http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-4.pdf, 6.0x3.5mm^2 package
+SMD SMT crystal
+0
+7
+2
+LIBS
 Connector_Mini-DIN_Female_6Pin_2rows
 A footprint for the generic 6 pin Mini-DIN through hole connector with shell.
 mini din 6pin connector socket
@@ -64994,6 +64735,13 @@ USB USB_B USB_micro USB_OTG
 0
 17
 6
+LIBS
+VGA_JUMPER_2P
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
 LIBS
 rp2040-zero-tht
 
@@ -87023,13 +86771,6 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
-RP2040-Zero-Kicad
-RP2040-Zero
-
-
-0
-23
-23
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
