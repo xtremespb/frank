@@ -36475,7 +36475,7 @@
 		(descr "9-pin D-Sub connector, solder-cups edge-mounted, male, x-pin-pitch 2.77mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 		(tags "9-pin D-Sub connector edge mount solder cup male x-pin-pitch 2.77mm mounting holes distance 25mm")
 		(property "Reference" "RS232"
-			(at -9.463333 0 0)
+			(at -10 0 0)
 			(layer "F.SilkS")
 			(uuid "27821722-f96d-41cd-9cce-b32e056c374d")
 			(effects
