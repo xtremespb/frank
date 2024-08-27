@@ -1,4 +1,4 @@
-23759029750199971
+23786623769136387
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64651,6 +64651,118 @@ Yellow 5381 Series LED
 0
 2
 2
+LIBS
+AV_MOD_III-8.4-5
+SMD Crystal SERIES SMD0603/4 http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-4.pdf, 6.0x3.5mm^2 package
+SMD SMT crystal
+0
+7
+2
+LIBS
+Connector_Mini-DIN_Female_6Pin_2rows
+A footprint for the generic 6 pin Mini-DIN through hole connector with shell.
+mini din 6pin connector socket
+0
+9
+6
+LIBS
+GCT-MEM2055-00-190-01-A
+http://www.farnell.com/datasheets/1917242.pdf
+MicroSD card socket
+0
+13
+11
+LIBS
+HDMI
+
+
+0
+23
+23
+LIBS
+Murm_QR_Github
+
+
+0
+0
+0
+LIBS
+R_0805_PLUS
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+4
+2
+LIBS
+Raspberry_Pi_Pico_SMT_THT_MOD
+Raspberry Pi Pico (W), RP2040-based microcontroller board (with wireless)
+Pico-W RPL RPTL RPi module RP2040 CYW43439 2.4GHz RF radio Wi-Fi WiFi SMD
+0
+80
+40
+LIBS
+Raspberry_Pi_Pico_SMT_THT_MOD_2
+Raspberry Pi Pico (W), RP2040-based microcontroller board (with wireless)
+Pico-W RPL RPTL RPi module RP2040 CYW43439 2.4GHz RF radio Wi-Fi WiFi SMD
+0
+80
+40
+LIBS
+SOIC127P600X175-16N
+16 Narrow SO
+Integrated Circuit
+0
+16
+16
+LIBS
+SOT-23_PLUS
+SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+6
+3
+LIBS
+SOT-23_PLUS2
+SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+6
+3
+LIBS
+USB-TYPE-C-31-M-12_lib2
+
+
+0
+16
+13
+LIBS
+USB_Micro-B_Amphenol
+Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
+USB USB_B USB_micro USB_OTG
+0
+19
+6
+LIBS
+USB_Micro-B_Amphenol_10103594-0001LF_Horizontal
+Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
+USB USB_B USB_micro USB_OTG
+0
+17
+6
+LIBS
+VGA_JUMPER_2P
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+LIBS
+rp2040-zero-tht
+
+
+0
+46
+23
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
