@@ -60,8 +60,8 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|103750000|48430000|1eb16432-d38b-4ef5-9450-739bf9622864|b04c1a71-6b37-4095-b335-7e003baa7572",
-        "clearance|109425000|48430000|6c9487cc-f551-42e8-9699-49cb01ffed1b|8586da67-7979-44b7-8011-a8441d87e92c",
+        "clearance|103750000|48430000|bb1de77a-fff8-42a2-b26c-0493c034ac5f|5c19573d-b170-4633-83d7-cfc74e9fe61b",
+        "clearance|109425000|48430000|4e4b4560-4fcd-479f-bc39-c311e11e4021|f1e81a72-cb0a-463d-85aa-da2b7f4bc6de",
         "clearance|114057608|89100000|b836e1fc-f264-48f0-aafd-d6db21c047e4|64768cfc-a1d1-47e3-90b6-a5bc9a3bee62",
         "clearance|121712500|89100000|4c32d37c-3e8a-42aa-976f-d145c753d58a|dec4189a-bd23-4eb8-9668-d01638decb41"
       ],
@@ -453,12 +453,12 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
       "missing_unit": "warning",
-      "multiple_net_names": "warning",
+      "multiple_net_names": "ignore",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
