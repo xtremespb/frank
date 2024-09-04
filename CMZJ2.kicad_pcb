@@ -16022,7 +16022,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R56"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(uuid "b653286f-887e-4a23-8694-c76a856b882a")
 			(effects
@@ -16033,7 +16033,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8ac759fa-a3fb-434d-b5e4-9f34b9ef4355")
@@ -16202,7 +16202,7 @@
 			(uuid "117654e9-8736-4298-ac8e-317b89112bb4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1893228c-9574-4c0b-b417-0ae2c6756e00")
 			(effects
@@ -21965,7 +21965,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R57"
-			(at 0 1.6 360)
+			(at 0 1.6 0)
 			(layer "F.SilkS")
 			(uuid "e6d78680-5d0c-4d85-b8b3-f8caa4aca071")
 			(effects
@@ -21976,7 +21976,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "71c6a5cb-af25-4f6c-b382-f3a007e01132")
@@ -22145,7 +22145,7 @@
 			(uuid "69a46857-8135-4922-8e60-96e727b9a499")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "fd4beb6f-d3c2-41b6-8f55-e3eba7e181a3")
 			(effects
@@ -35442,7 +35442,7 @@
 		)
 		(fp_arc
 			(start 18.89 -1.43)
-			(mid 19.213502 -1.328793)
+			(mid 19.213484 -1.328785)
 			(end 19.42 -1.06)
 			(stroke
 				(width 0.12)
@@ -35453,7 +35453,7 @@
 		)
 		(fp_arc
 			(start 19.42 49.32)
-			(mid 19.213497 49.588778)
+			(mid 19.213487 49.588772)
 			(end 18.89 49.69)
 			(stroke
 				(width 0.12)
@@ -46525,6 +46525,18 @@
 			(justify left)
 		)
 	)
+	(gr_text "PWR1"
+		(at 135.5 78.8 0)
+		(layer "F.SilkS")
+		(uuid "bfe5687c-3218-4297-923b-483ace41feaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "SCL"
 		(at 57.75 51.5 0)
 		(layer "F.SilkS")
@@ -46547,6 +46559,18 @@
 				(thickness 0.15)
 			)
 			(justify left)
+		)
+	)
+	(gr_text "PWR2"
+		(at 136.1 125.2 0)
+		(layer "F.SilkS")
+		(uuid "e3ff109d-3dbc-4267-b9b6-2922eb8aa813")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
 		)
 	)
 	(gr_text "+"
