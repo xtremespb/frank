@@ -8971,6 +8971,12 @@
 		(uuid "a87aec74-98af-4429-bc7c-5de9718cb868")
 	)
 	(junction
+		(at 62.23 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9d9e8db-950b-49e3-b125-adc70eb32bcf")
+	)
+	(junction
 		(at 236.22 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9495,6 +9501,16 @@
 			(type default)
 		)
 		(uuid "0d86a037-37a8-4299-b331-d78c523e9022")
+	)
+	(wire
+		(pts
+			(xy 62.23 43.18) (xy 43.18 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e047722-aac2-4259-9bd9-85ae1485a01c")
 	)
 	(wire
 		(pts
@@ -10538,6 +10554,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 53.34) (xy 77.47 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c66690-8f4a-477a-9dff-3a8dd429f02a")
+	)
+	(wire
+		(pts
 			(xy 269.24 229.87) (xy 287.02 229.87)
 		)
 		(stroke
@@ -11358,16 +11384,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 53.34) (xy 43.18 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8515686a-882c-40a9-ab6e-6b9e127ab9fc")
-	)
-	(wire
-		(pts
 			(xy 50.8 184.15) (xy 52.07 184.15)
 		)
 		(stroke
@@ -11948,6 +11964,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 53.34) (xy 52.07 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a045f262-0fd2-40bd-89e8-7613cdbe9b10")
+	)
+	(wire
+		(pts
 			(xy 278.13 193.04) (xy 290.83 193.04)
 		)
 		(stroke
@@ -12355,6 +12381,16 @@
 			(type default)
 		)
 		(uuid "b887d882-10aa-441b-b90b-e742571ae59e")
+	)
+	(wire
+		(pts
+			(xy 62.23 43.18) (xy 62.23 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ff9efc-ebf8-4142-9c3e-7e2a014c1ca3")
 	)
 	(wire
 		(pts
@@ -13308,17 +13344,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 53.34) (xy 43.18 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fad4338a-877c-488e-8538-f4dc0c4ecb49")
-	)
-	(wire
-		(pts
-			(xy 59.69 53.34) (xy 77.47 53.34)
+			(xy 59.69 53.34) (xy 62.23 53.34)
 		)
 		(stroke
 			(width 0)
@@ -13596,6 +13622,17 @@
 			(justify left bottom)
 		)
 		(uuid "0e2e31f8-43f5-423b-a6b6-935524ab592e")
+	)
+	(label "RUN"
+		(at 44.45 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e55f715-d158-4681-ae90-b3be9a7f768c")
 	)
 	(label "+5V_in"
 		(at 161.29 26.67 0)
@@ -14663,17 +14700,6 @@
 			(justify right bottom)
 		)
 		(uuid "8ebcf834-9573-4f5e-87d2-d637788dbd44")
-	)
-	(label "RUN"
-		(at 58.42 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8f559238-f10b-4322-bde9-fa5b1825311d")
 	)
 	(label "GP_10"
 		(at 190.5 212.09 0)

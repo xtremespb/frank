@@ -1,4 +1,4 @@
-23786623769136387
+23793274391616955
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64679,6 +64679,34 @@ HDMI
 0
 23
 23
+LIBS
+Medved_PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+LIBS
+Medved_PinHeader_2x07_P2.54mm_Vertical
+Through hole straight pin header, 2x07, 2.54mm pitch, double rows
+Through hole pin header THT 2x07 2.54mm double row
+0
+14
+14
+LIBS
+Medved_Pins_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+LIBS
+Medved_SD_Card
+http://www.farnell.com/datasheets/1917242.pdf
+MicroSD card socket
+0
+13
+11
 LIBS
 Murm_QR_Github
 
