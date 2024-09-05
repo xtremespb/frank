@@ -62,8 +62,8 @@
       "drc_exclusions": [
         "clearance|103750000|48430000|bb1de77a-fff8-42a2-b26c-0493c034ac5f|5c19573d-b170-4633-83d7-cfc74e9fe61b",
         "clearance|109425000|48430000|4e4b4560-4fcd-479f-bc39-c311e11e4021|f1e81a72-cb0a-463d-85aa-da2b7f4bc6de",
-        "clearance|114057608|89100000|b836e1fc-f264-48f0-aafd-d6db21c047e4|64768cfc-a1d1-47e3-90b6-a5bc9a3bee62",
-        "clearance|121712500|89100000|4c32d37c-3e8a-42aa-976f-d145c753d58a|dec4189a-bd23-4eb8-9668-d01638decb41"
+        "clearance|114057608|89100000|7d691fc7-1d40-4f6c-8da6-8bae7d058671|8ec051db-7a3c-4192-b04c-1c47182350b7",
+        "clearance|121712500|89100000|5f1fc227-3c97-4e75-85e2-b0e6d4b2ad15|3feb65cf-41b4-470e-b43e-6bf3d3823e5c"
       ],
       "meta": {
         "version": 2

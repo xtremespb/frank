@@ -1,4 +1,4 @@
-(footprint "Medved_PinHeader_1x02_P2.54mm_Vertical"
+(footprint "Medved_PinHeader_1x02_P2.54mm_Vertical_NoLB"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Medved_PinHeader_1x02_P2.54mm_Vertical"
+	(property "Value" "Medved_PinHeader_1x02_P2.54mm_Vertical_NoLB"
 		(at 0 4.87 0)
 		(layer "F.Fab")
 		(uuid "38fef59b-958b-45b7-8820-2d51d2463f7b")
@@ -109,7 +109,7 @@
 	)
 	(fp_line
 		(start -1.33 -1.33)
-		(end 1.33 -1.33)
+		(end 1.22 -1.33)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -139,7 +139,7 @@
 	)
 	(fp_line
 		(start -1.33 1.27)
-		(end 1.33 1.27)
+		(end 1.22 1.27)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -149,33 +149,13 @@
 	)
 	(fp_line
 		(start -1.33 3.87)
-		(end 1.33 3.87)
+		(end 1.22 3.87)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "356cd7c3-c732-46f6-901c-08ed3018653a")
-	)
-	(fp_line
-		(start 1.33 1.27)
-		(end 1.33 -1.33)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "024c303f-0b73-4875-8faf-5a94c8aa084b")
-	)
-	(fp_line
-		(start 1.33 1.27)
-		(end 1.33 3.87)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "cb13b7ee-2d34-4ee0-a235-16f903038f41")
 	)
 	(fp_line
 		(start -1.8 -1.8)
@@ -236,7 +216,7 @@
 		(remove_unused_layers no)
 		(uuid "2b0a2100-e129-47ab-bd5f-042914e5b9df")
 	)
-	(pad "2" thru_hole rect
+	(pad "2" thru_hole oval
 		(at 0 2.54)
 		(size 1.7 1.7)
 		(drill 1)

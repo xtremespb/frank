@@ -1,4 +1,4 @@
-(footprint "Medved_PinHeader_1x02_P2.54mm_Vertical"
+(footprint "Medved_PinHeader_1x02_P2.54mm_Vertical_C"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Medved_PinHeader_1x02_P2.54mm_Vertical"
+	(property "Value" "Medved_PinHeader_1x02_P2.54mm_Vertical_C"
 		(at 0 4.87 0)
 		(layer "F.Fab")
 		(uuid "38fef59b-958b-45b7-8820-2d51d2463f7b")
@@ -236,7 +236,7 @@
 		(remove_unused_layers no)
 		(uuid "2b0a2100-e129-47ab-bd5f-042914e5b9df")
 	)
-	(pad "2" thru_hole rect
+	(pad "2" thru_hole circle
 		(at 0 2.54)
 		(size 1.7 1.7)
 		(drill 1)
