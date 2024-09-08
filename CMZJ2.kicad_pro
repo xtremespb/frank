@@ -636,22 +636,6 @@
     [
       "621f55f1-01af-437d-a2cb-120cc66267c2",
       "Root"
-    ],
-    [
-      "3f86986c-420c-4e61-a043-6b35a76f2512",
-      "Level Shifter (CTS)"
-    ],
-    [
-      "dafc99b5-32e3-4c39-b851-c3009a219d28",
-      "Level Shifter (RTS)"
-    ],
-    [
-      "e6c81c6c-816b-461b-a85e-dd5ce8eaed0c",
-      "Level Shifter (RX)"
-    ],
-    [
-      "ec1c4d3f-dfb5-4ad6-8053-69c660768be4",
-      "Level Shifter (TX)"
     ]
   ],
   "text_variables": {}
