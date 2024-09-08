@@ -208,19 +208,6 @@
 		(uuid "0624b2c1-b80d-48b5-9bf7-4536c6317e1c")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.28 2.42 90)
-		(layer "B.SilkS")
-		(uuid "4738f6e1-0cde-4a09-88e3-845a21c2c1aa")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.13)
-				(bold yes)
-			)
-			(justify mirror)
-		)
-	)
-	(fp_text user "${REFERENCE}"
 		(at 0 2.54 90)
 		(layer "F.Fab")
 		(uuid "788c9283-32be-4c0b-b74e-17c5f67f5b7f")

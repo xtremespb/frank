@@ -1,4 +1,4 @@
-(footprint "Medved_PinHeader_1x02_P2.54mm_Vertical_NoLB"
+(footprint "Medved_PinHeader_1x02_P2.54mm_Vertical_R"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Medved_PinHeader_1x02_P2.54mm_Vertical_NoLB"
+	(property "Value" "Medved_PinHeader_1x02_P2.54mm_Vertical_R"
 		(at 0 4.87 0)
 		(layer "F.Fab")
 		(uuid "38fef59b-958b-45b7-8820-2d51d2463f7b")
@@ -68,38 +68,58 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -1.27 -1.30001)
-		(end 1.270178 -1.3)
+		(start -1.33 -1.33)
+		(end 1.35 -1.33)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "6febb08f-4976-439b-a073-38d3b74479d4")
+		(uuid "be00990d-094a-4513-9397-0900b9dfeff8")
 	)
 	(fp_line
-		(start -1.27 3.78)
-		(end -1.27 -1.30001)
+		(start -1.33 1.27)
+		(end -1.33 -1.33)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "56968ee9-c95b-4291-bcb7-1793b34b76a2")
+		(uuid "900c3e64-9a25-4e43-9903-b477df0b6f07")
 	)
 	(fp_line
-		(start 1.27 3.78)
-		(end -1.27 3.78)
+		(start -1.33 1.27)
+		(end -1.33 3.87)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "4862cb63-0472-41cc-a8df-0b9bad363bce")
+		(uuid "bf98ee52-dc2c-4abb-841c-97cdc760cda1")
+	)
+	(fp_line
+		(start -1.33 3.87)
+		(end 1.33 3.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "79ef1a46-3e6b-45d8-a58e-642a911a0641")
+	)
+	(fp_line
+		(start 1.35 -1.33)
+		(end 1.35 3.870615)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "88d69ca5-b512-4aaa-8da5-2d26679f80a3")
 	)
 	(fp_line
 		(start -1.33 -1.33)
-		(end 1.22 -1.33)
+		(end 1.35 -1.33)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -129,7 +149,7 @@
 	)
 	(fp_line
 		(start -1.33 1.27)
-		(end 1.22 1.27)
+		(end 1.33 1.27)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -139,13 +159,23 @@
 	)
 	(fp_line
 		(start -1.33 3.87)
-		(end 1.22 3.87)
+		(end 1.33 3.87)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "356cd7c3-c732-46f6-901c-08ed3018653a")
+	)
+	(fp_line
+		(start 1.35 -1.33)
+		(end 1.35 3.870615)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb13b7ee-2d34-4ee0-a235-16f903038f41")
 	)
 	(fp_line
 		(start -1.8 -1.8)
@@ -186,6 +216,56 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "39e4174d-3678-46b7-8a86-e101b522ee01")
+	)
+	(fp_line
+		(start -1.27 -0.635)
+		(end -0.635 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "568e96c1-5e2a-4c04-bbbf-fe7e31835e6c")
+	)
+	(fp_line
+		(start -1.27 3.81)
+		(end -1.27 -0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56968ee9-c95b-4291-bcb7-1793b34b76a2")
+	)
+	(fp_line
+		(start -0.635 -1.27)
+		(end 1.27 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6febb08f-4976-439b-a073-38d3b74479d4")
+	)
+	(fp_line
+		(start 1.27 -1.27)
+		(end 1.27 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eecb46da-29c2-41e8-8b5f-45913974fea0")
+	)
+	(fp_line
+		(start 1.27 3.81)
+		(end -1.27 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4862cb63-0472-41cc-a8df-0b9bad363bce")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 1.27 90)

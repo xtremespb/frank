@@ -207,17 +207,6 @@
 		(layer "F.CrtYd")
 		(uuid "ab440767-6178-4518-9822-6405683a34de")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0 8.89 90)
-		(layer "B.SilkS")
-		(uuid "ca802a7e-a5b8-4c7c-89d8-05cabf346e2d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "1" thru_hole rect
 		(at 0 0)
 		(size 1.7 1.7)

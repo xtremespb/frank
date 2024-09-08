@@ -1,4 +1,4 @@
-23803882143389647
+23809060126242607
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64687,6 +64687,13 @@ HDMI
 23
 23
 LIBS
+Medved_CP_Radial_D5.0mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor
+0
+2
+2
+LIBS
 Medved_PinHeader_1x02_P2.54mm_Vertical
 Through hole straight pin header, 1x02, 2.54mm pitch, single row
 Through hole pin header THT 1x02 2.54mm single row
@@ -64708,9 +64715,23 @@ Through hole pin header THT 1x02 2.54mm single row
 2
 2
 LIBS
+Medved_PinHeader_1x02_P2.54mm_Vertical_R
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+LIBS
 Medved_PinHeader_1x08_P2.54mm_Vertical
 Through hole straight pin header, 1x08, 2.54mm pitch, single row
 Through hole pin header THT 1x08 2.54mm single row
+0
+8
+8
+LIBS
+Medved_PinHeader_2x04_P2.54mm_Vertical
+Through hole straight pin header, 2x04, 2.54mm pitch, double rows
+Through hole pin header THT 2x04 2.54mm double row
 0
 8
 8
@@ -64768,7 +64789,7 @@ Raspberry_Pi_Pico_SMT_THT_MOD_2
 Raspberry Pi Pico (W), RP2040-based microcontroller board (with wireless)
 Pico-W RPL RPTL RPi module RP2040 CYW43439 2.4GHz RF radio Wi-Fi WiFi SMD
 0
-99
+80
 40
 LIBS
 SOIC127P600X175-16N
@@ -64789,7 +64810,7 @@ SOT-23_PLUS2
 SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOT TO_SOT_SMD
 0
-9
+6
 3
 LIBS
 USB-TYPE-C-31-M-12_lib2
