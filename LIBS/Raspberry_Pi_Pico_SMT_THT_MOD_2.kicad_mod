@@ -1850,39 +1850,15 @@
 			)
 		)
 	)
-	(model "C:/msys64/home/kicad/KiCad-RP-Pico/RP-Pico Libraries/Pico.wrl"
-		(hide yes)
+	(model "${KIPRJMOD}/3D/PICO_PinsDown.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz -1.5 -49.7 6.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "C:/msys64/home/kicad/KiCad-RP-Pico/RP-Pico Libraries/Pi_Pico_wHeaders.wrl"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 0.4 0.4 0.4)
-		)
-		(rotate
-			(xyz 0 0 90)
-		)
-	)
-	(model "C:/msys64/home/kicad/KiCad-RP-Pico/RP-Pico Libraries/Pico-R3-PICOPICO_assm_140121.wrl"
-		(offset
-			(xyz -1.61 -49.63 0.5)
-		)
-		(scale
-			(xyz 0.3937 0.3937 0.3937)
-		)
-		(rotate
-			(xyz -90 0 0)
+			(xyz 90 -180 180)
 		)
 	)
 )

@@ -744,4 +744,15 @@
 		(remove_unused_layers no)
 		(uuid "8a11f86e-586e-495d-a11e-a1e650589934")
 	)
+	(model "${KIPRJMOD}/3D/RP2040-ZERO-WAVESHARE with headers.STEP"
+		(offset
+			(xyz 0 0 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

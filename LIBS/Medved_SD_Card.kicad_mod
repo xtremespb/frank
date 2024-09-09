@@ -6,7 +6,7 @@
 	(descr "http://www.farnell.com/datasheets/1917242.pdf")
 	(tags "MicroSD card socket")
 	(property "Reference" "REF**"
-		(at 0 -8.1 0)
+		(at 0 1.73 0)
 		(layer "F.SilkS")
 		(uuid "2cdc533f-562d-48d3-965a-095b2bc41eab")
 		(effects
@@ -426,15 +426,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "4dab26b0-56ec-42f3-ae1e-1314a472f20f")
 	)
-	(model "zap.3dshapes/GCT-MEM2055-00-190-01-A.wrl"
+	(model "${KIPRJMOD}/3D/Micro_SD_Card_and_Holder.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 13.7 7.6)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 180)
 		)
 	)
 )

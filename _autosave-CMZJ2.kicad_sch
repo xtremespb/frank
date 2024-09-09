@@ -10569,7 +10569,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 96.52) (xy 83.82 96.52)
+			(xy 71.12 96.52) (xy 101.6 96.52)
 		)
 		(stroke
 			(width 0)
@@ -10926,6 +10926,16 @@
 			(type default)
 		)
 		(uuid "3debfd97-77fc-4e40-ac3e-fb50486e8c5d")
+	)
+	(wire
+		(pts
+			(xy 82.55 99.06) (xy 71.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e75b0cd-5072-4d33-afa8-3e83ff94513c")
 	)
 	(wire
 		(pts
@@ -11929,7 +11939,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 86.36) (xy 99.06 86.36)
+			(xy 88.9 86.36) (xy 101.6 86.36)
 		)
 		(stroke
 			(width 0)
@@ -12509,6 +12519,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 102.87) (xy 82.55 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd8ba7d-12e0-4190-9eb7-d0baa1d892ff")
+	)
+	(wire
+		(pts
 			(xy 189.23 156.21) (xy 189.23 151.13)
 		)
 		(stroke
@@ -12679,7 +12699,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 99.06) (xy 101.6 99.06)
+			(xy 91.44 102.87) (xy 93.98 102.87)
 		)
 		(stroke
 			(width 0)
@@ -13136,6 +13156,16 @@
 			(type default)
 		)
 		(uuid "c1351ef8-0f94-497e-a297-b256412f2381")
+	)
+	(wire
+		(pts
+			(xy 93.98 102.87) (xy 93.98 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13a3407-1dbe-4858-921d-2ea654a01d5a")
 	)
 	(wire
 		(pts
@@ -13639,7 +13669,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 99.06) (xy 83.82 99.06)
+			(xy 82.55 102.87) (xy 83.82 102.87)
 		)
 		(stroke
 			(width 0)
@@ -13849,6 +13879,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 99.06) (xy 101.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13964e4-7047-4c94-9fb1-1d0f9ecae3fe")
+	)
+	(wire
+		(pts
 			(xy 270.51 21.59) (xy 280.67 21.59)
 		)
 		(stroke
@@ -13949,7 +13989,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 88.9) (xy 99.06 88.9)
+			(xy 88.9 88.9) (xy 101.6 88.9)
 		)
 		(stroke
 			(width 0)
@@ -14269,7 +14309,7 @@
 		(uuid "11032ae7-4191-4365-aa70-45d63acec8e7")
 	)
 	(label "GP_18"
-		(at 99.06 86.36 0)
+		(at 101.6 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14412,7 +14452,7 @@
 		(uuid "21402ee2-30ba-41dd-bc43-bc520647dee8")
 	)
 	(label "GP_21"
-		(at 95.25 99.06 0)
+		(at 101.6 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14940,7 +14980,7 @@
 		(uuid "641f3710-51a1-4546-a1dd-9d4dae2528e7")
 	)
 	(label "GP_20"
-		(at 77.47 96.52 0)
+		(at 101.6 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15930,7 +15970,7 @@
 		(uuid "ccfced8b-f7be-414c-b65e-e3560786a3ae")
 	)
 	(label "GP_19"
-		(at 99.06 88.9 0)
+		(at 101.6 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21492,7 +21532,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 87.63 99.06 0)
+		(at 87.63 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21500,7 +21540,7 @@
 		(dnp no)
 		(uuid "8513b383-cec8-4ee4-8b09-48b0e2de52df")
 		(property "Reference" "JP2"
-			(at 83.82 97.79 0)
+			(at 87.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21508,7 +21548,7 @@
 			)
 		)
 		(property "Value" "JMP PSRAM"
-			(at 88.138 101.6 0)
+			(at 88.138 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21517,7 +21557,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 87.63 99.06 0)
+			(at 87.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21526,7 +21566,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 99.06 0)
+			(at 87.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21535,7 +21575,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 99.06 0)
+			(at 87.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
