@@ -1,4 +1,4 @@
-23809063083842481
+23812525002965028
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64693,6 +64693,20 @@ CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor
 0
 2
 2
+LIBS
+Medved_DSUB-15-HD_Female_Horizontal
+15-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.29x1.98mm, pin-PCB-offset 3.0300000000000002mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 4.9399999999999995mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+15-pin D-Sub connector horizontal angled 90deg THT female pitch 2.29x1.98mm pin-PCB-offset 3.0300000000000002mm mounting-holes-distance 25mm mounting-hole-offset 25mm
+0
+17
+16
+LIBS
+Medved_Jack_3.5mm_CUI_SJ1-3535NG_Horizontal
+TRS 3.5mm, horizontal, through-hole, with switch, https://www.cui.com/product/resource/sj1-353xng.pdf
+TRS audio jack stereo horizontal
+0
+5
+5
 LIBS
 Medved_PinHeader_1x02_P2.54mm_Vertical
 Through hole straight pin header, 1x02, 2.54mm pitch, single row

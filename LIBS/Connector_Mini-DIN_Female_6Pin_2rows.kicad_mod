@@ -6,7 +6,7 @@
 	(descr "A footprint for the generic 6 pin Mini-DIN through hole connector with shell.")
 	(tags "mini din 6pin connector socket")
 	(property "Reference" "REF**"
-		(at -1.29 -5.67 0)
+		(at -1.29 -5.78 0)
 		(layer "F.SilkS")
 		(uuid "8735d8d6-0bb6-401c-85ce-43a28f82e6c7")
 		(effects
