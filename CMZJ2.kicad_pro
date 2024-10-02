@@ -59,12 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|103750000|48430000|83994e28-21fb-440c-8ead-842efc24fee5|62b17a51-9943-487a-a632-10f577134b79",
-        "clearance|109425000|48430000|d1f73852-4bf0-4f9f-abd9-776067894797|32720048-915b-4ec0-8742-c3d95c38c782",
-        "clearance|114057608|89100000|7d691fc7-1d40-4f6c-8da6-8bae7d058671|8ec051db-7a3c-4192-b04c-1c47182350b7",
-        "clearance|121712500|89100000|5f1fc227-3c97-4e75-85e2-b0e6d4b2ad15|3feb65cf-41b4-470e-b43e-6bf3d3823e5c"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -692,6 +687,22 @@
     [
       "621f55f1-01af-437d-a2cb-120cc66267c2",
       "Root"
+    ],
+    [
+      "25d69dce-4796-47d1-a66b-dd8cd4923a25",
+      "Shifter_RX"
+    ],
+    [
+      "11392ae2-30c9-4377-9f17-56941ac58411",
+      "Shifter_TX"
+    ],
+    [
+      "019db5e4-e64e-4733-bf0c-9394d6a6dd62",
+      "Shifter_CTS"
+    ],
+    [
+      "72275502-2dd2-43b8-9129-1ec20e45394c",
+      "Shifter_RTS"
     ]
   ],
   "text_variables": {}

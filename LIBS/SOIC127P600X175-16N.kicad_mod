@@ -6,13 +6,13 @@
 	(descr "16 Narrow SO")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0 0 0)
+		(at 0.02 6.49 0)
 		(layer "F.SilkS")
 		(uuid "72607b71-106f-4e39-8257-8517db3637ab")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -66,16 +66,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -3.475 -5.12)
-		(end -1.95 -5.12)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "6bb989bb-b4e0-4743-8598-4bc867ab2668")
-	)
-	(fp_line
 		(start -1.6 -4.95)
 		(end 1.6 -4.95)
 		(stroke
@@ -114,6 +104,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "9ae4c1f0-b2b4-49ef-9051-dd77554da992")
+	)
+	(fp_circle
+		(center -2.16 -5.49)
+		(end -2.13 -5.49)
+		(stroke
+			(width 0.8)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5a44c579-9990-4067-9202-54e0622e8bf1")
 	)
 	(fp_line
 		(start -3.725 -5.25)
