@@ -1,4 +1,4 @@
-23812527025793045
+23814257186942229
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64672,6 +64672,13 @@ mini din 6pin connector socket
 0
 9
 6
+LIBS
+DSUB-9_Joystick
+9-pin D-Sub connector, solder-cups edge-mounted, male, x-pin-pitch 2.77mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+9-pin D-Sub connector edge mount solder cup male x-pin-pitch 2.77mm mounting holes distance 25mm
+0
+9
+9
 LIBS
 GCT-MEM2055-00-190-01-A
 http://www.farnell.com/datasheets/1917242.pdf
