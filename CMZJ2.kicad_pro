@@ -687,22 +687,6 @@
     [
       "621f55f1-01af-437d-a2cb-120cc66267c2",
       "Root"
-    ],
-    [
-      "25d69dce-4796-47d1-a66b-dd8cd4923a25",
-      "Shifter_RX"
-    ],
-    [
-      "11392ae2-30c9-4377-9f17-56941ac58411",
-      "Shifter_TX"
-    ],
-    [
-      "019db5e4-e64e-4733-bf0c-9394d6a6dd62",
-      "Shifter_CTS"
-    ],
-    [
-      "72275502-2dd2-43b8-9129-1ec20e45394c",
-      "Shifter_RTS"
     ]
   ],
   "text_variables": {}
