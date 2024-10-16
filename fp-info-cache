@@ -1,4 +1,4 @@
-23814257186942229
+23817711874346403
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64665,6 +64665,20 @@ SMD SMT crystal
 0
 7
 2
+LIBS
+Button_SMD_3x3x2
+TS04-66-73-BK-260-SMT-1
+Switch
+0
+4
+4
+LIBS
+Button_SMD_6x6x5
+TS04-66-73-BK-260-SMT-1
+Switch
+0
+4
+4
 LIBS
 Connector_Mini-DIN_Female_6Pin_2rows
 A footprint for the generic 6 pin Mini-DIN through hole connector with shell.
