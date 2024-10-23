@@ -525,7 +525,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../CMZJ2.step",
       "svg": "",
       "vrml": ""
     },

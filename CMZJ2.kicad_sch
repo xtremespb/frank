@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Frank")
-		(date "2024-10-05")
-		(rev "1.10")
+		(date "2024-10-23")
+		(rev "1.12")
 		(company "Mikhail Matveev")
 		(comment 1 "https://rh1.dev")
 		(comment 2 "xtreme@rh1.ru")
@@ -15094,7 +15094,7 @@
 		)
 		(uuid "397773fa-ec86-465e-b28c-26f1f24c9eba")
 	)
-	(label "CTS_IN"
+	(label "RTS_IN"
 		(at 137.16 252.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -15215,7 +15215,7 @@
 		)
 		(uuid "48dd4b15-2515-4cc0-b962-a849ecd5b693")
 	)
-	(label "TX_IN"
+	(label "RX_IN"
 		(at 137.16 255.27 0)
 		(fields_autoplaced yes)
 		(effects
@@ -15534,7 +15534,7 @@
 		)
 		(uuid "76b5211e-205e-40a0-b470-5891ddcb6c53")
 	)
-	(label "RX_IN"
+	(label "TX_IN"
 		(at 137.16 260.35 0)
 		(fields_autoplaced yes)
 		(effects
@@ -16436,7 +16436,7 @@
 		)
 		(uuid "cc299131-0d99-4ef2-a4b8-3d5359977e8d")
 	)
-	(label "RTS_IN"
+	(label "CTS_IN"
 		(at 137.16 257.81 0)
 		(fields_autoplaced yes)
 		(effects
