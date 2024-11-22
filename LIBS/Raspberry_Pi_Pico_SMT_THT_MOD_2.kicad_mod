@@ -1850,15 +1850,27 @@
 			)
 		)
 	)
-	(model "${KIPRJMOD}/3D/PICO_PinsDown.STEP"
+	(model "${KIPRJMOD}/3D/PICO Clone-Black .step"
 		(offset
-			(xyz -1.5 -49.7 6.5)
+			(xyz 8 -24.5 8.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 -180 180)
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/3D/Header_Female_single_15.STEP"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
 		)
 	)
 )

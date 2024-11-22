@@ -1,4 +1,4 @@
-23817711874346403
+23819481027851862
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64728,6 +64728,13 @@ TRS audio jack stereo horizontal
 0
 5
 5
+LIBS
+Medved_MountingHole_3mm
+Mounting Hole 3mm, no annular
+mounting hole 3mm no annular
+0
+0
+0
 LIBS
 Medved_PinHeader_1x02_P2.54mm_Vertical
 Through hole straight pin header, 1x02, 2.54mm pitch, single row

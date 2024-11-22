@@ -746,7 +746,7 @@
 	)
 	(model "${KIPRJMOD}/3D/RP2040-ZERO-WAVESHARE with headers.STEP"
 		(offset
-			(xyz 0 0 5.5)
+			(xyz 0 0 8.5)
 		)
 		(scale
 			(xyz 1 1 1)
