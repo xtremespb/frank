@@ -1,30 +1,30 @@
 # FRANK
 
-FRANK is a multi-purpose hardware emulation platform based on Raspberry Pico and Raspberry Zero. It's a hardware fork of [Murmulator](https://murmulator.ru/) project by Alex Ekb which implements many additional features.
+FRANK is a versatile hardware emulation platform based on Raspberry Pico and Raspberry Zero. It is a hardware fork of the [Murmulator](https://murmulator.ru/) project by Alex Ekb, incorporating numerous additional features.
 
-The name "FRANK" comes from "Frankenstein" because it combines various parts from different projects, much like how Dr. Frankenstein created his monster from different body parts. This amalgamation allows FRANK to offer a unique and powerful set of capabilities.
+The name "FRANK" is derived from "Frankenstein" as it integrates various components from different projects, similar to how Dr. Frankenstein created his monster from different body parts. This combination enables FRANK to offer a unique and powerful set of capabilities.
 
 ## Supported Platforms
 
 FRANK supports emulation for a variety of platforms, including:
 
-- **ZX Spectrum**: Emulates the classic 8-bit home computer, allowing users to run original ZX Spectrum software and games. Supports the enhanced versions of the ZX Spectrum with additional features and capabilities.
+- **ZX Spectrum**: Emulates the classic 8-bit home computer, allowing users to run original ZX Spectrum software and games. It also supports enhanced versions of the ZX Spectrum with additional features.
 - **Atari 800**: Supports emulation of the Atari 8-bit family of home computers.
-- **NES**: Emulates the Nintendo Entertainment System, allowing users to play classic NES games.
+- **NES**: Emulates the Nintendo Entertainment System, enabling users to play classic NES games.
 - **Game Boy**: Provides emulation for the original Game Boy, Game Boy Color, and Game Boy Advance handheld consoles.
 - **Sega Master System**: Emulates the Sega Master System home console.
 - **Sega Game Gear**: Supports emulation of the Sega Game Gear handheld console.
-- And many more
+- And many more.
 
 These emulation capabilities make FRANK a versatile platform for retro computing enthusiasts and hobbyists.
 
-## How to build your own
+## How to Build Your Own
 
-You can order the PCBs from any manufacturers, I do recommend JLCPCB but you may wish to order them anywhere you want to. The FRANK's PCB size is less than 10x10 cm which makes it's production as cheap as possible.
+You can order the PCBs from any manufacturer. JLCPCB is recommended, but you may choose any supplier. The FRANK PCB size is less than 10x10 cm, making production cost-effective.
 
 You can download the Gerber files [here](./gerber/). The latest revision is 1.12.
 
-The following parts are required in order to build your own FRANK:
+The following parts are required to build your own FRANK:
 
 | Reference | Value                  | Qty | Type               | AliExpress                                                                 |
 |-----------|------------------------|-----|--------------------|----------------------------------------------------------------------------|
@@ -81,17 +81,17 @@ The following parts are required in order to build your own FRANK:
 
 ## Jumpers
 
-There are several jumpers on the PCB which do enable/disable various functionality of the FRANK.
+There are several jumpers on the PCB that enable or disable various functionalities of the FRANK.
 
 ### JP1
 
-Connects RUN and RST pins of the Pico. Usually you won't connect this one.
+Connects RUN and RST pins of the Pico. Usually, this is not connected.
 
 ### JP2
 
-These are the main jumpers which do enable some of the core features.
+These are the main jumpers that enable some of the core features.
 
-*Important*: you need to connect jumpers horizontally, each row represents it's own switch.
+*Important*: Connect jumpers horizontally; each row represents its own switch.
 
 | Jumper     | Description                                |
 |------------|--------------------------------------------|
@@ -103,19 +103,19 @@ These are the main jumpers which do enable some of the core features.
 | R          | Enable right audio out channel             |
 | LOAD       | Enable tape loading functionality          |
 
-The audio part is a little bit tricky. If you do solder the TDA chip, then you need to enable it by connecting the second pins of JP2's "L" and "R" jumpers to JP8. 
+The audio part is a bit complex. If you solder the TDA chip, enable it by connecting the second pins of JP2's "L" and "R" jumpers to JP8.
 
 ![alt text](images/jp2.png)
 
-### JP3, JP4 and JP5
+### JP3, JP4, and JP5
 
-Connect JP3, JP4 and JP5 jumpers in order to enable PSRAM if you have it. If you don't wish to soldier PSRAM chip, you need to leave the JP5 jumper as is. 
+Connect JP3, JP4, and JP5 jumpers to enable PSRAM if you have it. If you do not wish to solder the PSRAM chip, leave the JP5 jumper as is.
 
 ### JP6
 
-These jumpers should be connected if you are going to use the RS232 functionality of the FRANK. Each of four switches connects the corresponding pins of Pico and MAX232. 
+These jumpers should be connected if you intend to use the RS232 functionality of the FRANK. Each of the four switches connects the corresponding pins of Pico and MAX232.
 
-*Note*: RS232 shares the GPIO16 and GPIO17 of the Pico which are also used by the gamepad.
+*Note*: RS232 shares GPIO16 and GPIO17 of the Pico, which are also used by the gamepad.
 
 ### JP7
 
@@ -125,4 +125,4 @@ This jumper enables the second gamepad.
 
 This jumper enables the first gamepad.
 
-*Note*: RS232 shares the GPIO16 with the first gamepad. This might be a good idea to remove this jumper if you are going to use RS232.
+*Note*: RS232 shares GPIO16 with the first gamepad. It might be advisable to remove this jumper if you intend to use RS232.
