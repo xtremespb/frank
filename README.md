@@ -123,8 +123,14 @@ These jumpers should be connected if you intend to use the RS232 functionality o
 
 This jumper enables the second gamepad.
 
-### JP8
+### JP9
 
 This jumper enables the first gamepad.
 
 *Note*: RS232 shares GPIO16 with the first gamepad. It might be advisable to remove this jumper if you intend to use RS232.
+
+### JP10
+
+This jumper connects the power supply of the Zero module. It needs to be set if you plan to use a USB keyboard.
+
+*Important*: With the JP10 jumper connected, a PS/2 keyboard will not work.

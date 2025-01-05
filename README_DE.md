@@ -121,8 +121,8 @@ Diese Jumper sollten verbunden werden, wenn Sie die RS232-Funktionalität des FR
 
 Dieser Jumper aktiviert das zweite Gamepad.
 
-### JP8
+### JP10
 
-Dieser Jumper aktiviert das erste Gamepad.
+Dieser Jumper verbindet die Stromversorgung des Zero-Moduls. Er muss gesetzt werden, wenn Sie eine USB-Tastatur verwenden möchten.
 
-*Hinweis*: RS232 teilt sich GPIO16 mit dem ersten Gamepad. Es könnte ratsam sein, diesen Jumper zu entfernen, wenn Sie RS232 verwenden möchten.
+*Wichtig*: Mit dem verbundenen JP10-Jumper wird eine PS/2-Tastatur nicht funktionieren.

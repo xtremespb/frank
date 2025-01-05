@@ -1852,7 +1852,7 @@
 	)
 	(model "${KIPRJMOD}/3D/PICO Clone-Black .step"
 		(offset
-			(xyz 8 -24.5 8.5)
+			(xyz 8 -24.5 11.04)
 		)
 		(scale
 			(xyz 1 1 1)
