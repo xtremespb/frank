@@ -1,5 +1,7 @@
 # FRANK
 
+Read in [Russian](./README_RU.md), [German](./README_DE.md)
+
 FRANK is a versatile hardware emulation platform based on Raspberry Pico and Raspberry Zero. It is a hardware fork of the [Murmulator](https://murmulator.ru/) project by Alex Ekb, incorporating numerous additional features.
 
 The name "FRANK" is derived from "Frankenstein" as it integrates various components from different projects, similar to how Dr. Frankenstein created his monster from different body parts. This combination enables FRANK to offer a unique and powerful set of capabilities.
