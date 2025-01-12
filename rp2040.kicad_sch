@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MiniFRANK")
-		(date "2025-01-12")
+		(date "2025-01-13")
 		(rev "2.0")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -5644,7 +5644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CR_3225"
+		(property "Footprint" "LIBS:CR_3225"
 			(at 227.33 111.76 0)
 			(effects
 				(font
@@ -5774,7 +5774,7 @@
 				)
 			)
 		)
-		(property "Value" "W25Q128JVS"
+		(property "Value" "W25Q128JVSIQ"
 			(at 264.16 75.565 0)
 			(effects
 				(font

@@ -5,12 +5,13 @@
 	(layer "F.Cu")
 	(property "Reference" "USB1"
 		(at 0 -5.645 180)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 		(uuid "b2f8c3a4-6895-4dac-9bee-502c7ae8938c")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.125)
+				(size 0.7 0.7)
+				(thickness 0.14)
+				(bold yes)
 			)
 		)
 	)

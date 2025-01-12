@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MiniFRANK")
-		(date "2025-01-12")
+		(date "2025-01-13")
 		(rev "2.0")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -1759,7 +1759,7 @@
 			(uuid "135d33cc-98c7-4895-a0c8-5c9de720d0dc")
 		)
 		(instances
-			(project "frankmini"
+			(project "minifrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "5")
 				)
@@ -1808,7 +1808,7 @@
 			(uuid "cb440688-7cdb-4b50-8838-b7aafdd0b4f8")
 		)
 		(instances
-			(project "frankmini"
+			(project "minifrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "9")
 				)
@@ -1857,7 +1857,7 @@
 			(uuid "8caa6983-0c16-413c-a357-e72800ac307d")
 		)
 		(instances
-			(project "frankmini"
+			(project "minifrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "12")
 				)
@@ -1916,7 +1916,7 @@
 			(uuid "d6f305b4-10d1-4e16-a914-44cecfcce1e8")
 		)
 		(instances
-			(project "frankmini"
+			(project "minifrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "3")
 				)
@@ -1985,7 +1985,7 @@
 			(uuid "f3b2af85-8dc9-4e98-aa2a-91f5815a9769")
 		)
 		(instances
-			(project "frankmini"
+			(project "minifrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "7")
 				)
@@ -2044,7 +2044,7 @@
 			(uuid "c898dd51-e312-47e9-8b0f-fd5c4a312e63")
 		)
 		(instances
-			(project "frankmini"
+			(project "minifrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "4")
 				)
@@ -2423,7 +2423,7 @@
 			(uuid "bff88953-fb04-4e72-8772-fcb6d3bcf76c")
 		)
 		(instances
-			(project "frankmini"
+			(project "minifrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "2")
 				)
@@ -2502,7 +2502,7 @@
 			(uuid "cffd4660-ff0b-4401-9a9e-3431e993c0a0")
 		)
 		(instances
-			(project "frankmini"
+			(project "minifrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "11")
 				)
@@ -2621,7 +2621,7 @@
 			(uuid "da1bca80-4b11-434e-bb0b-9767bae90eab")
 		)
 		(instances
-			(project "frankmini"
+			(project "minifrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "10")
 				)
@@ -2690,7 +2690,7 @@
 			(uuid "1b81e795-bd60-419d-a62c-13ccba330f4a")
 		)
 		(instances
-			(project "frankmini"
+			(project "minifrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "8")
 				)
@@ -2759,7 +2759,7 @@
 			(uuid "338433ce-a392-4af4-b6fc-4632922a708c")
 		)
 		(instances
-			(project "frankmini"
+			(project "minifrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "12")
 				)

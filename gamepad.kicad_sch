@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MiniFRANK")
-		(date "2025-01-12")
+		(date "2025-01-13")
 		(rev "2.0")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -1045,30 +1045,30 @@
 		)
 	)
 	(junction
-		(at 63.5 59.69)
+		(at 78.74 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9eefdc53-a40e-4278-adea-37547db93edd")
 	)
 	(no_connect
-		(at 85.09 46.99)
+		(at 100.33 55.88)
 		(uuid "2243b814-ef35-4ebb-9ebe-3772552501f6")
 	)
 	(no_connect
-		(at 85.09 44.45)
+		(at 100.33 53.34)
 		(uuid "3c2bb2bb-4e16-472c-82dd-474c890d756a")
 	)
 	(no_connect
-		(at 85.09 57.15)
+		(at 100.33 66.04)
 		(uuid "443ab2c6-97d5-4862-8ce9-2e0a4614998f")
 	)
 	(no_connect
-		(at 85.09 64.77)
+		(at 100.33 73.66)
 		(uuid "93727048-e2b3-4953-a6a7-f80ab9641807")
 	)
 	(wire
 		(pts
-			(xy 77.47 54.61) (xy 85.09 54.61)
+			(xy 92.71 63.5) (xy 100.33 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1078,7 +1078,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 49.53) (xy 85.09 49.53)
+			(xy 92.71 58.42) (xy 100.33 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1088,7 +1088,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 62.23) (xy 85.09 62.23)
+			(xy 91.44 71.12) (xy 100.33 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1098,7 +1098,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 59.69) (xy 63.5 60.96)
+			(xy 78.74 68.58) (xy 78.74 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1108,7 +1108,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 59.69) (xy 63.5 59.69)
+			(xy 57.15 68.58) (xy 78.74 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1118,7 +1118,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 59.69) (xy 63.5 59.69)
+			(xy 80.01 68.58) (xy 78.74 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1128,7 +1128,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 68.58) (xy 63.5 69.85)
+			(xy 78.74 77.47) (xy 78.74 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1138,7 +1138,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 52.07) (xy 85.09 52.07)
+			(xy 92.71 60.96) (xy 100.33 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1148,7 +1148,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 59.69) (xy 85.09 59.69)
+			(xy 87.63 68.58) (xy 100.33 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1158,7 +1158,7 @@
 	)
 	(hierarchical_label "J4"
 		(shape input)
-		(at 77.47 49.53 180)
+		(at 92.71 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1170,7 +1170,7 @@
 	)
 	(hierarchical_label "J3"
 		(shape input)
-		(at 77.47 54.61 180)
+		(at 92.71 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1182,7 +1182,7 @@
 	)
 	(hierarchical_label "DATA"
 		(shape input)
-		(at 41.91 59.69 180)
+		(at 57.15 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1194,7 +1194,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 69.85 0)
+		(at 78.74 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1202,7 +1202,7 @@
 		(dnp no)
 		(uuid "07ec014e-13f2-4dff-b2b3-eb05115e3a2b")
 		(property "Reference" "#PWR040"
-			(at 63.5 76.2 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1211,7 +1211,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 71.12 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 69.85 0)
+			(at 78.74 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 69.85 0)
+			(at 78.74 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,7 +1238,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 69.85 0)
+			(at 78.74 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1264,7 +1264,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 63.5 64.77 270)
+		(at 78.74 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1272,7 +1272,7 @@
 		(dnp no)
 		(uuid "37fb8b98-c433-47f3-81a5-b5cc620d96bd")
 		(property "Reference" "D3"
-			(at 60.96 64.77 0)
+			(at 76.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1280,7 +1280,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 66.04 64.77 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,7 +1288,7 @@
 			)
 		)
 		(property "Footprint" "LIBS:D_0805"
-			(at 63.5 64.77 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1297,7 +1297,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 64.77 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,7 +1306,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 64.77 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,7 +1335,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 76.2 62.23 180)
+		(at 91.44 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1344,7 +1344,7 @@
 		(fields_autoplaced yes)
 		(uuid "64a487a7-d18a-4c39-ba88-effe77dfade1")
 		(property "Reference" "#PWR039"
-			(at 76.2 58.42 0)
+			(at 91.44 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1353,7 +1353,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 76.2 67.31 0)
+			(at 91.44 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,7 +1361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 62.23 0)
+			(at 91.44 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 62.23 0)
+			(at 91.44 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1379,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 76.2 62.23 0)
+			(at 91.44 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +1405,7 @@
 	)
 	(symbol
 		(lib_id "Connector:DB9_Male")
-		(at 92.71 54.61 0)
+		(at 107.95 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1413,7 +1413,7 @@
 		(dnp no)
 		(uuid "6a6138cd-6131-47ac-97bb-048cfcb8ef56")
 		(property "Reference" "JOY1"
-			(at 93.98 41.91 0)
+			(at 109.22 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1422,7 +1422,7 @@
 			)
 		)
 		(property "Value" "Joystick"
-			(at 90.17 39.37 0)
+			(at 105.41 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1432,7 +1432,7 @@
 			)
 		)
 		(property "Footprint" "LIBS:DSUB-9"
-			(at 92.71 54.61 0)
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1441,7 +1441,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 54.61 0)
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1450,7 +1450,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 54.61 0)
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,7 +1501,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 77.47 52.07 270)
+		(at 92.71 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1510,7 +1510,7 @@
 		(fields_autoplaced yes)
 		(uuid "94c34e60-b773-43f4-b82d-d3b330870294")
 		(property "Reference" "#PWR038"
-			(at 71.12 52.07 0)
+			(at 86.36 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1519,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 52.0699 90)
+			(at 88.9 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 52.07 0)
+			(at 92.71 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,7 +1537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 52.07 0)
+			(at 92.71 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,7 +1546,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 52.07 0)
+			(at 92.71 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1572,7 +1572,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.58 59.69 90)
+		(at 83.82 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1580,7 +1580,7 @@
 		(dnp no)
 		(uuid "f1dd8d25-dfbe-4345-af99-320762b8adbb")
 		(property "Reference" "R13"
-			(at 66.04 57.15 90)
+			(at 81.28 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,7 +1588,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 69.85 57.15 90)
+			(at 85.09 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +1596,7 @@
 			)
 		)
 		(property "Footprint" "LIBS:R_0805"
-			(at 68.58 61.468 90)
+			(at 83.82 70.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,7 +1605,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 59.69 0)
+			(at 83.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +1614,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 59.69 0)
+			(at 83.82 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
