@@ -6,13 +6,14 @@
 	(descr "TS04-66-73-BK-260-SMT-1")
 	(tags "Switch")
 	(property "Reference" "${REFERENCE}"
-		(at -1.95 1.64 -90)
+		(at 1.8 1.64 -90)
 		(layer "F.SilkS")
 		(uuid "06babdef-b4a7-49b9-95ee-bf2fde7e47e4")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.7 0.7)
+				(thickness 0.13)
+				(bold yes)
 			)
 		)
 	)
@@ -146,5 +147,16 @@
 		(roundrect_rratio 0.1312335958)
 		(thermal_bridge_angle 45)
 		(uuid "892fce4b-db1c-4dd2-b74d-091831e95a86")
+	)
+	(model "${KIPRJMOD}/3D/SW_SPST_PTS645.wrl"
+		(offset
+			(xyz 1.65 -1.7 0)
+		)
+		(scale
+			(xyz 0.51 0.51 0.21)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
