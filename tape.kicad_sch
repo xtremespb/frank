@@ -5,11 +5,11 @@
 	(uuid "cdd2a391-1976-4cac-9945-b5ac5a2a87f4")
 	(paper "A4")
 	(title_block
-		(title "FRANK")
-		(date "2024-12-15")
+		(title "MiniFRANK")
+		(date "2025-01-12")
 		(rev "2.0")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/xtremespb/frank2")
+		(comment 1 "https://github.com/xtremespb/frank")
 	)
 	(lib_symbols
 		(symbol "Connector_Audio:AudioJack3_SwitchTR"

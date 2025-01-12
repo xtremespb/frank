@@ -5,11 +5,11 @@
 	(uuid "5b397a14-bf3d-47b5-b898-a8708e87c73c")
 	(paper "A4")
 	(title_block
-		(title "FRANK")
-		(date "2024-12-15")
+		(title "MiniFRANK")
+		(date "2025-01-12")
 		(rev "2.0")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/xtremespb/frank2")
+		(comment 1 "https://github.com/xtremespb/frank")
 	)
 	(lib_symbols
 		(symbol "Connector:Mini-DIN-6"

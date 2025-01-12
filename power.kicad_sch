@@ -5,11 +5,11 @@
 	(uuid "177bde90-bd8a-463b-bdae-e9d72a38388c")
 	(paper "A4")
 	(title_block
-		(title "FRANK")
-		(date "2024-12-15")
+		(title "MiniFRANK")
+		(date "2025-01-12")
 		(rev "2.0")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/xtremespb/frank2")
+		(comment 1 "https://github.com/xtremespb/frank")
 	)
 	(lib_symbols
 		(symbol "+3V3_1"

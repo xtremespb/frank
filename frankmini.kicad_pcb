@@ -8,11 +8,11 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "CORE")
-		(date "2024-12-17")
-		(rev "1.0")
+		(title "MiniFRANK")
+		(date "2025-01-12")
+		(rev "2.0")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/xtremespb/core")
+		(comment 1 "https://github.com/xtremespb/frank")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -14907,7 +14907,7 @@
 		(descr "Tantalum Capacitor SMD Kemet-T (3528-12 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C24"
-			(at -3.7 0.011 270)
+			(at -3.7 0.011 -90)
 			(layer "F.SilkS")
 			(uuid "35acbfec-30c2-49a4-a34c-431eb154c118")
 			(effects
@@ -15460,7 +15460,7 @@
 		(descr "SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y1"
-			(at 0 2.2 270)
+			(at 0 2.2 -90)
 			(layer "F.SilkS")
 			(uuid "0c832b92-008d-4a24-90a1-e44c7230e7a7")
 			(effects
@@ -20676,7 +20676,7 @@
 		(descr "Tantalum Capacitor SMD Kemet-T (3528-12 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C26"
-			(at 0 2.1 270)
+			(at 0 2.1 -90)
 			(layer "B.SilkS")
 			(uuid "816f3258-069b-4f5d-bd9d-a9a1b70ae823")
 			(effects
