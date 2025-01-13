@@ -1,4 +1,4 @@
-(footprint "PinHeader_2x04"
+(footprint "Pin Header (2x04)"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "PinHeader_2x04"
+	(property "Value" "Pin Header (2x04)"
 		(at 1.27 9.95 0)
 		(layer "F.Fab")
 		(uuid "70ccfd2b-a615-4059-8bbd-18a21d099982")

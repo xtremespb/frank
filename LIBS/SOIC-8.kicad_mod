@@ -1,4 +1,4 @@
-(footprint "SO_4x4"
+(footprint "SOIC-8"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "SO_4x4"
+	(property "Value" "SOIC-8"
 		(at 0 4.05 0)
 		(layer "F.Fab")
 		(uuid "eabfb08b-b8bc-4b1b-a8d9-c1a7652fcade")

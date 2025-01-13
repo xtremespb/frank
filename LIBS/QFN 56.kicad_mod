@@ -1,4 +1,4 @@
-(footprint "RP2040-QFN-56"
+(footprint "QFN 56"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -64,7 +64,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(fp_line
 		(start -3.61 3.61)
 		(end -3.61 2.96)

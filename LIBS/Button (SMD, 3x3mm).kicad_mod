@@ -1,4 +1,4 @@
-(footprint "Button_SMD_3x3x2"
+(footprint "Button (SMD, 3x3mm)"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "Button_SMD_3x3x2"
+	(property "Value" "Button (SMD, 3x3mm)"
 		(at 2.15 1.59 0)
 		(layer "F.SilkS")
 		(hide yes)

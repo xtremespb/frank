@@ -269,126 +269,32 @@
 				)
 			)
 		)
-		(symbol "GND_1"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "R40:HDMI"
+		(symbol "FRANK:HDMI"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CN"
-				(at -1.27 16.51 0)
+			(property "Reference" "HDMI1"
+				(at 12.7 -16.5101 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "HDMI"
-				(at 7.62 16.51 0)
+				(at 12.7 -13.9701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LIBS:HDMI"
 				(at 0 0 0)
 				(effects
 					(font
@@ -421,7 +327,7 @@
 					(end 11.43 -45.72)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -845,11 +751,107 @@
 				)
 			)
 		)
+		(symbol "GND_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -923,8 +925,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1506,6 +1508,17 @@
 		)
 		(uuid "ffc4d415-20ec-4679-8530-9d5841611f6f")
 	)
+	(text "HDMI video output requires the resistors to\nbe close to the HDMI socket in order to\nwork properly."
+		(exclude_from_sim no)
+		(at 43.18 27.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "129531c7-b6b1-4ca2-a8c9-2e05c6fef06e")
+	)
 	(hierarchical_label "D2P"
 		(shape input)
 		(at 123.19 120.65 0)
@@ -1627,7 +1640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 93.98 107.188 90)
 			(effects
 				(font
@@ -1694,7 +1707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 104.14 114.808 90)
 			(effects
 				(font
@@ -1761,7 +1774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 93.98 94.488 90)
 			(effects
 				(font
@@ -1894,7 +1907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 93.98 109.728 90)
 			(effects
 				(font
@@ -1963,7 +1976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LIBS:C_0805"
+		(property "Footprint" "FRANK:Capacitor (0805)"
 			(at 81.28 76.5048 0)
 			(effects
 				(font
@@ -1972,7 +1985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/KEM_C1075_X7R_HT_SMD-3316221.pdf"
 			(at 77.47 77.47 0)
 			(effects
 				(font
@@ -2030,7 +2043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 83.82 102.108 90)
 			(effects
 				(font
@@ -2117,7 +2130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 67.31 130.81 0)
 			(effects
 				(font
@@ -2231,7 +2244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 104.14 99.568 90)
 			(effects
 				(font
@@ -2274,7 +2287,7 @@
 		)
 	)
 	(symbol
-		(lib_id "R40:HDMI")
+		(lib_id "FRANK:HDMI")
 		(at 55.88 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2292,7 +2305,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HDMI"
+		(property "Value" "HDMI Female"
 			(at 43.18 93.9799 0)
 			(effects
 				(font
@@ -2301,7 +2314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LIBS:HDMI"
+		(property "Footprint" "FRANK:HDMI (female)"
 			(at 55.88 107.95 0)
 			(effects
 				(font
@@ -2431,7 +2444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 93.98 122.428 90)
 			(effects
 				(font
@@ -2498,7 +2511,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 83.82 117.348 90)
 			(effects
 				(font

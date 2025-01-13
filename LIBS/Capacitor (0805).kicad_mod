@@ -1,4 +1,4 @@
-(footprint "Medved_C_0805"
+(footprint "Capacitor (0805)"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")

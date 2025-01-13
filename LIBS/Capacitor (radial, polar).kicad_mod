@@ -1,4 +1,4 @@
-(footprint "Medved_CP_Radial_D5.0mm_P2.50mm"
+(footprint "Capacitor (radial, polar)"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")

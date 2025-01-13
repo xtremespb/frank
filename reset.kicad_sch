@@ -547,6 +547,17 @@
 		)
 		(uuid "ed8ebf26-4454-4ab9-aced-2ba02cc2e344")
 	)
+	(text "This button connects RUN pin of RP2040\nand GND."
+		(exclude_from_sim no)
+		(at 39.624 27.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cae7307f-6f09-4452-ab75-c4de47f45651")
+	)
 	(hierarchical_label "RUN"
 		(shape input)
 		(at 48.26 71.12 270)
@@ -584,7 +595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Button_SMD_3x3x2"
+		(property "Footprint" "FRANK:Button (SMD, 3x3mm)"
 			(at 48.26 52.07 0)
 			(effects
 				(font

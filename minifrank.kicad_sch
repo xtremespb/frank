@@ -1419,7 +1419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LIBS:MountingHole_2.7"
+		(property "Footprint" "FRANK:Mounting Hole (2.7mm)"
 			(at 125.73 43.18 0)
 			(effects
 				(font
@@ -1483,7 +1483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LIBS:MountingHole_2.7"
+		(property "Footprint" "FRANK:Mounting Hole (2.7mm)"
 			(at 125.73 38.1 0)
 			(effects
 				(font
@@ -1547,7 +1547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LIBS:MountingHole_2.7"
+		(property "Footprint" "FRANK:Mounting Hole (2.7mm)"
 			(at 125.73 48.26 0)
 			(effects
 				(font
@@ -1611,7 +1611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LIBS:MountingHole_2.7"
+		(property "Footprint" "FRANK:Mounting Hole (2.7mm)"
 			(at 125.73 33.02 0)
 			(effects
 				(font

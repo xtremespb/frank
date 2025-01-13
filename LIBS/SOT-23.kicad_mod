@@ -1,4 +1,4 @@
-(footprint "Q_SOT-23"
+(footprint "SOT-23"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "Q_SOT-23"
+	(property "Value" "SOT-23"
 		(at 0 2.4 0)
 		(layer "F.Fab")
 		(uuid "88b8cffa-f094-4fdc-9245-3b72ac8d1d05")

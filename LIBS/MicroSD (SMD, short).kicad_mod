@@ -1,4 +1,4 @@
-(footprint "microsd"
+(footprint "MicroSD (SMD, short)"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")

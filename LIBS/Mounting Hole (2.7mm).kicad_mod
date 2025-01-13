@@ -1,4 +1,4 @@
-(footprint "MountingHole_2.7"
+(footprint "Mounting Hole (2.7mm)"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_2.7"
+	(property "Value" "Mounting Hole (2.7mm)"
 		(at 0 3.7 0)
 		(layer "F.Fab")
 		(uuid "353d7668-3f67-483a-bf60-2cbd48a6ccb3")

@@ -816,11 +816,299 @@
 				)
 			)
 		)
+		(symbol "GND_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GND_2"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_2_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_2_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GND_3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_3_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_3_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -894,8 +1182,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1327,6 +1615,17 @@
 		)
 		(uuid "fc226926-c339-4c26-8b36-2068ff475b7e")
 	)
+	(text "PS/2 Keyboard is used here. You can connect\nUSB>PS/2 Adapter in order to use USB keyboards."
+		(exclude_from_sim no)
+		(at 52.324 32.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61a179d4-d1f1-4a8c-928c-5c9b37482055")
+	)
 	(hierarchical_label "DATA"
 		(shape input)
 		(at 129.54 63.5 0)
@@ -1397,7 +1696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 123.19 71.12 0)
 			(effects
 				(font
@@ -1443,7 +1742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:D_0805"
+		(property "Footprint" "FRANK:Diode (0805)"
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -1486,6 +1785,7 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 53.34 86.36 0)
 		(unit 1)
@@ -1529,7 +1829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 53.34 86.36 0)
 			(effects
 				(font
@@ -1575,7 +1875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 105.41 65.278 90)
 			(effects
 				(font
@@ -1642,7 +1942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 105.41 60.198 90)
 			(effects
 				(font
@@ -1685,6 +1985,7 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_3")
 		(lib_id "power:GND")
 		(at 127 50.8 90)
 		(unit 1)
@@ -1730,7 +2031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 50.8 0)
 			(effects
 				(font
@@ -1842,7 +2143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 85.09 72.898 90)
 			(effects
 				(font
@@ -1909,7 +2210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 85.09 52.578 90)
 			(effects
 				(font
@@ -1969,7 +2270,7 @@
 				)
 			)
 		)
-		(property "Value" "PS/2"
+		(property "Value" "PS/2 Keyboard"
 			(at 67.3277 53.34 0)
 			(effects
 				(font
@@ -1977,7 +2278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Connector_Mini-DIN_Female_6Pin_2rows"
+		(property "Footprint" "FRANK:MiniDIN (6 Pin, female)"
 			(at 67.31 60.96 0)
 			(effects
 				(font
@@ -2032,6 +2333,7 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 74.93 60.96 90)
 		(unit 1)
@@ -2076,7 +2378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 74.93 60.96 0)
 			(effects
 				(font
@@ -2122,7 +2424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:D_0805"
+		(property "Footprint" "FRANK:Diode (0805)"
 			(at 119.38 50.8 0)
 			(effects
 				(font
@@ -2191,7 +2493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LIBS:C_0805"
+		(property "Footprint" "FRANK:Capacitor (0805)"
 			(at 54.3052 82.55 0)
 			(effects
 				(font
@@ -2200,7 +2502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/KEM_C1075_X7R_HT_SMD-3316221.pdf"
 			(at 53.34 78.74 0)
 			(effects
 				(font

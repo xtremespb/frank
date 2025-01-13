@@ -1,4 +1,4 @@
-(footprint "DSUB-9"
+(footprint "D-SUB (9 pin, male)"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -18,7 +18,7 @@
 			(justify left)
 		)
 	)
-	(property "Value" "DSUB-9"
+	(property "Value" "D-SUB (9 pin, male)"
 		(at 0 16.69 0)
 		(layer "F.Fab")
 		(uuid "371ef12d-082d-4d18-93a1-cb929287bd70")

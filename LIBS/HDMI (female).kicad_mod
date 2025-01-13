@@ -1,4 +1,4 @@
-(footprint "HDMI"
+(footprint "HDMI (female)"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "HDMI"
+	(property "Value" "HDMI (female)"
 		(at 0.3 -4.8 180)
 		(layer "F.Fab")
 		(uuid "bcbf7950-26b8-41c3-83fa-262d4a444b99")

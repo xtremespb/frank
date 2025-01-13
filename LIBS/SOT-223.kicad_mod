@@ -6,7 +6,7 @@
 	(descr "module CMS SOT223 4 pins")
 	(tags "CMS SOT")
 	(property "Reference" "REF**"
-		(at -4.4 4.6 0)
+		(at 0.04 -0.17 90)
 		(layer "F.SilkS")
 		(uuid "095b50a5-76ce-476b-aa10-37a37fa441f1")
 		(effects
@@ -15,7 +15,6 @@
 				(thickness 0.14)
 				(bold yes)
 			)
-			(justify right)
 		)
 	)
 	(property "Value" "Medved_SOT-223-3_TabPin2"

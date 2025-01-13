@@ -1,4 +1,4 @@
-(footprint "Jack_3.5mm"
+(footprint "Jack (3.5mm)"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "Jack_3.5mm"
+	(property "Value" "Jack (3.5mm)"
 		(at 0.1 14.05 0)
 		(layer "F.Fab")
 		(uuid "8635f1d8-192e-40e5-8611-3dfdf889b06e")
