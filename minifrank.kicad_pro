@@ -58,34 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|153367000|87653000|e883c367-df67-4343-87c7-7c7c8285efcf|1d50dab7-8d11-49fe-a1d6-dd1adcabc825",
-        "courtyards_overlap|154295000|85155000|e883c367-df67-4343-87c7-7c7c8285efcf|c522b2f3-46ce-4837-8b2c-aeede0ecd42a",
-        "silk_overlap|148630000|85590000|b45d6d1c-5c64-4dc1-8f82-2370f0d8bdac|62856719-aad7-45c6-b147-35727a349997",
-        "silk_overlap|148630000|85590000|bf80d101-1f2e-490e-baa4-edef1f210e88|47a2962c-016b-47e6-ada9-868a576b3e0b",
-        "silk_overlap|148630000|85590000|f1752cb3-6995-40af-96d4-cedd71b363cb|62856719-aad7-45c6-b147-35727a349997",
-        "silk_overlap|148630000|85590000|faf09512-6e60-446f-84db-a55ff00c4d9e|47a2962c-016b-47e6-ada9-868a576b3e0b",
-        "silk_overlap|148630000|85601000|b45d6d1c-5c64-4dc1-8f82-2370f0d8bdac|503fb178-b6fa-4e7d-9bf5-4c8ec69be88b",
-        "silk_overlap|148630000|85601000|faf09512-6e60-446f-84db-a55ff00c4d9e|05a3a4e1-51f8-433b-acb9-0835c9d254ee",
-        "silk_overlap|153830000|85590000|38147ead-7364-450f-9986-de2fa252184b|009a562e-3f65-4f66-944b-ebaa1b64f3e1",
-        "silk_overlap|153830000|85590000|49557aff-f7df-4c5a-b1f5-a15434dc219c|5e35b556-ea17-4ab7-b636-7a499cb1dded",
-        "silk_overlap|153830000|85590000|bf80d101-1f2e-490e-baa4-edef1f210e88|05a3a4e1-51f8-433b-acb9-0835c9d254ee",
-        "silk_overlap|153830000|85590000|bf80d101-1f2e-490e-baa4-edef1f210e88|5e35b556-ea17-4ab7-b636-7a499cb1dded",
-        "silk_overlap|153830000|85590000|f1752cb3-6995-40af-96d4-cedd71b363cb|009a562e-3f65-4f66-944b-ebaa1b64f3e1",
-        "silk_overlap|153830000|85590000|f1752cb3-6995-40af-96d4-cedd71b363cb|503fb178-b6fa-4e7d-9bf5-4c8ec69be88b",
-        "silk_overlap|153830000|85601000|38147ead-7364-450f-9986-de2fa252184b|503fb178-b6fa-4e7d-9bf5-4c8ec69be88b",
-        "silk_overlap|153830000|85601000|49557aff-f7df-4c5a-b1f5-a15434dc219c|05a3a4e1-51f8-433b-acb9-0835c9d254ee",
-        "silk_overlap|153830000|88128000|38147ead-7364-450f-9986-de2fa252184b|158828cd-85b2-49aa-b2d4-3bb9e301ae9b",
-        "silk_overlap|153830000|88128000|49557aff-f7df-4c5a-b1f5-a15434dc219c|a70cc88f-1025-4d2f-b0a1-7df6f60f2cd8",
-        "silk_overlap|153830000|93328000|38147ead-7364-450f-9986-de2fa252184b|f03fad98-ad01-4d7f-868c-c7f25bee1163",
-        "silk_overlap|153830000|93328000|49557aff-f7df-4c5a-b1f5-a15434dc219c|0e5ccd50-b3ac-47d6-879b-aa3237a860b1",
-        "silk_overlap|153830000|93328000|49557aff-f7df-4c5a-b1f5-a15434dc219c|e1507d91-2c70-4fac-88e5-7c32f398fdf6",
-        "silk_overlap|153830000|93330000|793469a5-6440-456f-a95f-0ce6fcfd2fe7|b1d2055e-7c31-4a43-ae52-b0b43ef4f403",
-        "silk_overlap|153830000|93330000|793469a5-6440-456f-a95f-0ce6fcfd2fe7|f03fad98-ad01-4d7f-868c-c7f25bee1163",
-        "silk_overlap|153832000|93328000|0e5ccd50-b3ac-47d6-879b-aa3237a860b1|3bfaed6f-e976-4008-ae1b-8bce62ad0dbc",
-        "silk_overlap|153832000|93328000|b1d2055e-7c31-4a43-ae52-b0b43ef4f403|38147ead-7364-450f-9986-de2fa252184b",
-        "silk_overlap|153832000|93328000|e1507d91-2c70-4fac-88e5-7c32f398fdf6|3bfaed6f-e976-4008-ae1b-8bce62ad0dbc"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -747,7 +720,7 @@
       "plot": "GERBERS/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "minifrank.step",
+      "step": "DOCS/minifrank.step",
       "svg": "",
       "vrml": ""
     },
@@ -865,6 +838,12 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AliExpress",
+          "name": "AliExpress",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -902,7 +881,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "./DOCS",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

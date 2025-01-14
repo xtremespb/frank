@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MiniFRANK")
-		(date "2025-01-13")
+		(date "2025-01-14")
 		(rev "2.0")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -1446,6 +1446,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" ""
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "core"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
@@ -1502,6 +1511,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 125.73 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" ""
 			(at 125.73 38.1 0)
 			(effects
 				(font
@@ -1574,6 +1592,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" ""
+			(at 125.73 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "core"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
@@ -1630,6 +1657,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 125.73 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" ""
 			(at 125.73 33.02 0)
 			(effects
 				(font

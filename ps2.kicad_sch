@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MiniFRANK")
-		(date "2025-01-13")
+		(date "2025-01-14")
 		(rev "2.0")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -1742,7 +1742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Diode (0805)"
+		(property "Footprint" "FRANK:Diode (SOD-323)"
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -1751,7 +1751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/83335/bzx384g.pdf"
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -1761,6 +1761,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 119.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/32997486634.html"
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -1884,7 +1893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 105.41 63.5 0)
 			(effects
 				(font
@@ -1894,6 +1903,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 105.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 105.41 63.5 0)
 			(effects
 				(font
@@ -1951,7 +1969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 105.41 58.42 0)
 			(effects
 				(font
@@ -1961,6 +1979,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 105.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 105.41 58.42 0)
 			(effects
 				(font
@@ -2152,7 +2179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 85.09 71.12 0)
 			(effects
 				(font
@@ -2162,6 +2189,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 85.09 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 85.09 71.12 0)
 			(effects
 				(font
@@ -2219,7 +2255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 85.09 50.8 0)
 			(effects
 				(font
@@ -2229,6 +2265,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 85.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 85.09 50.8 0)
 			(effects
 				(font
@@ -2297,6 +2342,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 67.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/4000106131593.html"
 			(at 67.31 60.96 0)
 			(effects
 				(font
@@ -2424,7 +2478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Diode (0805)"
+		(property "Footprint" "FRANK:Diode (SOD-323)"
 			(at 119.38 50.8 0)
 			(effects
 				(font
@@ -2433,7 +2487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/83335/bzx384g.pdf"
 			(at 119.38 50.8 0)
 			(effects
 				(font
@@ -2443,6 +2497,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/32997486634.html"
 			(at 119.38 50.8 0)
 			(effects
 				(font
@@ -2512,6 +2575,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
 			(at 53.34 78.74 0)
 			(effects
 				(font

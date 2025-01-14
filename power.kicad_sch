@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MiniFRANK")
-		(date "2025-01-13")
+		(date "2025-01-14")
 		(rev "2.0")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -2900,7 +2900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/15408085BA400.pdf"
 			(at 57.15 105.41 0)
 			(effects
 				(font
@@ -2910,6 +2910,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005007252088951.html"
 			(at 57.15 105.41 0)
 			(effects
 				(font
@@ -2977,6 +2986,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 110.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005802338707.html"
 			(at 110.49 50.8 0)
 			(effects
 				(font
@@ -3057,6 +3075,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c124245b-8b70-4171-b72e-866492a13dc6")
 		)
@@ -3109,7 +3136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/837/usb4215-3472997.pdf"
 			(at 59.69 62.23 0)
 			(effects
 				(font
@@ -3128,6 +3155,15 @@
 			)
 		)
 		(property "LCSC" "C165948"
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005500797563.html"
 			(at 55.88 60.96 0)
 			(effects
 				(font
@@ -3238,6 +3274,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a819ddb6-d012-415c-a0b2-e0efbb5d02d8")
 		)
@@ -3288,7 +3333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 64.77 105.41 0)
 			(effects
 				(font
@@ -3298,6 +3343,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 64.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 64.77 105.41 0)
 			(effects
 				(font
@@ -3355,7 +3409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 60.96 69.85 0)
 			(effects
 				(font
@@ -3374,6 +3428,15 @@
 			)
 		)
 		(property "LCSC" " "
+			(at 60.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 60.96 69.85 0)
 			(effects
 				(font
@@ -3629,7 +3692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 60.96 54.61 0)
 			(effects
 				(font
@@ -3648,6 +3711,15 @@
 			)
 		)
 		(property "LCSC" " "
+			(at 60.96 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 60.96 54.61 0)
 			(effects
 				(font

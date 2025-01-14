@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MiniFRANK")
-		(date "2025-01-13")
+		(date "2025-01-14")
 		(rev "2.0")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -1291,7 +1291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Diode (0805)"
+		(property "Footprint" "FRANK:Diode (SOD-323)"
 			(at 78.74 73.66 0)
 			(effects
 				(font
@@ -1300,7 +1300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/83335/bzx384g.pdf"
 			(at 78.74 73.66 0)
 			(effects
 				(font
@@ -1310,6 +1310,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 78.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/32997486634.html"
 			(at 78.74 73.66 0)
 			(effects
 				(font
@@ -1444,7 +1453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/578/original-3313093.pdf"
 			(at 107.95 63.5 0)
 			(effects
 				(font
@@ -1454,6 +1463,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/4000659356343.html"
 			(at 107.95 63.5 0)
 			(effects
 				(font
@@ -1608,7 +1626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 83.82 68.58 0)
 			(effects
 				(font
@@ -1618,6 +1636,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 83.82 68.58 0)
 			(effects
 				(font

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MiniFRANK")
-		(date "2025-01-13")
+		(date "2025-01-14")
 		(rev "2.0")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -3041,7 +3041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 92.71 57.15 0)
 			(effects
 				(font
@@ -3051,6 +3051,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 92.71 57.15 0)
 			(effects
 				(font
@@ -3109,7 +3118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/KEM_T2005_T491-3316937.pdf"
 			(at 74.93 69.85 0)
 			(effects
 				(font
@@ -3119,6 +3128,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 74.93 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006870280809.html"
 			(at 74.93 69.85 0)
 			(effects
 				(font
@@ -3177,7 +3195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/KEM_T2005_T491-3316937.pdf"
 			(at 204.47 58.42 0)
 			(effects
 				(font
@@ -3187,6 +3205,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 204.47 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006870280809.html"
 			(at 204.47 58.42 0)
 			(effects
 				(font
@@ -3245,7 +3272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 92.71 69.85 0)
 			(effects
 				(font
@@ -3255,6 +3282,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 92.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 92.71 69.85 0)
 			(effects
 				(font
@@ -3315,7 +3351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 68.58 74.93 0)
 			(effects
 				(font
@@ -3325,6 +3361,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 68.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 68.58 74.93 0)
 			(effects
 				(font
@@ -3382,7 +3427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -3392,6 +3437,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 92.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -3516,7 +3570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 92.71 48.26 0)
 			(effects
 				(font
@@ -3526,6 +3580,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 92.71 48.26 0)
 			(effects
 				(font
@@ -3584,7 +3647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://github.com/xtremespb/frank/raw/refs/heads/minifrank_rev2/DOCS/TDA1387T.pdf"
 			(at 170.18 59.69 0)
 			(effects
 				(font
@@ -3594,6 +3657,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/32995595000.html"
 			(at 170.18 59.69 0)
 			(effects
 				(font
@@ -3759,6 +3831,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006710837751.html"
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "R"
 			(uuid "9add6b77-0d0f-4c62-a025-8c50ddc7e205")
 		)
@@ -3801,7 +3882,7 @@
 				)
 			)
 		)
-		(property "Value" "Audio Jumpers"
+		(property "Value" "Jumpers Audio(2.54)"
 			(at 161.29 96.52 0)
 			(effects
 				(font
@@ -3828,6 +3909,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 160.02 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006454399822.html"
 			(at 160.02 102.87 0)
 			(effects
 				(font
@@ -3949,7 +4039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "I2S Jumper"
+		(property "Value" "Jumper I2S(2.54)"
 			(at 130.81 104.1399 0)
 			(effects
 				(font
@@ -3977,6 +4067,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006454399822.html"
 			(at 128.27 101.6 0)
 			(effects
 				(font
@@ -4054,6 +4153,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
+			(at 80.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2fce091b-1df6-46b6-b9a3-76455e565788")
 		)
@@ -4123,6 +4231,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
+			(at 80.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ebc0ec02-6cae-4d63-90e3-171edc620384")
 		)
@@ -4173,7 +4290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/KEM_T2005_T491-3316937.pdf"
 			(at 74.93 48.26 0)
 			(effects
 				(font
@@ -4183,6 +4300,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 74.93 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006870280809.html"
 			(at 74.93 48.26 0)
 			(effects
 				(font
@@ -4309,7 +4435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
 			(at 68.58 53.34 0)
 			(effects
 				(font
@@ -4319,6 +4445,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 68.58 53.34 0)
 			(effects
 				(font
