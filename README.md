@@ -38,7 +38,7 @@ Currently there are four versions of FRANK built and tested:
 * [FRANK Gen 2](https://github.com/xtremespb/frank/tree/frank_rev2) (latest hardware revision: 2.0)
 * [MiniFRANK](https://github.com/xtremespb/frank/tree/minifrank_rev1) (latest hardware revision: 1.2)
 * [MiniFRANK Gen 2](https://github.com/xtremespb/frank/tree/minifrank_rev2) (latest hardware revision: 2.0)
-* [TurboFRANK](https://github.com/xtremespb/frank/tree/turbofrank_rev2) (latest hardware revision: WIP)
+* [TurboFRANK](https://github.com/xtremespb/frank/tree/turbofrank_rev1) (latest hardware revision: WIP)
 
 ## Side Projects
 
