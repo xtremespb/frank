@@ -35,9 +35,10 @@ FRANK supports emulation for a variety of platforms, including:
 Currently there are four versions of FRANK built and tested:
 
 * [FRANK](https://github.com/xtremespb/frank/tree/frank_rev1) (latest hardware revision: 1.12)
-* [FRANK Gen 2](https://github.com/xtremespb/frank/tree/frank_rev1) (latest hardware revision: 2.0)
+* [FRANK Gen 2](https://github.com/xtremespb/frank/tree/frank_rev2) (latest hardware revision: 2.0)
 * [MiniFRANK](https://github.com/xtremespb/frank/tree/minifrank_rev1) (latest hardware revision: 1.2)
 * [MiniFRANK Gen 2](https://github.com/xtremespb/frank/tree/minifrank_rev2) (latest hardware revision: 2.0)
+* [TurboFRANK](https://github.com/xtremespb/frank/tree/turbofrank_rev2) (latest hardware revision: WIP)
 
 ## Side Projects
 
