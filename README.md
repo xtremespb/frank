@@ -34,16 +34,16 @@ FRANK supports emulation for a variety of platforms, including:
 
 Currently there are four versions of FRANK built and tested:
 
-* [FRANK](./frank) (latest hardware revision: 1.12)
-* [FRANK Gen 2](./frank_gen2) (latest hardware revision: 2.0)
-* [MiniFRANK](./minifrank) (latest hardware revision: 1.2)
-* [MiniFRANK Gen 2](./minifrank_gen2) (latest hardware revision: 2.0)
-* [TurboFRANK](./turbofrank) (latest hardware revision: WIP)
+* [FRANK](./hardware/frank) (latest hardware revision: 1.12)
+* [FRANK Gen 2](./hardware/frank_gen2) (latest hardware revision: 2.0)
+* [MiniFRANK](./hardware/minifrank) (latest hardware revision: 1.2)
+* [MiniFRANK Gen 2](./hardware/minifrank_gen2) (latest hardware revision: 2.0)
+* [TurboFRANK](./hardware/turbofrank) (latest hardware revision: WIP)
 
 ## Side Projects
 
-* [Valera](./valera) - next generation FRANK prototype based on RP2350 (Pico2)
-* [HDMI2VGA](./hdmi2vga) - HDMI to VGA/Soft Composite passive adaptor
-* [VersaTerm](./versa) - standalone VestaTerm built on plain RP2040 chip
-* [USB2PS2](./usb2ps2) - USB to PS/2 adapter built on plain RP2040 chip
-* [USB2PS2 Zero](./usb2ps2-zero) - USB to PS/2 adapter built on RP2040-Zero
+* [Valera](./hardware/valera) - next generation FRANK prototype based on RP2350 (Pico2)
+* [HDMI2VGA](./hardware/hdmi2vga) - HDMI to VGA/Soft Composite passive adaptor
+* [VersaTerm](./hardware/versa) - standalone VestaTerm built on plain RP2040 chip
+* [USB2PS2](./hardware/usb2ps2) - USB to PS/2 adapter built on plain RP2040 chip
+* [USB2PS2 Zero](./hardware/usb2ps2-zero) - USB to PS/2 adapter built on RP2040-Zero

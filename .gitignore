@@ -1,12 +1,37 @@
-ps2usb-backups
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files#
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
 *.lck
 .DS_Store
-/CMZJ2-backups
-/CMZJ2-backups
 \#auto_saved_files\#
 _autosave-CMZJ2.kicad_sch
 ~$CMZJ2.xlsx
-/minifrank-backups
 fp-info-cache
 /hardware/frank/turbofrank-backups
 hardware/frank_gen2/_autosave-tda1387.kicad_sch
