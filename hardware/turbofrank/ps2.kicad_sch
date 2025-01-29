@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "TurboFRANK")
-		(date "2025-01-28")
+		(date "2025-01-29")
 		(rev "1.0")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -2364,7 +2364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "005f6c44-0baa-42b7-819a-2b611344692a")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR050"
 			(at 107.95 59.69 0)
 			(effects
 				(font
@@ -2415,7 +2415,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/97a78a4a-802b-4fc7-a9ff-6bfcff9e494b"
-					(reference "#PWR046")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2430,7 +2430,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03c84967-6b84-41fd-955c-0677f30e9993")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 97.79 62.23 0)
 			(effects
 				(font
@@ -2455,7 +2455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/83335/bzx384g.pdf"
 			(at 97.79 59.69 0)
 			(effects
 				(font
@@ -2473,6 +2473,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006143480992.html"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71414068-c6d3-40cc-9dac-aca2ef11dfa3")
 		)
@@ -2482,7 +2491,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/97a78a4a-802b-4fc7-a9ff-6bfcff9e494b"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2498,7 +2507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04593f2a-b507-4946-81b7-ddbe2b092a12")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR052"
 			(at 31.75 81.28 0)
 			(effects
 				(font
@@ -2548,7 +2557,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/97a78a4a-802b-4fc7-a9ff-6bfcff9e494b"
-					(reference "#PWR048")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2606,6 +2615,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 49.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "329b710d-1971-46c0-8b1d-5d222d7f5976")
 		)
@@ -2632,7 +2650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "240e4c4c-a27d-4e0b-9e01-2cecf3a1d4d9")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR054"
 			(at 69.85 148.59 0)
 			(effects
 				(font
@@ -2683,7 +2701,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/97a78a4a-802b-4fc7-a9ff-6bfcff9e494b"
-					(reference "#PWR050")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -2733,6 +2751,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 83.82 52.07 0)
 			(effects
 				(font
@@ -2808,6 +2835,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 69.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25db9e0c-1a4a-4597-a91e-1adc28ca0195")
 		)
@@ -2867,6 +2903,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 83.82 46.99 0)
 			(effects
 				(font
@@ -2942,6 +2987,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 57.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c32061f-c70d-45c7-94b5-ecf0720e0106")
 		)
@@ -2968,7 +3022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d81728e-8dd0-433a-9a54-9aead7ccb6dd")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR047"
 			(at 111.76 39.37 0)
 			(effects
 				(font
@@ -3019,7 +3073,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/97a78a4a-802b-4fc7-a9ff-6bfcff9e494b"
-					(reference "#PWR043")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3034,7 +3088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4aa5397d-33af-47a1-90c6-cee8ca8a7efa")
-		(property "Reference" "D7"
+		(property "Reference" "D5"
 			(at 46.99 134.62 0)
 			(effects
 				(font
@@ -3059,7 +3113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/83335/bzx384g.pdf"
 			(at 49.53 134.62 0)
 			(effects
 				(font
@@ -3077,6 +3131,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006143480992.html"
+			(at 49.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb78900d-548d-4d5a-b748-6de66966cb01")
 		)
@@ -3086,7 +3149,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/97a78a4a-802b-4fc7-a9ff-6bfcff9e494b"
-					(reference "D7")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3102,7 +3165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7293f27c-207b-4323-9abf-ad2cae2b5b35")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR048"
 			(at 27.94 53.34 0)
 			(effects
 				(font
@@ -3152,7 +3215,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/97a78a4a-802b-4fc7-a9ff-6bfcff9e494b"
-					(reference "#PWR044")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -3202,6 +3265,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 63.5 59.69 0)
 			(effects
 				(font
@@ -3279,6 +3351,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ba26cbd-09d0-4c5d-b9d5-c7cfe0abf34a")
 		)
@@ -3304,7 +3385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c20f043-bca5-4c28-b4bc-6b76b34a2183")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR051"
 			(at 92.71 68.58 0)
 			(effects
 				(font
@@ -3354,7 +3435,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/97a78a4a-802b-4fc7-a9ff-6bfcff9e494b"
-					(reference "#PWR047")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3412,6 +3493,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 63.5 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "03bc9c68-8ef9-4d7e-915b-475d589829f2")
 		)
@@ -3445,7 +3535,7 @@
 				)
 			)
 		)
-		(property "Value" "PS/2"
+		(property "Value" "MDC-036"
 			(at 45.7377 41.91 0)
 			(effects
 				(font
@@ -3472,6 +3562,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/4000106131593.html"
 			(at 45.72 49.53 0)
 			(effects
 				(font
@@ -3516,7 +3615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c225b529-fb8e-44bc-ba5f-eb2f48bbfe87")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR049"
 			(at 59.69 49.53 0)
 			(effects
 				(font
@@ -3567,7 +3666,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/97a78a4a-802b-4fc7-a9ff-6bfcff9e494b"
-					(reference "#PWR045")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3584,7 +3683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c802b721-db4b-44be-9261-f1ddf38cf48c")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR053"
 			(at 49.53 144.78 0)
 			(effects
 				(font
@@ -3635,7 +3734,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/97a78a4a-802b-4fc7-a9ff-6bfcff9e494b"
-					(reference "#PWR049")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3650,7 +3749,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfb1b70f-14ba-4849-9793-605f904503ab")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 97.79 41.91 0)
 			(effects
 				(font
@@ -3675,7 +3774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/83335/bzx384g.pdf"
 			(at 97.79 39.37 0)
 			(effects
 				(font
@@ -3693,6 +3792,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006143480992.html"
+			(at 97.79 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "44c7885b-7f0e-4399-a034-f1ce81ecad2a")
 		)
@@ -3702,7 +3810,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/97a78a4a-802b-4fc7-a9ff-6bfcff9e494b"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3760,6 +3868,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 62.23 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c2b3215-87ed-45a0-9321-9033f7dff931")
 		)
@@ -3784,7 +3901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df5245ec-d413-4286-b896-d2f6a8c0a359")
-		(property "Reference" "D8"
+		(property "Reference" "D6"
 			(at 67.31 134.62 0)
 			(effects
 				(font
@@ -3809,7 +3926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/83335/bzx384g.pdf"
 			(at 69.85 134.62 0)
 			(effects
 				(font
@@ -3827,6 +3944,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006143480992.html"
+			(at 69.85 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "debd94a0-a819-435b-93e9-cee8f8a78c5f")
 		)
@@ -3836,7 +3962,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/97a78a4a-802b-4fc7-a9ff-6bfcff9e494b"
-					(reference "D8")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3888,6 +4014,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 31.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/33008008276.html"
 			(at 31.75 67.31 0)
 			(effects
 				(font

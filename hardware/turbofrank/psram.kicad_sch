@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "TurboFRANK")
-		(date "2025-01-28")
+		(date "2025-01-29")
 		(rev "1.0")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -1080,7 +1080,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c9cc415-24b5-4884-ac4c-0dc5a0300c95")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR074"
 			(at 67.31 77.47 0)
 			(effects
 				(font
@@ -1131,7 +1131,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
-					(reference "#PWR069")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -1147,7 +1147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6edb26c8-a2d6-4b0c-9cb3-7d7dd852f441")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR072"
 			(at 77.47 49.53 0)
 			(effects
 				(font
@@ -1197,7 +1197,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
-					(reference "#PWR067")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -1336,7 +1336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/KEM_C1075_X7R_HT_SMD-3316221.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 46.99 53.34 0)
 			(effects
 				(font
@@ -1395,7 +1395,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper PSRAM (2.54)"
+		(property "Value" "Jumper (Solder)"
 			(at 97.028 69.85 0)
 			(effects
 				(font
@@ -1465,7 +1465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c76622e5-65e8-4bd9-aa46-19f51970c43e")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR073"
 			(at 46.99 67.31 0)
 			(effects
 				(font
@@ -1515,7 +1515,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
-					(reference "#PWR068")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)

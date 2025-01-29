@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "TurboFRANK")
-		(date "2025-01-28")
+		(date "2025-01-29")
 		(rev "1.0")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -587,7 +587,7 @@
 				)
 			)
 		)
-		(property "Value" "Reset Button (Pico)"
+		(property "Value" "KLS7-TS3302"
 			(at 62.484 51.562 0)
 			(effects
 				(font
@@ -622,7 +622,7 @@
 				(hide yes)
 			)
 		)
-		(property "AliExpress" "https://www.aliexpress.com/item/1005001629293584.html"
+		(property "AliExpress" "https://www.aliexpress.com/item/1005007359248990.html"
 			(at 48.26 59.69 0)
 			(effects
 				(font
@@ -663,7 +663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce1a81c5-eb22-45a1-bee9-e10a21274cae")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR068"
 			(at 48.26 41.91 0)
 			(effects
 				(font
@@ -714,7 +714,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/44b0fc63-213a-4da4-a0e4-3ab9f837f02d"
-					(reference "#PWR063")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)

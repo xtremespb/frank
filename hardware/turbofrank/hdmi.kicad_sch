@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "TurboFRANK")
-		(date "2025-01-28")
+		(date "2025-01-29")
 		(rev "1.0")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -1853,7 +1853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c886f1d-d0e3-4aff-b4f3-3b63a5bfbb44")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR069"
 			(at 71.12 81.28 0)
 			(effects
 				(font
@@ -1903,7 +1903,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/db853a64-9343-4a36-b5b8-71001392b936"
-					(reference "#PWR064")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -2021,7 +2021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/KEM_C1075_X7R_HT_SMD-3316221.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 77.47 77.47 0)
 			(effects
 				(font
@@ -2149,7 +2149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "391dba26-ff80-4f1b-bff5-c48ba58e52de")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR071"
 			(at 67.31 137.16 0)
 			(effects
 				(font
@@ -2199,7 +2199,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/db853a64-9343-4a36-b5b8-71001392b936"
-					(reference "#PWR066")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -2216,7 +2216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8636a5e4-d77a-4e27-8242-c451dc8d7fb1")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR070"
 			(at 87.63 77.47 0)
 			(effects
 				(font
@@ -2267,7 +2267,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/db853a64-9343-4a36-b5b8-71001392b936"
-					(reference "#PWR065")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -2368,7 +2368,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HDMI Female"
+		(property "Value" "DC3RX19JA2"
 			(at 43.18 93.9799 0)
 			(effects
 				(font
@@ -2386,7 +2386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/418/8/ENG_CD_1747981_G-2018509.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/206/B_0233_2E_DC3-784461.pdf?srsltid=AfmBOopfNOwkdmYR2Zf10LYIa6wS_lfZGGRTVzb0297kvAyc-1zmhqWc"
 			(at 55.88 107.95 0)
 			(effects
 				(font
