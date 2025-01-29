@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "TurboFRANK")
-		(date "2025-01-28")
+		(date "2025-01-29")
 		(rev "1.0")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -4938,7 +4938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b19a2b1-d843-45b2-8218-8f7b1b03ecf7")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR05"
 			(at 201.93 102.87 0)
 			(effects
 				(font
@@ -4989,7 +4989,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR0113")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5005,7 +5005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40a74e92-1d6f-4f18-81fb-3795f7ef8f5b")
-		(property "Reference" "CON2"
+		(property "Reference" "CON1"
 			(at 201.295 77.47 0)
 			(effects
 				(font
@@ -5013,7 +5013,7 @@
 				)
 			)
 		)
-		(property "Value" "UART"
+		(property "Value" "Pin Header 1x03"
 			(at 201.295 80.01 0)
 			(effects
 				(font
@@ -5048,6 +5048,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005007039504981.html"
+			(at 200.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "38b035be-49e0-4c12-99d6-88875c8c44ae")
 		)
@@ -5060,7 +5069,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "CON2")
+					(reference "CON1")
 					(unit 1)
 				)
 			)
@@ -5076,7 +5085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b36b105-e506-4265-85cd-2c9d683c5095")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR03"
 			(at 201.93 97.79 0)
 			(effects
 				(font
@@ -5127,7 +5136,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR0112")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5143,7 +5152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72e33c91-9650-440a-a0a9-d117635860b2")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR02"
 			(at 212.09 82.55 0)
 			(effects
 				(font
@@ -5194,7 +5203,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR0109")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5276,7 +5285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac765e1b-34c4-4c89-8220-cf094a478b5e")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR04"
 			(at 212.09 100.33 0)
 			(effects
 				(font
@@ -5327,7 +5336,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "#PWR0110")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5352,7 +5361,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "Hole 2.7mm"
 			(at 24.13 185.4199 0)
 			(effects
 				(font
@@ -5425,7 +5434,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "Hole 2.7mm"
 			(at 24.13 180.3399 0)
 			(effects
 				(font
@@ -5498,7 +5507,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "Hole 2.7mm"
 			(at 24.13 190.4999 0)
 			(effects
 				(font
@@ -5571,7 +5580,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "Hole 2.7mm"
 			(at 24.13 175.2599 0)
 			(effects
 				(font
@@ -5635,7 +5644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebbfb76d-be46-4257-9d29-20caaa4260cc")
-		(property "Reference" "CON4"
+		(property "Reference" "CON2"
 			(at 201.295 92.71 0)
 			(effects
 				(font
@@ -5643,7 +5652,7 @@
 				)
 			)
 		)
-		(property "Value" "Power"
+		(property "Value" "Pin Header 1x03"
 			(at 201.295 95.25 0)
 			(effects
 				(font
@@ -5678,6 +5687,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005007039504981.html"
+			(at 200.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2bb6c6f4-0c2e-48a6-bf7a-43c0f884a2d3")
 		)
@@ -5690,7 +5708,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "CON4")
+					(reference "CON2")
 					(unit 1)
 				)
 			)
@@ -5714,7 +5732,7 @@
 				)
 			)
 		)
-		(property "Value" "Main Jumper Set"
+		(property "Value" "Pin Header 2x18"
 			(at 223.52 21.59 0)
 			(effects
 				(font
@@ -5741,6 +5759,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 222.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006804478835.html"
 			(at 222.25 45.72 0)
 			(effects
 				(font

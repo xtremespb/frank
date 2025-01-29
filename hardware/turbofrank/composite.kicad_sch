@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "TurboFRANK")
-		(date "2025-01-28")
+		(date "2025-01-29")
 		(rev "1.0")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -1182,6 +1182,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 66.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80f4cdda-da10-4ce4-a722-4facb2c188aa")
 		)
@@ -1249,6 +1258,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42620d95-b909-41f7-b8dc-333669908952")
 		)
@@ -1275,7 +1293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6be7003e-bfd8-43bb-a4c5-1bf6cf26ddab")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0106"
 			(at 104.14 59.69 0)
 			(effects
 				(font
@@ -1326,7 +1344,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/50e44d6f-5022-48d1-aa5c-5d8f0f1936d3"
-					(reference "#PWR0101")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -1376,6 +1394,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 54.61 71.12 0)
 			(effects
 				(font
@@ -1451,6 +1478,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 54.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40bf8119-f3e7-4ec7-87ab-e391c83f0002")
 		)
@@ -1510,6 +1546,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 54.61 38.1 0)
 			(effects
 				(font
@@ -1585,6 +1630,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "409c6824-f1fa-4787-9958-1310113a6faa")
 		)
@@ -1644,6 +1698,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 54.61 113.03 0)
 			(effects
 				(font
@@ -1720,6 +1783,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006870280809.html"
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a73769de-654e-4b90-9f8e-b5d263985f56")
 		)
@@ -1779,6 +1851,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 54.61 59.69 0)
 			(effects
 				(font
@@ -1854,6 +1935,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 77.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c7e888b-03a3-4356-8c7f-46d4db7be33e")
 		)
@@ -1913,6 +2003,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 54.61 82.55 0)
 			(effects
 				(font
@@ -1988,6 +2087,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 66.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54aa016a-61ca-4ea8-b7c9-c5db8a367976")
 		)
@@ -2055,6 +2163,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 54.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce552a75-2634-4e49-9d5b-6b3e04d00dca")
 		)
@@ -2089,7 +2206,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Video Out (Soft Composite)"
+		(property "Value" "RCA-103"
 			(at 107.95 45.7199 0)
 			(effects
 				(font
@@ -2107,7 +2224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://www.kosmodrom.com.ua/pdf/RCA-103.pdf"
 			(at 105.41 43.18 0)
 			(effects
 				(font
@@ -2117,6 +2234,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 105.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005006152724809.html"
 			(at 105.41 43.18 0)
 			(effects
 				(font
@@ -2192,6 +2318,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f5163e4-e5ff-48a1-804a-967503a559e3")
 		)
@@ -2259,6 +2394,15 @@
 				(hide yes)
 			)
 		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 66.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e91acc8-fd51-47e9-89c1-c878011043a6")
 		)
@@ -2284,7 +2428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcd7efd9-62e8-4533-ba1e-ea2f10ad0807")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0107"
 			(at 40.64 125.73 0)
 			(effects
 				(font
@@ -2334,7 +2478,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/50e44d6f-5022-48d1-aa5c-5d8f0f1936d3"
-					(reference "#PWR0102")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)

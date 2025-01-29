@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "TurboFRANK")
-		(date "2025-01-28")
+		(date "2025-01-29")
 		(rev "1.0")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -2095,7 +2095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c7723e1-041a-488e-a43b-c01a87440dd5")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR090"
 			(at 120.65 41.91 0)
 			(effects
 				(font
@@ -2146,7 +2146,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8cfcdea6-a6da-4433-b1cd-9be5bedbd2f0"
-					(reference "#PWR085")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -2219,7 +2219,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8cfcdea6-a6da-4433-b1cd-9be5bedbd2f0"
-					(reference "#PWR090")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -2292,7 +2292,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8cfcdea6-a6da-4433-b1cd-9be5bedbd2f0"
-					(reference "#PWR086")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -2365,7 +2365,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8cfcdea6-a6da-4433-b1cd-9be5bedbd2f0"
-					(reference "#PWR087")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -2416,6 +2416,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 74.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005004096147070.html"
 			(at 74.93 55.88 0)
 			(effects
 				(font
@@ -2626,7 +2635,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8cfcdea6-a6da-4433-b1cd-9be5bedbd2f0"
-					(reference "#PWR084")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -2699,7 +2708,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8cfcdea6-a6da-4433-b1cd-9be5bedbd2f0"
-					(reference "#PWR091")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -2772,7 +2781,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8cfcdea6-a6da-4433-b1cd-9be5bedbd2f0"
-					(reference "#PWR083")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -2845,7 +2854,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8cfcdea6-a6da-4433-b1cd-9be5bedbd2f0"
-					(reference "#PWR082")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -2868,7 +2877,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper PSRAM (2.54)"
+		(property "Value" "Jumper (Solder)"
 			(at 121.158 44.45 0)
 			(effects
 				(font
@@ -2995,7 +3004,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8cfcdea6-a6da-4433-b1cd-9be5bedbd2f0"
-					(reference "#PWR088")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -3068,7 +3077,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/8cfcdea6-a6da-4433-b1cd-9be5bedbd2f0"
-					(reference "#PWR089")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)

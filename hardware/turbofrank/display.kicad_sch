@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "TurboFRANK")
-		(date "2025-01-28")
+		(date "2025-01-29")
 		(rev "1.0")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
@@ -798,7 +798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20857e43-4456-4c0c-80b3-bc858326d72c")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0104"
 			(at 60.96 34.29 0)
 			(effects
 				(font
@@ -849,7 +849,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/05a34d6b-821f-4841-a010-fe0016ebb2f4"
-					(reference "#PWR099")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -865,7 +865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "767015f5-7bc0-41de-a657-2ae018f9314b")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0105"
 			(at 50.8 36.83 0)
 			(effects
 				(font
@@ -916,7 +916,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/05a34d6b-821f-4841-a010-fe0016ebb2f4"
-					(reference "#PWR0100")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -932,7 +932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d24155c0-486e-4df7-b632-8d01667da949")
-		(property "Reference" "CON1"
+		(property "Reference" "CON3"
 			(at 29.845 29.21 0)
 			(effects
 				(font
@@ -940,7 +940,7 @@
 				)
 			)
 		)
-		(property "Value" "Display"
+		(property "Value" "Pin Header 1x08"
 			(at 29.845 31.75 0)
 			(effects
 				(font
@@ -967,6 +967,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 29.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005007039504981.html"
 			(at 29.21 41.91 0)
 			(effects
 				(font
@@ -1002,7 +1011,7 @@
 		(instances
 			(project "turbofrank"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/05a34d6b-821f-4841-a010-fe0016ebb2f4"
-					(reference "CON1")
+					(reference "CON3")
 					(unit 1)
 				)
 			)
