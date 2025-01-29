@@ -1,0 +1,1605 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8c0b3d8b-46d3-4173-ab1e-a61765f77d61")
+	(paper "A3")
+	(title_block
+		(title "USB to PS/2 Adapter")
+		(date "2024-12-07")
+		(rev "1.2")
+		(company "Mikhail Matveev")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 41.91 41.91)
+		(uuid "06bc7be7-9c6e-41d6-aa36-3b7c0a663a22")
+	)
+	(no_connect
+		(at 41.91 77.47)
+		(uuid "0e5fe8d1-0411-4dcb-9d3e-3f2062ea3b95")
+	)
+	(no_connect
+		(at 41.91 46.99)
+		(uuid "2bd64796-e998-461c-928b-4c898351e2aa")
+	)
+	(no_connect
+		(at 41.91 44.45)
+		(uuid "2d3ab479-0d07-412a-86f6-3b4b7f72e840")
+	)
+	(no_connect
+		(at 41.91 110.49)
+		(uuid "39d2975b-0f09-444b-b1e2-7a05dafa64b2")
+	)
+	(no_connect
+		(at 41.91 87.63)
+		(uuid "3c993c46-9b17-4c42-82e5-f75d2d4321bf")
+	)
+	(no_connect
+		(at 41.91 39.37)
+		(uuid "41eacd69-240f-45e5-9c4c-2d33e9e1a54c")
+	)
+	(no_connect
+		(at 41.91 69.85)
+		(uuid "4ab89f62-c274-4f0d-ba20-243bdb948e8d")
+	)
+	(no_connect
+		(at 41.91 62.23)
+		(uuid "518d643b-9254-48ff-b0a0-d27d154b2b50")
+	)
+	(no_connect
+		(at 41.91 64.77)
+		(uuid "584d82e5-733c-43cd-a7e3-48678654f50c")
+	)
+	(no_connect
+		(at 41.91 100.33)
+		(uuid "5f189d66-cd51-447f-8704-47498c8c1671")
+	)
+	(no_connect
+		(at 41.91 118.11)
+		(uuid "6523b1f5-bf4a-4d0b-8825-31c452e93693")
+	)
+	(no_connect
+		(at 41.91 80.01)
+		(uuid "714d4326-6e4e-4b66-b277-4b1f7f159eb2")
+	)
+	(no_connect
+		(at 41.91 72.39)
+		(uuid "745846cc-d745-45f4-834c-8724d5f83621")
+	)
+	(no_connect
+		(at 41.91 59.69)
+		(uuid "8a0530a0-6e91-4ee4-a106-af80f5e3c04f")
+	)
+	(no_connect
+		(at 41.91 54.61)
+		(uuid "a64e727b-1f61-4adc-87d3-ebb00fc790ee")
+	)
+	(no_connect
+		(at 41.91 107.95)
+		(uuid "b0bad37d-5baa-4497-905f-d89617ab24c0")
+	)
+	(no_connect
+		(at 41.91 49.53)
+		(uuid "d374b7ed-1f23-4b85-a88d-703ae04f42a5")
+	)
+	(no_connect
+		(at 41.91 74.93)
+		(uuid "d3e602ce-a649-44d1-b185-6330646e61ba")
+	)
+	(no_connect
+		(at 41.91 113.03)
+		(uuid "e0984873-aa25-4e8c-8ecb-8d20952ad736")
+	)
+	(no_connect
+		(at 41.91 57.15)
+		(uuid "f44c8a4d-7e49-4d00-8cd8-0b54e97baa6d")
+	)
+	(no_connect
+		(at 41.91 52.07)
+		(uuid "fc718e46-fc03-43c6-9bf5-1bb835292d2f")
+	)
+	(wire
+		(pts
+			(xy 87.63 80.01) (xy 102.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a5292b5-756a-4882-a140-330e45d80d86")
+	)
+	(wire
+		(pts
+			(xy 41.91 95.25) (xy 57.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d624c2e-f709-4aa6-baa5-eac4a81ebe95")
+	)
+	(wire
+		(pts
+			(xy 41.91 90.17) (xy 57.15 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18177603-67b3-4d40-ba36-09ea3f3bfebf")
+	)
+	(wire
+		(pts
+			(xy 87.63 60.96) (xy 102.87 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d66dd7-1a75-44bf-a0d4-a6c69f52e986")
+	)
+	(wire
+		(pts
+			(xy 87.63 63.5) (xy 102.87 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac4c54e-2956-414e-bc6d-2eb5f2e584d4")
+	)
+	(wire
+		(pts
+			(xy 87.63 82.55) (xy 102.87 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39adc673-d38d-414f-ac28-f0baedfc329f")
+	)
+	(wire
+		(pts
+			(xy 87.63 34.29) (xy 102.87 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9c374a-5ae9-462a-8570-efb8eb019380")
+	)
+	(wire
+		(pts
+			(xy 41.91 85.09) (xy 57.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e290797-d5af-4df8-b73e-84ee9918fb1d")
+	)
+	(wire
+		(pts
+			(xy 41.91 67.31) (xy 57.15 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e72b180-c025-44e5-824e-53eb63132618")
+	)
+	(wire
+		(pts
+			(xy 41.91 82.55) (xy 57.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711c0d9f-b959-4278-8d54-5f332baa9efa")
+	)
+	(wire
+		(pts
+			(xy 41.91 92.71) (xy 57.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1afe66-9a69-4554-bb92-883f61b2ce73")
+	)
+	(wire
+		(pts
+			(xy 41.91 105.41) (xy 57.15 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "829f59c8-bc02-46ac-a159-63d98eabc2b7")
+	)
+	(wire
+		(pts
+			(xy 87.63 77.47) (xy 102.87 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e243de-cb58-40fa-888c-e9caff3777a2")
+	)
+	(wire
+		(pts
+			(xy 41.91 115.57) (xy 57.15 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d156a4c-8fa5-4907-955f-c14388899743")
+	)
+	(wire
+		(pts
+			(xy 41.91 36.83) (xy 57.15 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b724c5-5201-408d-99e6-3e84ac98e293")
+	)
+	(wire
+		(pts
+			(xy 87.63 85.09) (xy 102.87 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a563c378-cade-4b2a-9f89-f0ca6a6bf188")
+	)
+	(wire
+		(pts
+			(xy 41.91 102.87) (xy 57.15 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b3d3e3-5f42-42f2-968e-88c3552c0b0f")
+	)
+	(wire
+		(pts
+			(xy 41.91 97.79) (xy 57.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa6588a2-6280-49e5-9f67-025f36f71c62")
+	)
+	(wire
+		(pts
+			(xy 87.63 48.26) (xy 102.87 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5631ada-0751-4509-8666-565f5235c4ae")
+	)
+	(wire
+		(pts
+			(xy 41.91 34.29) (xy 57.15 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23438f2-eb4d-4cc6-8174-e06afdcbe824")
+	)
+	(wire
+		(pts
+			(xy 87.63 58.42) (xy 102.87 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bbf04d-bd35-4313-92b7-5790aea4429a")
+	)
+	(wire
+		(pts
+			(xy 87.63 45.72) (xy 102.87 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c37ca9-de52-481f-8dc2-90ad1c1ec9ea")
+	)
+	(wire
+		(pts
+			(xy 87.63 66.04) (xy 102.87 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd0b5db-11f0-4ea2-9791-311c75956281")
+	)
+	(wire
+		(pts
+			(xy 87.63 36.83) (xy 102.87 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe22dabe-5ea3-45bb-a84e-075898f08088")
+	)
+	(label "GPIO2"
+		(at 57.15 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "034d90f4-3bd3-4c8c-bb67-a64b88f01a37")
+	)
+	(label "GPIO15"
+		(at 102.87 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "090d94db-55b2-4b25-ad00-dfdc4fc5e1c8")
+	)
+	(label "D-"
+		(at 102.87 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "096648ed-4ddf-4646-a35f-831e3d5dd0c1")
+	)
+	(label "GPIO3"
+		(at 102.87 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12c5ec2f-b257-433d-83eb-7cd21842b63b")
+	)
+	(label "GPIO11"
+		(at 57.15 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20843c47-1091-4e39-86a2-bd91cf579665")
+	)
+	(label "GPIO0"
+		(at 57.15 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2adc4390-9380-4e41-9bdd-34a49bac42e9")
+	)
+	(label "GPIO12"
+		(at 102.87 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c5799d3-b9d0-4f56-941c-6f5daf48d4d4")
+	)
+	(label "GPIO14"
+		(at 57.15 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fb893aa-446b-41af-b6ea-02c4c933d02a")
+	)
+	(label "GPIO5"
+		(at 57.15 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ebd8657-c800-48d5-b614-13fa76aa1e2e")
+	)
+	(label "GPIO15"
+		(at 57.15 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "518ac388-e177-4a13-8df6-32ded9fa021e")
+	)
+	(label "D-"
+		(at 57.15 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60f05811-12fd-4ad4-af5e-cd80ae24a08c")
+	)
+	(label "GPIO14"
+		(at 102.87 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67508793-4ff2-4fcc-9dad-731a7eed21e5")
+	)
+	(label "GPIO3"
+		(at 57.15 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7177da6e-71ba-46da-857f-c543ee26720c")
+	)
+	(label "D+"
+		(at 57.15 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cd958c3-878e-40d0-a01d-08dd66c430e4")
+	)
+	(label "GPIO1"
+		(at 57.15 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e7358a6-2f1e-43bf-aaaf-c5cd245942b0")
+	)
+	(label "D+"
+		(at 102.87 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "814c06b7-4f24-4bcb-8438-f28626e0eced")
+	)
+	(label "GPIO4"
+		(at 57.15 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a4ec64f-2294-49df-a414-5a1da9084a22")
+	)
+	(label "GPIO4"
+		(at 102.87 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a704c8da-add1-4fa9-81eb-df90613cac89")
+	)
+	(label "GPIO1"
+		(at 102.87 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3426204-7432-40e3-a533-7fae157356ac")
+	)
+	(label "GPIO11"
+		(at 102.87 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf164bca-e5c7-495a-ae8e-076c3401b537")
+	)
+	(label "GPIO12"
+		(at 57.15 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d86fd171-0436-4e75-8a9e-10350f9a388e")
+	)
+	(label "GPIO0"
+		(at 102.87 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "effe28ef-b293-4a36-972f-1876fa648970")
+	)
+	(label "GPIO2"
+		(at 102.87 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f31e763e-dd3f-4937-abfc-e7e23ae9c45a")
+	)
+	(label "GPIO5"
+		(at 102.87 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fce994b7-9aec-4bb0-9faf-cc0f1e0bafad")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 77.47 96.52 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0aa6c11e-6980-41bb-af30-8727fd31c388")
+		(property "Reference" "H1"
+			(at 80.01 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 80.01 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIBS:MountingHole_2.1mm"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 77.47 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 77.47 109.22 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dcc4065-8c47-4d13-9d01-40f151720c01")
+		(property "Reference" "H3"
+			(at 80.01 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 80.01 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIBS:MountingHole_2.1mm"
+			(at 77.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 77.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "usb2ps2"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 77.47 115.57 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72915fcf-0ece-471d-8588-a9232a582497")
+		(property "Reference" "H4"
+			(at 80.01 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 80.01 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIBS:MountingHole_2.1mm"
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "usb2ps2"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 77.47 102.87 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afcb97c0-d9a4-403c-ba92-8db76a6e0fd7")
+		(property "Reference" "H2"
+			(at 80.01 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 80.01 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LIBS:MountingHole_2.1mm"
+			(at 77.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 77.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "usb2ps2"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 55.88)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0026ee43-61f7-4da2-b06e-4811e7b74caa")
+		(property "Sheetname" "USB Stacked"
+			(at 74.93 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usbstack.kicad_sch"
+			(at 74.93 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "D1+" input
+			(at 87.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7517956c-eb55-4059-95bd-42f5c2f19bb7")
+		)
+		(pin "D1-" input
+			(at 87.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1bf9ff34-1ded-4afb-b698-5f9cc9599972")
+		)
+		(pin "D2+" input
+			(at 87.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4a8a2fc7-9d53-44da-8156-94c66028286e")
+		)
+		(pin "D2-" input
+			(at 87.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "17e464c8-1db1-4417-b9f9-a7f134cfd2bc")
+		)
+		(instances
+			(project "usb2ps2"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 31.75)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "69007f77-f42d-4630-b138-d48a159b2251")
+		(property "Sheetname" "Power"
+			(at 74.93 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 74.93 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "D-" input
+			(at 87.63 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "339e5167-e481-4cf3-848b-7c2174494f62")
+		)
+		(pin "D+" input
+			(at 87.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "13e902ef-8818-411e-8195-83f18b0d5a18")
+		)
+		(instances
+			(project "usb2ps2"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 74.93)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c767f01-0461-4c4b-955a-2f0ac89894b4")
+		(property "Sheetname" "PS2 with Diodes"
+			(at 74.93 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ps2d.kicad_sch"
+			(at 74.93 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "CLK1" input
+			(at 87.63 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2ce1d110-7bd3-4b36-a644-39b43702543f")
+		)
+		(pin "DATA1" input
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "79cc4bcb-0e22-4b73-aeb4-535e58ff2714")
+		)
+		(pin "DATA2" input
+			(at 87.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd44023b-792d-4324-87c1-09b4ac87556e")
+		)
+		(pin "CLK2" input
+			(at 87.63 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0d209e38-11a6-49bd-97b4-305a6a452c6f")
+		)
+		(instances
+			(project "usb2ps2"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 43.18)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "806fcbb1-aec7-4a20-b8ef-b5e6440967de")
+		(property "Sheetname" "UART"
+			(at 74.93 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uart.kicad_sch"
+			(at 74.93 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "GPIO0" input
+			(at 87.63 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0fb5389f-4efc-4371-ae84-f67bf2914a82")
+		)
+		(pin "GPIO1" input
+			(at 87.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c8525515-29eb-4256-9ed8-32eb6e0af94c")
+		)
+		(instances
+			(project "usb2ps2"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 31.75)
+		(size 12.7 87.63)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eba54b09-b969-416a-a8d3-73be7a73a77a")
+		(property "Sheetname" "RP2040"
+			(at 29.21 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rp2040.kicad_sch"
+			(at 29.21 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "D-" input
+			(at 41.91 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3e97bc41-3237-420f-809f-867bb0a0b80a")
+		)
+		(pin "D+" input
+			(at 41.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98acaac5-d702-4f58-a0c0-b668d8aa2d1e")
+		)
+		(pin "GPIO18" input
+			(at 41.91 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fc37880f-55fa-4715-bf6f-66b3cd6341b1")
+		)
+		(pin "GPIO21" input
+			(at 41.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5a20c02a-8724-4a49-b274-49946e084218")
+		)
+		(pin "GPIO20" input
+			(at 41.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "af8db530-aa5d-4cc2-a76c-653f4f9a4d67")
+		)
+		(pin "GPIO19" input
+			(at 41.91 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "60c1e379-38dd-4a7c-9308-8c0eb16ddb0c")
+		)
+		(pin "GPIO22" input
+			(at 41.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "881af11a-36ca-4b6e-bf1d-963ba6f96989")
+		)
+		(pin "GPIO23" input
+			(at 41.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "14cfbfaf-28ac-4d75-9d34-13c9b1cb1419")
+		)
+		(pin "GPIO24" input
+			(at 41.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "42a22045-e48e-4f3b-afde-80e18059740e")
+		)
+		(pin "GPIO29" input
+			(at 41.91 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "95a30e26-3e23-4494-a978-0dfd0696e02c")
+		)
+		(pin "GPIO27" input
+			(at 41.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "50aaa9b8-793e-4492-a522-67b2c91f9061")
+		)
+		(pin "GPIO26" input
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "25b9ea85-a388-417e-82e2-079e22057048")
+		)
+		(pin "GPIO28" input
+			(at 41.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "035e36cb-ce4e-4ae4-bc40-ae9c8c62448b")
+		)
+		(pin "GPIO15" input
+			(at 41.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9ebb54b3-0b35-4f40-983a-7e18cd5867cc")
+		)
+		(pin "GPIO16" input
+			(at 41.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "45b03eea-8f82-463f-8b4d-477d3983e47f")
+		)
+		(pin "GPIO17" input
+			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a8935767-4b98-463b-b707-861484e940c4")
+		)
+		(pin "SWD" input
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "385c8992-4431-421d-8b30-24d163b6cbe3")
+		)
+		(pin "RUN" input
+			(at 41.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "46e4de15-5e83-4a70-bc4d-00caab7c00cb")
+		)
+		(pin "SWCLK" input
+			(at 41.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a696e404-10db-498e-adee-c96c7718a0d2")
+		)
+		(pin "GPIO0" input
+			(at 41.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aa2d1bdb-0700-4683-a5db-9eb4ce506ccc")
+		)
+		(pin "GPIO14" input
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1a7da16b-20e0-406c-bc41-a325128d3a76")
+		)
+		(pin "GPIO13" input
+			(at 41.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cced03af-39e8-4c98-9796-386da8a401e7")
+		)
+		(pin "GPIO3" input
+			(at 41.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "270a28d6-e579-43b8-9a9e-63dbfd614a2b")
+		)
+		(pin "GPIO1" input
+			(at 41.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f1ef23df-115b-4438-aced-d6f92634ffae")
+		)
+		(pin "GPIO4" input
+			(at 41.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2d7048c9-7437-4f28-8fc2-565cd63d8514")
+		)
+		(pin "GPIO5" input
+			(at 41.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "381a3fd9-aa34-48f7-b5c5-413fdab3d0ca")
+		)
+		(pin "GPIO6" input
+			(at 41.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6ff0ac44-8d32-43eb-b541-645fc40efb7c")
+		)
+		(pin "GPIO2" input
+			(at 41.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1e197ad9-20f6-47ba-9b5d-fa6e66c964e8")
+		)
+		(pin "GPIO11" input
+			(at 41.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c3e3683-79fa-4e15-992f-2ed112dd7ecb")
+		)
+		(pin "GPIO8" input
+			(at 41.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0ff40ee-d878-4d0a-bac3-e276854e8de5")
+		)
+		(pin "GPIO7" input
+			(at 41.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd433227-3db4-480b-ab02-d9ae9433a881")
+		)
+		(pin "GPIO10" input
+			(at 41.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c297c89-1442-450b-99b5-2e738a7dc5ae")
+		)
+		(pin "GPIO12" input
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0f90e2e2-46e1-4c88-883c-67203a1977e1")
+		)
+		(pin "GPIO9" input
+			(at 41.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e14b4f35-776b-4807-a0e7-3e7e3f30da59")
+		)
+		(instances
+			(project "usb2ps2"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
