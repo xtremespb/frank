@@ -12,14 +12,14 @@
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.0
+      "zones": 0.7699999809265137
     },
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "ffc9fff_7ffffffe",
+    "visible_layers": "ffc9fff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
