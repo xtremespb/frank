@@ -3,13 +3,13 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "8391c966-08b7-49e8-8033-b2f36d1f6bb0")
-	(paper "A3")
+	(paper "A4")
 	(title_block
-		(title "Versa")
-		(date "2024-12-29")
-		(rev "1.0")
+		(title "VersaTerm")
+		(date "2025-01-29")
+		(rev "2.0")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/xtremespb/versa")
+		(comment 1 "https://github.com/xtremespb/frank")
 	)
 	(lib_symbols
 		(symbol "GND_1"
@@ -568,7 +568,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b5ca8be-bb91-4e94-acd1-630e3c529c4c")
-		(property "Reference" "SW4"
+		(property "Reference" "SW3"
 			(at 62.484 49.022 0)
 			(effects
 				(font
@@ -576,7 +576,7 @@
 				)
 			)
 		)
-		(property "Value" "Reset Button"
+		(property "Value" "KLS7-TS3302"
 			(at 62.484 51.562 0)
 			(effects
 				(font
@@ -584,7 +584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Button_SMD_3x3x2"
+		(property "Footprint" "FRANK:Button (SMD, 3x3mm)"
 			(at 48.26 52.07 0)
 			(effects
 				(font
@@ -593,7 +593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://img.klsele.com/admin/product_upload/20150508135408KLS7-TS3302.pdf"
 			(at 48.26 59.69 0)
 			(effects
 				(font
@@ -603,6 +603,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, symbol, four pins"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005007359248990.html"
 			(at 48.26 59.69 0)
 			(effects
 				(font
@@ -626,7 +635,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/44b0fc63-213a-4da4-a0e4-3ab9f837f02d"
-					(reference "SW4")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
