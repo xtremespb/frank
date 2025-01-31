@@ -38,7 +38,8 @@ Currently there are four versions of FRANK built and tested:
 * [FRANK Gen 2](./hardware/frank_gen2) (latest hardware revision: 2.0)
 * [MiniFRANK](./hardware/minifrank) (latest hardware revision: 1.2)
 * [MiniFRANK Gen 2](./hardware/minifrank_gen2) (latest hardware revision: 2.0)
-* [TurboFRANK](./hardware/turbofrank) (latest hardware revision: WIP)
+* [TurboFRANK](./hardware/turbofrank) (latest hardware revision: 1.0)
+* [Frank M2](./hardware/frank_m2) (latest hardware revision: 1.0)
 
 ## Side Projects
 
