@@ -58,34 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|153367000|87653000|1d50dab7-8d11-49fe-a1d6-dd1adcabc825|e883c367-df67-4343-87c7-7c7c8285efcf",
-        "courtyards_overlap|154295000|85155000|c522b2f3-46ce-4837-8b2c-aeede0ecd42a|e883c367-df67-4343-87c7-7c7c8285efcf",
-        "silk_overlap|148630000|85590000|47a2962c-016b-47e6-ada9-868a576b3e0b|bf80d101-1f2e-490e-baa4-edef1f210e88",
-        "silk_overlap|148630000|85590000|62856719-aad7-45c6-b147-35727a349997|f1752cb3-6995-40af-96d4-cedd71b363cb",
-        "silk_overlap|148630000|85590000|b45d6d1c-5c64-4dc1-8f82-2370f0d8bdac|62856719-aad7-45c6-b147-35727a349997",
-        "silk_overlap|148630000|85590000|faf09512-6e60-446f-84db-a55ff00c4d9e|47a2962c-016b-47e6-ada9-868a576b3e0b",
-        "silk_overlap|148630000|85601000|b45d6d1c-5c64-4dc1-8f82-2370f0d8bdac|503fb178-b6fa-4e7d-9bf5-4c8ec69be88b",
-        "silk_overlap|148630000|85601000|faf09512-6e60-446f-84db-a55ff00c4d9e|05a3a4e1-51f8-433b-acb9-0835c9d254ee",
-        "silk_overlap|153830000|85590000|009a562e-3f65-4f66-944b-ebaa1b64f3e1|f1752cb3-6995-40af-96d4-cedd71b363cb",
-        "silk_overlap|153830000|85590000|38147ead-7364-450f-9986-de2fa252184b|009a562e-3f65-4f66-944b-ebaa1b64f3e1",
-        "silk_overlap|153830000|85590000|49557aff-f7df-4c5a-b1f5-a15434dc219c|5e35b556-ea17-4ab7-b636-7a499cb1dded",
-        "silk_overlap|153830000|85590000|5e35b556-ea17-4ab7-b636-7a499cb1dded|bf80d101-1f2e-490e-baa4-edef1f210e88",
-        "silk_overlap|153830000|85601000|05a3a4e1-51f8-433b-acb9-0835c9d254ee|bf80d101-1f2e-490e-baa4-edef1f210e88",
-        "silk_overlap|153830000|85601000|38147ead-7364-450f-9986-de2fa252184b|503fb178-b6fa-4e7d-9bf5-4c8ec69be88b",
-        "silk_overlap|153830000|85601000|49557aff-f7df-4c5a-b1f5-a15434dc219c|05a3a4e1-51f8-433b-acb9-0835c9d254ee",
-        "silk_overlap|153830000|85601000|503fb178-b6fa-4e7d-9bf5-4c8ec69be88b|f1752cb3-6995-40af-96d4-cedd71b363cb",
-        "silk_overlap|153832000|88128000|158828cd-85b2-49aa-b2d4-3bb9e301ae9b|38147ead-7364-450f-9986-de2fa252184b",
-        "silk_overlap|153832000|88128000|a70cc88f-1025-4d2f-b0a1-7df6f60f2cd8|49557aff-f7df-4c5a-b1f5-a15434dc219c",
-        "silk_overlap|153832000|93328000|0e5ccd50-b3ac-47d6-879b-aa3237a860b1|3bfaed6f-e976-4008-ae1b-8bce62ad0dbc",
-        "silk_overlap|153832000|93328000|0e5ccd50-b3ac-47d6-879b-aa3237a860b1|49557aff-f7df-4c5a-b1f5-a15434dc219c",
-        "silk_overlap|153832000|93328000|b1d2055e-7c31-4a43-ae52-b0b43ef4f403|38147ead-7364-450f-9986-de2fa252184b",
-        "silk_overlap|153832000|93328000|b1d2055e-7c31-4a43-ae52-b0b43ef4f403|793469a5-6440-456f-a95f-0ce6fcfd2fe7",
-        "silk_overlap|153832000|93328000|e1507d91-2c70-4fac-88e5-7c32f398fdf6|3bfaed6f-e976-4008-ae1b-8bce62ad0dbc",
-        "silk_overlap|153832000|93328000|e1507d91-2c70-4fac-88e5-7c32f398fdf6|49557aff-f7df-4c5a-b1f5-a15434dc219c",
-        "silk_overlap|153832000|93328000|f03fad98-ad01-4d7f-868c-c7f25bee1163|38147ead-7364-450f-9986-de2fa252184b",
-        "silk_overlap|153832000|93328000|f03fad98-ad01-4d7f-868c-c7f25bee1163|793469a5-6440-456f-a95f-0ce6fcfd2fe7"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -155,7 +128,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.35,
+        "min_through_hole_diameter": 0.25,
         "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.6,
@@ -264,11 +237,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "power_pin_not_driven|2514600|762000|4e70ead6-aea9-48eb-85f9-e27ea87967bb|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b0409f8e-084a-4c18-99f6-a5d70280ca34|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b0409f8e-084a-4c18-99f6-a5d70280ca34|",
-      "power_pin_not_driven|355600|495300|0bf25611-e554-43ad-a29f-9528e985e3d7|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b0409f8e-084a-4c18-99f6-a5d70280ca34|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b0409f8e-084a-4c18-99f6-a5d70280ca34|",
-      "power_pin_not_driven|825500|495300|805fe003-b278-424a-ad0f-8ab09010b03b|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -483,7 +452,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "minifrank.kicad_pro",
+    "filename": "valera-2350A.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -874,7 +843,7 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -925,48 +894,36 @@
       "Root"
     ],
     [
-      "b0409f8e-084a-4c18-99f6-a5d70280ca34",
-      "RP2040"
-    ],
-    [
       "84d5e8f7-bda8-4f18-8ff8-1a8273c38b01",
       "Power"
     ],
     [
-      "97a78a4a-802b-4fc7-a9ff-6bfcff9e494b",
+      "00663deb-9223-42ea-87d4-eaa7c4db347e",
       "PS2"
     ],
     [
-      "2e81912e-397c-4129-8da5-abf37a4f2667",
-      "Micro SD"
+      "8bee434d-b73e-4983-be7d-d7713b037f0d",
+      "RP2350A"
     ],
     [
-      "91039a09-82d7-4099-8414-fc5647ada98f",
-      "Gamepad 1"
+      "6399d740-87e6-4897-a36f-6fb8b0cb5b7f",
+      "Audio Out"
     ],
     [
-      "e9da9b3c-e9c6-4677-bc99-391052f7625b",
-      "Gamepad 2"
-    ],
-    [
-      "44b0fc63-213a-4da4-a0e4-3ab9f837f02d",
-      "Reset"
-    ],
-    [
-      "db853a64-9343-4a36-b5b8-71001392b936",
-      "HDMI"
-    ],
-    [
-      "c6465a8b-a48e-459c-b6f3-7a504929a2d8",
-      "PSRAM"
-    ],
-    [
-      "599e2208-d0f7-4f1d-beb8-3b4e6272cb10",
+      "49084664-1062-4a43-8f46-2816e4bba858",
       "Tape In"
     ],
     [
-      "fdd0a4b5-db0c-4dc9-b795-8762778e5187",
-      "Audio Out"
+      "1ea0e9ac-8f42-4d3d-8b47-067d751f5a51",
+      "HDMI"
+    ],
+    [
+      "311ed6d5-6332-4e3f-ad47-a8a2a7343683",
+      "SD Card"
+    ],
+    [
+      "e3bc68fc-1a90-4165-9d37-467f5079ac2b",
+      "Gamepad"
     ]
   ],
   "text_variables": {}

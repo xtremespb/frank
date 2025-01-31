@@ -20,6 +20,7 @@
 	(property "Value" "SOIC-8"
 		(at 0 4.05 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "eabfb08b-b8bc-4b1b-a8d9-c1a7652fcade")
 		(effects
 			(font
@@ -207,14 +208,15 @@
 		(layer "F.Fab")
 		(uuid "aa088fbc-71d3-476e-b2a4-94c0f6ef203e")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+	(fp_text user "${VALUE}"
+		(at -0.04 -0.01 0)
 		(layer "F.Fab")
-		(uuid "d0a94319-b60d-4d8e-a956-1f81af62e4e2")
+		(uuid "17a5ca08-92a5-4fb6-815a-3377c037568d")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.3 0.3)
+				(thickness 0.05)
+				(bold yes)
 			)
 		)
 	)

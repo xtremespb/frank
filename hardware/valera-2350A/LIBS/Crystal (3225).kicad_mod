@@ -20,6 +20,7 @@
 	(property "Value" "Medved_CRYSTAL_3225"
 		(at 0 2.45 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "e3c0d5f8-b207-4845-b821-5c4880ec327b")
 		(effects
 			(font
@@ -179,24 +180,14 @@
 		(uuid "1c16b6dd-5638-4f46-bcb2-1344306f4f33")
 	)
 	(fp_text user "${VALUE}"
-		(at 0.01 0.01 0)
-		(layer "Dwgs.User")
-		(uuid "e6f51318-ed81-45b0-b21e-c5d59fb0860b")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.105)
-			)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 0.01 0)
 		(layer "F.Fab")
-		(uuid "77076de8-b003-448a-a813-9ea00b792240")
+		(uuid "34bdcd00-6de0-4659-85c5-f314f6f5b60c")
 		(effects
 			(font
-				(size 0.7 0.7)
-				(thickness 0.105)
+				(size 0.3 0.3)
+				(thickness 0.05)
+				(bold yes)
 			)
 		)
 	)

@@ -20,6 +20,7 @@
 	(property "Value" "MiniDIN (6 Pin, female)"
 		(at -0.03 10.15 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "373ee351-58da-415d-871c-cf6b9d529166")
 		(effects
 			(font

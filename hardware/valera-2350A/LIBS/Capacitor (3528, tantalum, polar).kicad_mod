@@ -20,6 +20,7 @@
 	(property "Value" "Capacitor (3528, tantalum, polar)"
 		(at 0 2.35 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "d6bc7cd0-7ba0-4c7a-b8d7-97872288763c")
 		(effects
 			(font
@@ -190,24 +191,13 @@
 	)
 	(fp_text user "${VALUE}"
 		(at 0 0 0)
-		(layer "Dwgs.User")
+		(layer "F.Fab")
 		(uuid "f67a6479-4875-4a32-996f-901f0bb5b0b3")
 		(effects
 			(font
 				(size 0.3 0.3)
 				(thickness 0.05)
 				(bold yes)
-			)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(uuid "1de5ac75-3358-45eb-b440-98033b11129e")
-		(effects
-			(font
-				(size 0.88 0.88)
-				(thickness 0.13)
 			)
 		)
 	)

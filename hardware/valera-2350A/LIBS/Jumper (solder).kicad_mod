@@ -20,6 +20,7 @@
 	(property "Value" "S_Jumper"
 		(at 0 1.9 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "656a70db-01ef-42a7-91d8-cc57681f457d")
 		(effects
 			(font

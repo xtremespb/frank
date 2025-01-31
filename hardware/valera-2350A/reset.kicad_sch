@@ -5,9 +5,9 @@
 	(uuid "8391c966-08b7-49e8-8033-b2f36d1f6bb0")
 	(paper "A4")
 	(title_block
-		(title "MiniFRANK")
-		(date "2025-01-14")
-		(rev "2.0")
+		(title "Valera-2350A")
+		(date "2025-01-30")
+		(rev "1.0")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)

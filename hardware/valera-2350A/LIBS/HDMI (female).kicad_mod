@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "CN1"
-		(at 0.3 9.26 180)
+		(at 0.3 1.69 180)
 		(layer "F.SilkS")
 		(uuid "56721b9e-940c-4094-b614-a98c57621b11")
 		(effects
@@ -18,6 +18,7 @@
 	(property "Value" "HDMI (female)"
 		(at 0.3 -4.8 180)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "bcbf7950-26b8-41c3-83fa-262d4a444b99")
 		(effects
 			(font

@@ -18,6 +18,7 @@
 	(property "Value" "TYPE-C-31-M-12"
 		(at -0.025 0.825 180)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "a1a7ad9e-9c7c-4f49-bd4f-3649e7d8cae2")
 		(effects
 			(font
@@ -164,17 +165,6 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "c7ca9111-f338-4728-a4e0-235bb017ca51")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0.2 -4.35 180)
-		(layer "F.Fab")
-		(uuid "dc8a89f3-41d1-494c-bc28-9193cf42a354")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(pad "" np_thru_hole circle
 		(at -2.89 -6.25)
