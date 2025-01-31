@@ -32,7 +32,7 @@ FRANK supports emulation for a variety of platforms, including:
 
 ## FRANK Models
 
-Currently there are four versions of FRANK built and tested:
+Currently there are the following versions of FRANK available:
 
 * [FRANK](./hardware/frank) (latest hardware revision: 1.12)
 * [FRANK Gen 2](./hardware/frank_gen2) (latest hardware revision: 2.0)
