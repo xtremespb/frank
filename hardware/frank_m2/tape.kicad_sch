@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Frank M2")
-		(date "2025-01-31")
-		(rev "1.0")
+		(date "2025-02-02")
+		(rev "1.01")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1918,7 +1918,7 @@
 			)
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "D9")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -1991,7 +1991,7 @@
 			)
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR053")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -2074,7 +2074,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "R37")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -2146,7 +2146,7 @@
 			)
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR052")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -2231,7 +2231,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "R36")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -2325,7 +2325,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "AJ2")
+					(reference "AJ4")
 					(unit 1)
 				)
 			)
@@ -2409,7 +2409,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "C31")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -2483,7 +2483,7 @@
 			)
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR051")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -2566,7 +2566,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "R38")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -2640,7 +2640,7 @@
 			)
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR050")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -2713,7 +2713,7 @@
 			)
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR054")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -2785,7 +2785,7 @@
 			)
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR049")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -2869,7 +2869,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "C30")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -2954,7 +2954,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "R39")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -3045,7 +3045,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "Q4")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -3130,7 +3130,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "R35")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -3221,7 +3221,7 @@
 			)
 			(project "38NJU24"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "Q3")
+					(reference "Q5")
 					(unit 1)
 				)
 			)

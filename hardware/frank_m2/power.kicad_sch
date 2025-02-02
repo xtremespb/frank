@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Frank M2")
-		(date "2025-01-31")
-		(rev "1.0")
+		(date "2025-02-02")
+		(rev "1.01")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -2725,7 +2725,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00870c5e-b69c-4b4f-8d00-9711a66d9c12")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 96.52 72.39 0)
 			(effects
 				(font
@@ -2775,7 +2775,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2791,7 +2791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "016074c4-495f-4d4f-80ec-e08790bcb794")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 82.55 53.34 0)
 			(effects
 				(font
@@ -2841,7 +2841,74 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR05")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01b930a0-3e4c-4a2a-a1c7-4e81f52e76ac")
+		(property "Reference" "#PWR017"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2e41575-914f-499f-97dd-663c6a55861e")
+		)
+		(instances
+			(project "frank-m2-2350A"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2857,7 +2924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cd5d6f1-1df5-426c-8360-c26b8f4a618a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 69.85 69.85 0)
 			(effects
 				(font
@@ -2908,7 +2975,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2925,7 +2992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10a24d50-d72e-4bb8-b1c4-bdf70f1a1ee5")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 163.83 57.15 0)
 			(effects
 				(font
@@ -2976,7 +3043,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3226,7 +3293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b432d1c-c9a5-4d49-92f7-4f9f4b3118da")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR012"
 			(at 167.64 69.85 0)
 			(effects
 				(font
@@ -3277,7 +3344,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR069")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3654,7 +3721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5520e523-5b6d-4958-83dd-cab6921b6d76")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 69.85 54.61 0)
 			(effects
 				(font
@@ -3705,7 +3772,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3721,7 +3788,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "570a1e42-38d6-432c-8777-8736af415110")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 128.27 67.31 0)
 			(effects
 				(font
@@ -3771,7 +3838,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3787,7 +3854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "610ed103-f5ea-4784-a03b-cc27ff0ce6e8")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR013"
 			(at 177.8 72.39 0)
 			(effects
 				(font
@@ -3838,7 +3905,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR070")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3853,7 +3920,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63702ba3-609c-42aa-b781-fca083d7f5f9")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR04"
 			(at 128.27 53.34 0)
 			(effects
 				(font
@@ -3903,7 +3970,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR06")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4031,7 +4098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://docs.rs-online.com/827f/0900766b80da4f03.pdf"
 			(at 179.07 69.85 0)
 			(effects
 				(font
@@ -4082,7 +4149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85cc5efe-a786-43b0-ba37-8fa8e8cf3b05")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 69.85 46.99 0)
 			(effects
 				(font
@@ -4133,7 +4200,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4207,6 +4274,152 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 179.07 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca897f86-b97e-4949-ba9b-d1e422ef92c4")
+		(property "Reference" "P2"
+			(at 181.61 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power (+3.3V)"
+			(at 181.61 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FRANK:Pin Header (1x02)"
+			(at 179.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.rs-online.com/827f/0900766b80da4f03.pdf"
+			(at 179.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 179.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005007039504981.html"
+			(at 179.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "12873e22-a690-4bfd-a9a0-0c40294ff297")
+		)
+		(pin "1"
+			(uuid "a4ae959c-3dc9-4ddd-8227-a398d8f6c189")
+		)
+		(instances
+			(project "frank-m2-2350A"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
+					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 173.99 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e75e37b1-78f0-4a6c-b1de-424239f90028")
+		(property "Reference" "#PWR019"
+			(at 177.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 170.18 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 173.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c89e6fdb-3798-4762-8d33-36372820e5e0")
+		)
+		(instances
+			(project ""
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
 		(at 187.96 57.15 270)
@@ -4217,7 +4430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecc35c68-9bfb-4bf1-be0b-67481a61249d")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 184.15 57.15 0)
 			(effects
 				(font
@@ -4268,7 +4481,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4284,7 +4497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7b62c5b-0442-4056-af6b-41550b71b5e4")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 110.49 66.04 0)
 			(effects
 				(font
@@ -4334,7 +4547,7 @@
 		(instances
 			(project "frank2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR010")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)

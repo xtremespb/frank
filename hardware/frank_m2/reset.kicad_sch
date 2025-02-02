@@ -645,8 +645,8 @@
 		)
 		(instances
 			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/44b0fc63-213a-4da4-a0e4-3ab9f837f02d"
-					(reference "SW2")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3e4da0b7-35d8-4210-b0cd-f48655a12954/44b0fc63-213a-4da4-a0e4-3ab9f837f02d"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -713,8 +713,8 @@
 		)
 		(instances
 			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/44b0fc63-213a-4da4-a0e4-3ab9f837f02d"
-					(reference "#PWR044")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3e4da0b7-35d8-4210-b0cd-f48655a12954/44b0fc63-213a-4da4-a0e4-3ab9f837f02d"
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
