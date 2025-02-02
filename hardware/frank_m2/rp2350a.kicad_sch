@@ -10735,7 +10735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:SO-8"
+		(property "Footprint" "FRANK:SOIC-8"
 			(at 64.77 180.34 0)
 			(effects
 				(font
