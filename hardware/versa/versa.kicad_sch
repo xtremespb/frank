@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "VersaTerm")
-		(date "2025-01-29")
-		(rev "2.0")
+		(date "2025-02-03")
+		(rev "2.01")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -167,7 +167,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 149.86) (xy 119.38 149.86)
+			(xy 105.41 125.73) (xy 118.11 125.73)
 		)
 		(stroke
 			(width 0)
@@ -207,7 +207,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 127) (xy 119.38 127)
+			(xy 105.41 102.87) (xy 118.11 102.87)
 		)
 		(stroke
 			(width 0)
@@ -227,7 +227,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 144.78) (xy 119.38 144.78)
+			(xy 105.41 120.65) (xy 118.11 120.65)
 		)
 		(stroke
 			(width 0)
@@ -237,7 +237,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 142.24) (xy 119.38 142.24)
+			(xy 105.41 118.11) (xy 118.11 118.11)
 		)
 		(stroke
 			(width 0)
@@ -277,7 +277,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 121.92) (xy 119.38 121.92)
+			(xy 105.41 97.79) (xy 118.11 97.79)
 		)
 		(stroke
 			(width 0)
@@ -297,7 +297,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 116.84) (xy 119.38 116.84)
+			(xy 105.41 92.71) (xy 118.11 92.71)
 		)
 		(stroke
 			(width 0)
@@ -307,7 +307,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 114.3) (xy 119.38 114.3)
+			(xy 105.41 90.17) (xy 118.11 90.17)
 		)
 		(stroke
 			(width 0)
@@ -367,7 +367,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 129.54) (xy 119.38 129.54)
+			(xy 105.41 105.41) (xy 118.11 105.41)
 		)
 		(stroke
 			(width 0)
@@ -417,7 +417,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 119.38) (xy 119.38 119.38)
+			(xy 105.41 95.25) (xy 118.11 95.25)
 		)
 		(stroke
 			(width 0)
@@ -447,7 +447,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 147.32) (xy 119.38 147.32)
+			(xy 105.41 123.19) (xy 118.11 123.19)
 		)
 		(stroke
 			(width 0)
@@ -537,7 +537,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 124.46) (xy 119.38 124.46)
+			(xy 105.41 100.33) (xy 118.11 100.33)
 		)
 		(stroke
 			(width 0)
@@ -547,7 +547,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 132.08) (xy 119.38 132.08)
+			(xy 105.41 107.95) (xy 118.11 107.95)
 		)
 		(stroke
 			(width 0)
@@ -589,7 +589,7 @@
 		(uuid "0c064ca7-8d32-4e6f-a259-216d24722911")
 	)
 	(label "GPIO7"
-		(at 106.68 119.38 0)
+		(at 105.41 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -644,7 +644,7 @@
 		(uuid "44441eb7-515c-4f96-a3a1-54f240b6f1fe")
 	)
 	(label "GPIO12"
-		(at 106.68 124.46 0)
+		(at 105.41 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -677,7 +677,7 @@
 		(uuid "597d0878-ca35-45a6-b0b3-23738428b63d")
 	)
 	(label "GPIO16"
-		(at 106.68 149.86 0)
+		(at 105.41 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -699,7 +699,7 @@
 		(uuid "64e0147e-a58f-4d2d-ba21-b5ad52457732")
 	)
 	(label "GPIO18"
-		(at 106.68 144.78 0)
+		(at 105.41 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -787,7 +787,7 @@
 		(uuid "83159554-0faf-4f80-8a61-51de0cdc4def")
 	)
 	(label "GPIO13"
-		(at 106.68 132.08 0)
+		(at 105.41 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -809,7 +809,7 @@
 		(uuid "8ee75430-e65d-450b-9e05-b3d1fcc50527")
 	)
 	(label "GPIO6"
-		(at 106.68 114.3 0)
+		(at 105.41 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -842,7 +842,7 @@
 		(uuid "99731503-1f7f-49d3-b343-fb5b6804ec18")
 	)
 	(label "GPIO19"
-		(at 106.68 147.32 0)
+		(at 105.41 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -864,7 +864,7 @@
 		(uuid "a75db12a-1d46-4586-bc41-4ddcd046b2e2")
 	)
 	(label "GPIO8"
-		(at 106.68 121.92 0)
+		(at 105.41 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -875,7 +875,7 @@
 		(uuid "a793574d-42f2-4b1b-9249-c06a8cf4fbee")
 	)
 	(label "GPIO11"
-		(at 106.68 127 0)
+		(at 105.41 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -952,7 +952,7 @@
 		(uuid "d80254f0-0620-455e-901d-0ca811aeb3f2")
 	)
 	(label "GPIO9"
-		(at 106.68 116.84 0)
+		(at 105.41 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -963,7 +963,7 @@
 		(uuid "dcb5f29e-0985-4041-ad48-efbd7b48d3c3")
 	)
 	(label "GPIO17"
-		(at 106.68 142.24 0)
+		(at 105.41 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -974,7 +974,7 @@
 		(uuid "ea66f80c-7eb2-4409-8851-a3365d90a990")
 	)
 	(label "GPIO10"
-		(at 106.68 129.54 0)
+		(at 105.41 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1360,8 +1360,8 @@
 		)
 	)
 	(sheet
-		(at 119.38 139.7)
-		(size 12.7 12.7)
+		(at 118.11 115.57)
+		(size 15.24 12.7)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1372,7 +1372,7 @@
 		)
 		(uuid "7e271b78-13aa-4645-9459-483887bdc203")
 		(property "Sheetname" "RS232"
-			(at 119.38 138.9884 0)
+			(at 118.11 114.8584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1381,7 +1381,7 @@
 			)
 		)
 		(property "Sheetfile" "rs232.kicad_sch"
-			(at 119.38 152.9846 0)
+			(at 118.11 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1391,7 +1391,7 @@
 			)
 		)
 		(pin "RS232_TX" input
-			(at 119.38 149.86 180)
+			(at 118.11 125.73 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1401,7 +1401,7 @@
 			(uuid "7ba8bd41-9f79-4ad5-afec-1a5b236fcd4b")
 		)
 		(pin "RS232_RTS" input
-			(at 119.38 147.32 180)
+			(at 118.11 123.19 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1411,7 @@
 			(uuid "4155792e-3cba-4edb-a885-724e72f9a92a")
 		)
 		(pin "RS232_RX" input
-			(at 119.38 142.24 180)
+			(at 118.11 118.11 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +1421,7 @@
 			(uuid "0bea52e9-b014-4173-9ecb-0beb05b049f0")
 		)
 		(pin "RS232_CTS" input
-			(at 119.38 144.78 180)
+			(at 118.11 120.65 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,7 +1440,7 @@
 	)
 	(sheet
 		(at 118.11 48.26)
-		(size 12.7 7.62)
+		(size 15.24 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1499,7 +1499,7 @@
 	)
 	(sheet
 		(at 118.11 60.96)
-		(size 12.7 7.62)
+		(size 15.24 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1528,17 +1528,7 @@
 				(hide yes)
 			)
 		)
-		(pin "KB_DATA_3V" input
-			(at 118.11 66.04 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "78dad722-1eb9-43b3-83c4-654e8190c0e4")
-		)
-		(pin "KB_CLK_3V" input
+		(pin "PS2_KB_CLK" input
 			(at 118.11 63.5 180)
 			(effects
 				(font
@@ -1546,7 +1536,17 @@
 				)
 				(justify left)
 			)
-			(uuid "929679ec-a7f0-434f-ac90-3e7c1342d777")
+			(uuid "07e40b8d-b5e7-481f-8668-fdf29e4b57e7")
+		)
+		(pin "PS2_KB_DATA" input
+			(at 118.11 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f3c2c959-f486-4fc3-b865-a253f5028991")
 		)
 		(instances
 			(project "versa"
@@ -1936,8 +1936,8 @@
 		)
 	)
 	(sheet
-		(at 119.38 111.76)
-		(size 12.7 22.86)
+		(at 118.11 87.63)
+		(size 15.24 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1948,7 +1948,7 @@
 		)
 		(uuid "db853a64-9343-4a36-b5b8-71001392b936")
 		(property "Sheetname" "HDMI"
-			(at 119.38 111.0484 0)
+			(at 118.11 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,7 +1957,7 @@
 			)
 		)
 		(property "Sheetfile" "hdmi.kicad_sch"
-			(at 119.38 135.2046 0)
+			(at 118.11 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,7 +1967,7 @@
 			)
 		)
 		(pin "CLKN" input
-			(at 119.38 114.3 180)
+			(at 118.11 90.17 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,7 +1977,7 @@
 			(uuid "77c2a7b8-c678-46a8-be50-f49a2be8ba3c")
 		)
 		(pin "D0P" input
-			(at 119.38 116.84 180)
+			(at 118.11 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +1987,7 @@
 			(uuid "d0d85535-557f-456c-b961-a8972194a5e8")
 		)
 		(pin "CLKP" input
-			(at 119.38 119.38 180)
+			(at 118.11 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1997,7 +1997,7 @@
 			(uuid "3725bee7-78eb-41e8-aa0f-486ab84e7a9d")
 		)
 		(pin "D0N" input
-			(at 119.38 121.92 180)
+			(at 118.11 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,7 +2007,7 @@
 			(uuid "d323e960-cc75-4c00-8cad-affdc0acb35d")
 		)
 		(pin "D2N" input
-			(at 119.38 124.46 180)
+			(at 118.11 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2017,7 +2017,7 @@
 			(uuid "1baf92d2-c542-4699-9940-284f2a96369d")
 		)
 		(pin "D1P" input
-			(at 119.38 127 180)
+			(at 118.11 102.87 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,7 +2027,7 @@
 			(uuid "71c7bdc0-c8f3-45fe-bc3e-7755520f0fa6")
 		)
 		(pin "D1N" input
-			(at 119.38 129.54 180)
+			(at 118.11 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2037,7 +2037,7 @@
 			(uuid "2df81806-328a-48fc-a55a-37371d7ede96")
 		)
 		(pin "D2P" input
-			(at 119.38 132.08 180)
+			(at 118.11 107.95 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +2056,7 @@
 	)
 	(sheet
 		(at 118.11 74.93)
-		(size 12.7 7.62)
+		(size 15.24 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)

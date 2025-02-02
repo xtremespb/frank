@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "VersaTerm")
-		(date "2025-01-29")
-		(rev "2.0")
+		(date "2025-02-03")
+		(rev "2.01")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1004,7 +1004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e83260d4-7e97-4ba4-95fc-d950607d1d48")
-		(property "Reference" "J1"
+		(property "Reference" "USB2"
 			(at 39.37 29.21 0)
 			(effects
 				(font
@@ -1020,7 +1020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal"
+		(property "Footprint" "FRANK:USB Type A (single)"
 			(at 43.18 43.18 0)
 			(effects
 				(font
@@ -1065,7 +1065,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/f7082aa6-6a82-45dd-9ad2-9a491cd5702e"
-					(reference "J1")
+					(reference "USB2")
 					(unit 1)
 				)
 			)

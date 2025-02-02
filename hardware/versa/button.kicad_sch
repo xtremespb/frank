@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "VersaTerm")
-		(date "2025-01-29")
-		(rev "2.0")
+		(date "2025-02-03")
+		(rev "2.01")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
