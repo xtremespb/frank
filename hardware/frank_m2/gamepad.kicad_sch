@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Frank M2")
-		(date "2025-01-31")
-		(rev "1.0")
+		(date "2025-02-02")
+		(rev "1.01")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1319,7 +1319,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e3bc68fc-1a90-4165-9d37-467f5079ac2b"
-					(reference "D11")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -1403,7 +1403,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e3bc68fc-1a90-4165-9d37-467f5079ac2b"
-					(reference "C34")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -1485,7 +1485,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e3bc68fc-1a90-4165-9d37-467f5079ac2b"
-					(reference "R48")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -1558,7 +1558,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e3bc68fc-1a90-4165-9d37-467f5079ac2b"
-					(reference "#PWR064")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -1640,7 +1640,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e3bc68fc-1a90-4165-9d37-467f5079ac2b"
-					(reference "D10")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -1713,7 +1713,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e3bc68fc-1a90-4165-9d37-467f5079ac2b"
-					(reference "#PWR066")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -1786,7 +1786,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e3bc68fc-1a90-4165-9d37-467f5079ac2b"
-					(reference "#PWR065")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -1973,7 +1973,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e3bc68fc-1a90-4165-9d37-467f5079ac2b"
-					(reference "R49")
+					(reference "R77")
 					(unit 1)
 				)
 			)

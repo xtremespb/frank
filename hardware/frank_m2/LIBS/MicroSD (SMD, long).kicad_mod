@@ -20,6 +20,7 @@
 	(property "Value" "Medved_SD_Card"
 		(at 0 -16.9 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "540e4bb3-f25f-4c73-80c2-bc63903f7e88")
 		(effects
 			(font
@@ -64,7 +65,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_line
 		(start -7.36 -9.55)
 		(end -7.36 -2.399933)

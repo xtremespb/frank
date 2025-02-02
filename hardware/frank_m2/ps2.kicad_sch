@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Frank M2")
-		(date "2025-01-31")
-		(rev "1.0")
+		(date "2025-02-02")
+		(rev "1.01")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1781,7 +1781,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "R7")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -1863,7 +1863,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "R4")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -1945,7 +1945,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "D4")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2028,7 +2028,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "C3")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -2102,7 +2102,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "#PWR015")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2184,7 +2184,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "R9")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -2258,7 +2258,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "#PWR020")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2340,7 +2340,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "D3")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -2422,7 +2422,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "R5")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2517,7 +2517,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "MD1")
+					(reference "MD2")
 					(unit 1)
 				)
 			)
@@ -2591,7 +2591,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "#PWR018")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2665,7 +2665,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "#PWR016")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -2739,7 +2739,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "#PWR021")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -2821,7 +2821,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "D1")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2895,7 +2895,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "#PWR017")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2968,7 +2968,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "#PWR019")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3050,7 +3050,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "R10")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -3132,7 +3132,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "D2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3214,7 +3214,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "R11")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -3296,7 +3296,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "R6")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -3378,7 +3378,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/00663deb-9223-42ea-87d4-eaa7c4db347e"
-					(reference "R8")
+					(reference "R35")
 					(unit 1)
 				)
 			)
