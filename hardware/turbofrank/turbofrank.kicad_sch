@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "TurboFRANK")
-		(date "2025-01-29")
-		(rev "1.0")
+		(date "2025-02-02")
+		(rev "1.01")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -3443,7 +3443,7 @@
 		)
 		(uuid "1be5b956-b691-456c-b1e8-62f9758bfece")
 	)
-	(label "GPIO26"
+	(label "A_OUTR"
 		(at 248.92 35.56 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4543,7 +4543,7 @@
 		)
 		(uuid "bcf98028-0e2b-4db3-ba39-f8f7691f7c28")
 	)
-	(label "GPIO26"
+	(label "A_OUTR"
 		(at 248.92 40.64 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4675,7 +4675,7 @@
 		)
 		(uuid "cf33af6c-031b-42b5-8d63-bdee49367df9")
 	)
-	(label "GPIO27"
+	(label "A_OUTL"
 		(at 248.92 33.02 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4818,7 +4818,7 @@
 		)
 		(uuid "dfc7afc3-63c6-4d7b-b0ff-ab4e490cbbe4")
 	)
-	(label "GPIO27"
+	(label "A_OUTL"
 		(at 248.92 38.1 180)
 		(fields_autoplaced yes)
 		(effects
