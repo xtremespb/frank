@@ -3170,7 +3170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Pin Header (2x08)"
+		(property "Footprint" "FRANK:Pin Header (2x08)"
 			(at 236.22 46.99 0)
 			(effects
 				(font

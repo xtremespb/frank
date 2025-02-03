@@ -20,6 +20,7 @@
 	(property "Value" "Pin Header (2x08)"
 		(at 1.27 20.11 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "360258e7-8b1e-4120-8d00-06f20d33768c")
 		(effects
 			(font
@@ -68,6 +69,46 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -1.33 -1.33)
+		(end -1.33 19.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "64a35bd6-4317-4a54-8093-8fa2e7aceb29")
+	)
+	(fp_line
+		(start -1.33 -1.33)
+		(end 3.87 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "b019efde-c2ef-4c85-870b-3166197a603b")
+	)
+	(fp_line
+		(start -1.33 19.11)
+		(end 3.87 19.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "cf15a220-4d41-4320-887a-36692d973eb4")
+	)
+	(fp_line
+		(start 3.87 -1.33)
+		(end 3.87 19.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "5939ba6b-cc78-4bbf-9d7a-7c2cdf99309a")
+	)
 	(fp_line
 		(start -1.33 -1.33)
 		(end -1.33 19.11)
