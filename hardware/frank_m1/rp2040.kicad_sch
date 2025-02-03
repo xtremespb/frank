@@ -6076,7 +6076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ceb84a3-0745-4c83-87b4-fc466dfa9e1f")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR034"
 			(at 189.23 107.95 0)
 			(effects
 				(font
@@ -7217,7 +7217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f424ae3-5fe5-4ef9-8564-a0a41d012f96")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 190.5 93.9799 90)
 			(effects
 				(font
