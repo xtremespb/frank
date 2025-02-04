@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "FRANK M1")
-		(date "2025-02-03")
-		(rev "1.0")
+		(date "2025-02-04")
+		(rev "1.00")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -7226,7 +7226,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Reset"
+		(property "Value" "KLS7-TS3302"
 			(at 190.5 96.5199 90)
 			(effects
 				(font
@@ -7244,7 +7244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://img.klsele.com/admin/product_upload/20150508135408KLS7-TS3302.pdf"
 			(at 184.15 95.25 0)
 			(effects
 				(font
@@ -7254,6 +7254,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 189.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005007359248990.html"
 			(at 189.23 95.25 0)
 			(effects
 				(font

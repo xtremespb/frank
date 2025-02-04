@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "FRANK M1")
-		(date "2025-02-03")
-		(rev "1.0")
+		(date "2025-02-04")
+		(rev "1.00")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -2507,28 +2507,6 @@
 			(type default)
 		)
 		(uuid "ef4e3327-b728-4ee2-bd07-ce9dcfdb25b0")
-	)
-	(text "The LED indicates +3V power availability.\nUsually it's green, but you decide ;-)"
-		(exclude_from_sim no)
-		(at 87.884 102.108 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "238c4b76-ee9c-49a0-9c05-9c42a845a1b8")
-	)
-	(text "The power source is USB-C connector.\nThe NCP1117 transforms +5V to +3V3."
-		(exclude_from_sim no)
-		(at 44.45 33.274 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d35ce35d-827d-4011-82a7-09992a7d26a6")
 	)
 	(label "D-"
 		(at 59.69 62.23 0)

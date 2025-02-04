@@ -718,10 +718,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers/",
+      "plot": "GERBERS/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "DOCS/versa.step",
+      "step": "DOCS/frank_m1.step",
       "svg": "",
       "vrml": ""
     },
@@ -790,7 +790,7 @@
           "group_by": false,
           "label": "AliExpress",
           "name": "AliExpress",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
