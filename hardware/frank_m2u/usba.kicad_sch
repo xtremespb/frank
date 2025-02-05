@@ -5,9 +5,9 @@
 	(uuid "67cf1f08-6464-4bf6-8393-a59ec2b79252")
 	(paper "A4")
 	(title_block
-		(title "VersaTerm")
-		(date "2025-02-03")
-		(rev "2.01")
+		(title "Frank M2U")
+		(date "2025-02-06")
+		(rev "1.00")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
