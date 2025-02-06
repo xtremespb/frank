@@ -7,7 +7,7 @@
 	(title_block
 		(title "Frank M2")
 		(date "2025-02-02")
-		(rev "1.01")
+		(rev "1.02")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
