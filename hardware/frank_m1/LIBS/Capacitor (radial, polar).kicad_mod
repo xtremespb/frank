@@ -19,7 +19,6 @@
 	(property "Value" "Medved_CP_Radial_D5.0mm_P2.50mm"
 		(at 1.25 3.75 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "e5618ec7-d935-41b0-ba86-6cfd529ab35e")
 		(effects
 			(font
@@ -1336,13 +1335,23 @@
 	)
 	(fp_text user "${VALUE}"
 		(at 1.25 0 0)
-		(layer "F.Fab")
-		(uuid "261088d3-cb65-43e8-b07e-b020c374da92")
+		(layer "Dwgs.User")
+		(uuid "6bea2cd1-cfea-4462-9d7e-75edcad856d3")
 		(effects
 			(font
-				(size 0.3 0.3)
-				(thickness 0.05)
-				(bold yes)
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.25 0 0)
+		(layer "F.Fab")
+		(uuid "ebe9fd8b-1d6b-4f1f-b627-ab755a4290ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)

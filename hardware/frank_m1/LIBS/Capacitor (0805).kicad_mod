@@ -20,7 +20,6 @@
 	(property "Value" "Medved_C_0805"
 		(at 0 1.68 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "2faa6533-bd7f-4045-b3e8-f0563d8bdcb0")
 		(effects
 			(font
@@ -171,13 +170,24 @@
 	)
 	(fp_text user "${VALUE}"
 		(at 0 0 0)
-		(layer "F.Fab")
+		(layer "Dwgs.User")
 		(uuid "2aa51584-7f2e-4a4a-b57d-bfb466824e30")
 		(effects
 			(font
 				(size 0.3 0.3)
 				(thickness 0.05)
 				(bold yes)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d8be15ab-be76-4eda-b71c-18ed498b4672")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
 			)
 		)
 	)

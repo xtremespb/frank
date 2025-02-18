@@ -20,7 +20,6 @@
 	(property "Value" "Pico2040-QFN-56"
 		(at 0 4.82 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "fe26473d-f872-415d-b2e3-e4b396a4a06d")
 		(effects
 			(font
@@ -236,6 +235,17 @@
 		)
 		(layer "F.Fab")
 		(uuid "9662c8a8-88d5-49e7-a45b-49adfbbfc2bc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "29027e01-8891-40de-bca9-ee3c20f091b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "" smd roundrect
 		(at -0.6375 -0.6375)

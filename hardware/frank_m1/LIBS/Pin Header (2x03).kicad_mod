@@ -20,7 +20,6 @@
 	(property "Value" "Pin Header (2x03)"
 		(at 1.27 7.41 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "50c05935-62f0-415f-b4e5-9839168ee0d5")
 		(effects
 			(font
@@ -259,6 +258,14 @@
 		(uuid "ff8720a8-c701-43b7-bc7a-6a6c11d04791")
 	)
 	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "93705e7d-73dc-4f61-b875-d8fcdde8067f")
+	)
+	(pad "3" thru_hole oval
 		(at 0 2.54)
 		(size 1.7 1.7)
 		(drill 1)
@@ -266,23 +273,7 @@
 		(remove_unused_layers no)
 		(uuid "213e6c43-7a98-43d7-9b82-159f877d37de")
 	)
-	(pad "3" thru_hole oval
-		(at 0 5.08)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "023497c7-041e-403d-8f7d-9c2e6e22dee8")
-	)
 	(pad "4" thru_hole oval
-		(at 2.54 5.08)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "40df788e-cbea-4ad2-95b7-f0e2511469bb")
-	)
-	(pad "5" thru_hole oval
 		(at 2.54 2.54)
 		(size 1.7 1.7)
 		(drill 1)
@@ -290,13 +281,21 @@
 		(remove_unused_layers no)
 		(uuid "901745ea-2db8-46b8-a47a-dfbf66358efa")
 	)
-	(pad "6" thru_hole oval
-		(at 2.54 0)
+	(pad "5" thru_hole oval
+		(at 0 5.08)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "93705e7d-73dc-4f61-b875-d8fcdde8067f")
+		(uuid "023497c7-041e-403d-8f7d-9c2e6e22dee8")
+	)
+	(pad "6" thru_hole oval
+		(at 2.54 5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "40df788e-cbea-4ad2-95b7-f0e2511469bb")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x03_P2.54mm_Vertical.wrl"
 		(offset

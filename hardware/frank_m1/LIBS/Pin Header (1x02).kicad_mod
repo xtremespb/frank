@@ -20,7 +20,6 @@
 	(property "Value" "Pin Header (1x02)"
 		(at 0 4.87 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "38fef59b-958b-45b7-8820-2d51d2463f7b")
 		(effects
 			(font

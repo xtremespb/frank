@@ -6,7 +6,7 @@
 	(descr "9-pin D-Sub connector, solder-cups edge-mounted, male, x-pin-pitch 2.77mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 	(tags "9-pin D-Sub connector edge mount solder cup male x-pin-pitch 2.77mm mounting holes distance 25mm")
 	(property "Reference" "REF**"
-		(at -7.87 -1.6 90)
+		(at -7.87 1.3 90)
 		(layer "F.SilkS")
 		(uuid "88b029ad-7b5f-4e41-a017-b2107224d974")
 		(effects

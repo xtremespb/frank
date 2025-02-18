@@ -5,9 +5,9 @@
 	(uuid "8391c966-08b7-49e8-8033-b2f36d1f6bb0")
 	(paper "A4")
 	(title_block
-		(title "Valera-2350A")
-		(date "2025-01-30")
-		(rev "1.0")
+		(title "FRANK")
+		(date "2025-02-18")
+		(rev "1.13")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -579,7 +579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b5ca8be-bb91-4e94-acd1-630e3c529c4c")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 62.484 49.022 0)
 			(effects
 				(font
@@ -587,7 +587,7 @@
 				)
 			)
 		)
-		(property "Value" "Reset Button"
+		(property "Value" "KLS7-TS3302"
 			(at 62.484 51.562 0)
 			(effects
 				(font
@@ -622,7 +622,7 @@
 				(hide yes)
 			)
 		)
-		(property "AliExpress" "https://www.aliexpress.com/item/1005001629293584.html"
+		(property "AliExpress" "https://www.aliexpress.com/item/1005007359248990.html"
 			(at 48.26 59.69 0)
 			(effects
 				(font
@@ -645,8 +645,8 @@
 		)
 		(instances
 			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3e4da0b7-35d8-4210-b0cd-f48655a12954/44b0fc63-213a-4da4-a0e4-3ab9f837f02d"
-					(reference "SW3")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/44b0fc63-213a-4da4-a0e4-3ab9f837f02d"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -663,7 +663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce1a81c5-eb22-45a1-bee9-e10a21274cae")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR037"
 			(at 48.26 41.91 0)
 			(effects
 				(font
@@ -713,8 +713,8 @@
 		)
 		(instances
 			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3e4da0b7-35d8-4210-b0cd-f48655a12954/44b0fc63-213a-4da4-a0e4-3ab9f837f02d"
-					(reference "#PWR0124")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/44b0fc63-213a-4da4-a0e4-3ab9f837f02d"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
