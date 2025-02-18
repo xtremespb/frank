@@ -1352,6 +1352,10 @@
 		)
 	)
 	(no_connect
+		(at 142.24 29.21)
+		(uuid "15d96e5c-b9f4-4fac-b794-d4ed9a1c1569")
+	)
+	(no_connect
 		(at 104.14 101.6)
 		(uuid "22a2881b-ad5f-4c8e-b5a1-6cfdeda61bfa")
 	)
@@ -1364,6 +1368,10 @@
 		(uuid "586c720c-4014-4c4e-9c20-8e80d0adeb64")
 	)
 	(no_connect
+		(at 142.24 46.99)
+		(uuid "5b7cac78-efcd-40f6-a656-1f4933901dae")
+	)
+	(no_connect
 		(at 104.14 72.39)
 		(uuid "5c9b2040-ea16-4121-9697-d8a68d8a91db")
 	)
@@ -1374,6 +1382,10 @@
 	(no_connect
 		(at 142.24 24.13)
 		(uuid "8257eb88-adb4-408e-b5d2-29a90fd666e3")
+	)
+	(no_connect
+		(at 142.24 87.63)
+		(uuid "8fae0242-8e7c-4e4d-85fa-c01c151f0c64")
 	)
 	(no_connect
 		(at 104.14 57.15)
@@ -1837,16 +1849,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 46.99) (xy 142.24 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6370b70a-77c2-414e-be84-4874a1124c43")
-	)
-	(wire
-		(pts
 			(xy 20.32 109.22) (xy 33.02 109.22)
 		)
 		(stroke
@@ -1914,16 +1916,6 @@
 			(type default)
 		)
 		(uuid "70a096e7-8228-4d04-b6bb-567ce5f1432c")
-	)
-	(wire
-		(pts
-			(xy 129.54 87.63) (xy 142.24 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71d1b1b9-48b2-442f-8901-bd43338a5a9d")
 	)
 	(wire
 		(pts
@@ -2374,16 +2366,6 @@
 			(type default)
 		)
 		(uuid "c46c12de-59ad-4720-8027-44bcf300a411")
-	)
-	(wire
-		(pts
-			(xy 129.54 29.21) (xy 142.24 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c637c1a6-243e-4b93-81a5-576c10afa3fd")
 	)
 	(wire
 		(pts
@@ -2944,17 +2926,6 @@
 		)
 		(uuid "481d3f6d-834a-424c-9cef-5c67ece9e97e")
 	)
-	(label "RUN"
-		(at 129.54 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a38591a-4782-465f-b6ba-b6bec27039be")
-	)
 	(label "ZERO_VBUS"
 		(at 91.44 74.93 0)
 		(fields_autoplaced yes)
@@ -3009,17 +2980,6 @@
 			(justify left bottom)
 		)
 		(uuid "4fdf0305-633f-4ea9-b42c-6103d1e2addc")
-	)
-	(label "GPIO8"
-		(at 129.54 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "530b63b8-b260-4cbf-9e59-d58e6692325e")
 	)
 	(label "KB_DATA"
 		(at 55.88 95.25 0)
@@ -3108,17 +3068,6 @@
 			(justify left bottom)
 		)
 		(uuid "63fcf817-3d88-457d-b793-085f36e010d1")
-	)
-	(label "GPIO28"
-		(at 129.54 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "662512f8-279e-4def-8146-ca52cc49c6c1")
 	)
 	(label "GPIO13"
 		(at 20.32 81.28 0)
