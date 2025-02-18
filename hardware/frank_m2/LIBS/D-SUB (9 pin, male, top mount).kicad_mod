@@ -20,7 +20,6 @@
 	(property "Value" "DB9"
 		(at 5.54 15.68 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "b9cd7d6b-458f-423f-a872-06e9dfabcd88")
 		(effects
 			(font
@@ -69,6 +68,36 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -9.945 -2.76)
+		(end 21.025 -2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "543e8632-8aca-4674-a536-b3edd8261562")
+	)
+	(fp_line
+		(start -9.945 7.72)
+		(end -9.945 -2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "2adfc3ea-47ab-43ba-8d90-08de9ede594a")
+	)
+	(fp_line
+		(start 21.025 -2.76)
+		(end 21.025 7.72)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "73aa26e4-5912-4362-bdb6-64e6a36ec788")
+	)
 	(fp_line
 		(start -9.945 -2.76)
 		(end 21.025 -2.76)
@@ -400,6 +429,17 @@
 		)
 		(layer "F.Fab")
 		(uuid "40cef697-5884-4226-96f4-704f21c2189a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.54 11.18 0)
+		(layer "F.Fab")
+		(uuid "482ee85f-e82b-44c8-b2ba-608b01030d89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "0" thru_hole circle
 		(at -6.96 0.3)

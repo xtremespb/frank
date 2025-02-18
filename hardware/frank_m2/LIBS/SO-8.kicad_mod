@@ -20,7 +20,6 @@
 	(property "Value" "SO-8"
 		(at 0 3.4 0)
 		(layer "F.Fab")
-		(hide yes)
 		(uuid "49a94c31-e797-47a1-94dd-38587996db22")
 		(effects
 			(font
@@ -208,15 +207,14 @@
 		(layer "F.Fab")
 		(uuid "4b2f51e7-22b1-409e-8890-8de4553d450a")
 	)
-	(fp_text user "${VALUE}"
-		(at -0.02 -0.01 0)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "13b4ad7b-d830-4475-bcb4-5844d3f6186c")
+		(uuid "c88a774a-7857-4c8e-867a-6015ebd785ed")
 		(effects
 			(font
-				(size 0.3 0.3)
-				(thickness 0.05)
-				(bold yes)
+				(size 0.98 0.98)
+				(thickness 0.15)
 			)
 		)
 	)

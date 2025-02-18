@@ -5,9 +5,9 @@
 	(uuid "eb8d47cb-4102-4ef8-ada3-b17de4c7113d")
 	(paper "A4")
 	(title_block
-		(title "MiniFRANK")
-		(date "2025-01-14")
-		(rev "2.0")
+		(title "FRANK")
+		(date "2025-02-18")
+		(rev "1.13")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1012,7 +1012,7 @@
 		)
 		(uuid "f4916e97-eb83-4636-97e2-cd609c2b5be7")
 	)
-	(text "As PSRAM is optional, you need to solder JP1\nif you are going to use it."
+	(text "As PSRAM is optional, you need to solder the jumper\nif you are going to use it."
 		(exclude_from_sim no)
 		(at 44.196 24.892 0)
 		(effects
@@ -1080,7 +1080,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c9cc415-24b5-4884-ac4c-0dc5a0300c95")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR043"
 			(at 67.31 77.47 0)
 			(effects
 				(font
@@ -1130,8 +1130,8 @@
 		)
 		(instances
 			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3e4da0b7-35d8-4210-b0cd-f48655a12954/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
-					(reference "#PWR044")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -1147,7 +1147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6edb26c8-a2d6-4b0c-9cb3-7d7dd852f441")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR041"
 			(at 77.47 49.53 0)
 			(effects
 				(font
@@ -1196,8 +1196,8 @@
 		)
 		(instances
 			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3e4da0b7-35d8-4210-b0cd-f48655a12954/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
-					(reference "#PWR042")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -1293,7 +1293,7 @@
 		)
 		(instances
 			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3e4da0b7-35d8-4210-b0cd-f48655a12954/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
 					(reference "PSR1")
 					(unit 1)
 				)
@@ -1309,7 +1309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adb1a53b-d5fd-4040-922b-c10d890df339")
-		(property "Reference" "C21"
+		(property "Reference" "C6"
 			(at 49.911 52.1716 0)
 			(effects
 				(font
@@ -1336,7 +1336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/KEM_C1075_X7R_HT_SMD-3316221.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 46.99 53.34 0)
 			(effects
 				(font
@@ -1371,8 +1371,8 @@
 		)
 		(instances
 			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3e4da0b7-35d8-4210-b0cd-f48655a12954/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
-					(reference "C12")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -1395,7 +1395,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper PSRAM (2.54)"
+		(property "Value" "Jumper (Solder)"
 			(at 97.028 69.85 0)
 			(effects
 				(font
@@ -1448,7 +1448,7 @@
 		)
 		(instances
 			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3e4da0b7-35d8-4210-b0cd-f48655a12954/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
 					(reference "JP1")
 					(unit 1)
 				)
@@ -1465,7 +1465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c76622e5-65e8-4bd9-aa46-19f51970c43e")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR042"
 			(at 46.99 67.31 0)
 			(effects
 				(font
@@ -1514,8 +1514,8 @@
 		)
 		(instances
 			(project "frank2"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/3e4da0b7-35d8-4210-b0cd-f48655a12954/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
-					(reference "#PWR043")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/c6465a8b-a48e-459c-b6f3-7a504929a2d8"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)

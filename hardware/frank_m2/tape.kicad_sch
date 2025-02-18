@@ -5,9 +5,9 @@
 	(uuid "cdd2a391-1976-4cac-9945-b5ac5a2a87f4")
 	(paper "A4")
 	(title_block
-		(title "Frank M2")
-		(date "2025-02-02")
-		(rev "1.02")
+		(title "FRANK")
+		(date "2025-02-18")
+		(rev "1.13")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1800,6 +1800,17 @@
 		)
 		(uuid "d1f02112-251a-47bc-891c-8487da164159")
 	)
+	(text "This schematics is used to load data from\nexternal audio source, e.g. tape."
+		(exclude_from_sim no)
+		(at 38.1 27.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "229a09bc-94f4-4558-b867-a5bde4e59ed5")
+	)
 	(label "LOAD_IN"
 		(at 49.53 72.39 0)
 		(fields_autoplaced yes)
@@ -1821,7 +1832,7 @@
 			)
 			(justify left)
 		)
-		(uuid "0a470772-d418-4a3d-883c-935d1091e071")
+		(uuid "b0a7364b-54d8-40f1-bec2-314887179c0c")
 	)
 	(symbol
 		(lib_id "Device:D")
@@ -1858,7 +1869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/40002/293d.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
 			(at 93.98 64.77 0)
 			(effects
 				(font
@@ -1917,8 +1928,8 @@
 				)
 			)
 			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "D14")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/599e2208-d0f7-4f1d-beb8-3b4e6272cb10"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -1990,8 +2001,8 @@
 				)
 			)
 			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR085")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/599e2208-d0f7-4f1d-beb8-3b4e6272cb10"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -2073,8 +2084,8 @@
 				)
 			)
 			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "R65")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/599e2208-d0f7-4f1d-beb8-3b4e6272cb10"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -2145,8 +2156,8 @@
 				)
 			)
 			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR084")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/599e2208-d0f7-4f1d-beb8-3b4e6272cb10"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2207,7 +2218,7 @@
 				(hide yes)
 			)
 		)
-		(property "AliExpress" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
 			(at 116.84 53.34 0)
 			(effects
 				(font
@@ -2230,8 +2241,8 @@
 				)
 			)
 			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "R64")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/599e2208-d0f7-4f1d-beb8-3b4e6272cb10"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2256,7 +2267,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PJ-325C"
+		(property "Value" "SJ1-353XNG"
 			(at 46.99 66.04 0)
 			(effects
 				(font
@@ -2324,8 +2335,8 @@
 				)
 			)
 			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "AJ4")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/599e2208-d0f7-4f1d-beb8-3b4e6272cb10"
+					(reference "AJ2")
 					(unit 1)
 				)
 			)
@@ -2367,7 +2378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/KEM_C1075_X7R_HT_SMD-3316221.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 69.85 72.39 0)
 			(effects
 				(font
@@ -2408,8 +2419,8 @@
 				)
 			)
 			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "C41")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/599e2208-d0f7-4f1d-beb8-3b4e6272cb10"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -2482,8 +2493,8 @@
 				)
 			)
 			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR083")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/599e2208-d0f7-4f1d-beb8-3b4e6272cb10"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2565,8 +2576,8 @@
 				)
 			)
 			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "R66")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/599e2208-d0f7-4f1d-beb8-3b4e6272cb10"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -2639,8 +2650,8 @@
 				)
 			)
 			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR082")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/599e2208-d0f7-4f1d-beb8-3b4e6272cb10"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -2712,8 +2723,8 @@
 				)
 			)
 			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR086")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/599e2208-d0f7-4f1d-beb8-3b4e6272cb10"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -2784,8 +2795,8 @@
 				)
 			)
 			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "#PWR081")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/599e2208-d0f7-4f1d-beb8-3b4e6272cb10"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2827,7 +2838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/447/KEM_C1075_X7R_HT_SMD-3316221.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 132.08 50.8 0)
 			(effects
 				(font
@@ -2868,8 +2879,8 @@
 				)
 			)
 			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "C40")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/599e2208-d0f7-4f1d-beb8-3b4e6272cb10"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2953,8 +2964,8 @@
 				)
 			)
 			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "R67")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/599e2208-d0f7-4f1d-beb8-3b4e6272cb10"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2999,7 +3010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC849_BC850.pdf"
 			(at 96.52 72.39 0)
 			(effects
 				(font
@@ -3018,7 +3029,7 @@
 				(hide yes)
 			)
 		)
-		(property "AliExpress" "https://www.aliexpress.com/item/33017911878.html"
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005008637286.html"
 			(at 96.52 72.39 0)
 			(effects
 				(font
@@ -3044,8 +3055,8 @@
 				)
 			)
 			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "Q6")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/599e2208-d0f7-4f1d-beb8-3b4e6272cb10"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3129,8 +3140,8 @@
 				)
 			)
 			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "R63")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/599e2208-d0f7-4f1d-beb8-3b4e6272cb10"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -3175,7 +3186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC849_BC850.pdf"
 			(at 114.3 64.77 0)
 			(effects
 				(font
@@ -3194,7 +3205,7 @@
 				(hide yes)
 			)
 		)
-		(property "AliExpress" "https://www.aliexpress.com/item/33017911878.html"
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005008637286.html"
 			(at 114.3 64.77 0)
 			(effects
 				(font
@@ -3220,8 +3231,8 @@
 				)
 			)
 			(project "38NJU24"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/49084664-1062-4a43-8f46-2816e4bba858"
-					(reference "Q5")
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/599e2208-d0f7-4f1d-beb8-3b4e6272cb10"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
