@@ -28418,9 +28418,9 @@
 		(descr "Through hole straight pin header, 2x16, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x16 2.54mm double row")
 		(property "Reference" "J1"
-			(at 1.27 -2.33 90)
+			(at 1.27 -2.33 -90)
 			(layer "F.SilkS")
-			(uuid "14ae8143-a9b2-4ba9-a561-11899d6a3507")
+			(uuid "83ead481-8377-46e3-8b56-2858643d2504")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -28430,10 +28430,10 @@
 			)
 		)
 		(property "Value" "Pin Header 2x18"
-			(at 1.27 40.43 90)
+			(at 1.27 40.43 -90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aeec69e3-2fab-4a5f-aa4e-57ffb8501889")
+			(uuid "51bdc0c1-fe2e-4857-a8a1-f557c760c3ef")
 			(effects
 				(font
 					(size 1 1)
@@ -28446,7 +28446,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3d28b14c-a082-4aee-a6dd-21e7caace761")
+			(uuid "632838eb-809f-4691-a5ea-da5c913e63d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28459,7 +28459,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4604d928-0e04-4f62-8414-9fcc5747e427")
+			(uuid "7cd6ce33-58f6-4d9f-84e0-25fea6aaed88")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28472,23 +28472,10 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8781ed1a-1902-4a14-949e-9c5a6d08f116")
+			(uuid "7a15ca0a-115a-4110-a536-a605f64b4b60")
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "AliExpress" "https://www.aliexpress.com/item/1005006804478835.html"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c1631e27-39ff-49b8-b380-b0e70ce1cf85")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -28505,8 +28492,48 @@
 				(width 0.12)
 				(type solid)
 			)
+			(layer "B.SilkS")
+			(uuid "32a6c989-6977-4573-ae7f-2b5423e55f59")
+		)
+		(fp_line
+			(start -1.33 -1.33)
+			(end -1.33 39.43)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "8f6bf6ff-b3b6-4d6d-b70f-c1ea8e318e56")
+		)
+		(fp_line
+			(start -1.33 -1.33)
+			(end 3.87 -1.33)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "b92ef8ac-bbf6-467f-a041-57925a968ea2")
+		)
+		(fp_line
+			(start 3.87 -1.33)
+			(end 3.87 39.43)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "ca4e9a18-571e-47ba-90b1-9e51399a0e49")
+		)
+		(fp_line
+			(start -1.33 39.43)
+			(end 3.87 39.43)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
 			(layer "F.SilkS")
-			(uuid "a2e6d5c0-b4c6-44bb-be4d-7cf55aa2175b")
+			(uuid "6ace93ae-1588-42ca-af00-fb43e778c62a")
 		)
 		(fp_line
 			(start -1.33 -1.33)
@@ -28516,7 +28543,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3335623f-40a0-4598-80cc-b4822783bf66")
+			(uuid "20fdd3c7-0096-4570-9a46-0116519a3278")
 		)
 		(fp_line
 			(start -1.33 -1.33)
@@ -28526,7 +28553,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e0800e4f-493f-4872-8157-0ae9c95e68e3")
+			(uuid "79e301a5-b06a-4a00-9bc2-77447d91d057")
 		)
 		(fp_line
 			(start 3.87 -1.33)
@@ -28536,7 +28563,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9c4bc9ca-0433-4dbe-abce-819ea81afb90")
+			(uuid "2fd6cc11-af7c-447b-8822-58c0991d988e")
 		)
 		(fp_line
 			(start -1.8 39.9)
@@ -28546,7 +28573,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "038ab12f-5e03-4fa7-a8d7-08d1fa405be9")
+			(uuid "6ba94ffa-6045-45f7-b6ac-fb096f5083c0")
 		)
 		(fp_line
 			(start 4.35 39.9)
@@ -28556,7 +28583,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3d05de48-8413-47d8-80bf-0d33362b53ce")
+			(uuid "698f01ef-5513-474e-befe-4e6b541b4d7a")
 		)
 		(fp_line
 			(start -1.8 -1.8)
@@ -28566,7 +28593,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "afcf5592-bef5-4857-9502-d95d2b8c66c9")
+			(uuid "ae900cb2-24f3-4a11-bf35-3c9e792994ad")
 		)
 		(fp_line
 			(start 4.35 -1.8)
@@ -28576,7 +28603,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "57480637-b5a3-45e6-82ba-0a21f1ef4336")
+			(uuid "d08b66fc-cd63-40d8-819c-38633e7c40c3")
 		)
 		(fp_line
 			(start -1.27 39.37)
@@ -28586,7 +28613,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1399619a-2645-4ee3-9d1c-610b0e20a1e2")
+			(uuid "49153dba-e96c-407f-afc2-dd8a289803e7")
 		)
 		(fp_line
 			(start 3.81 39.37)
@@ -28596,7 +28623,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "65f260c5-121f-498c-a9b7-38f430742087")
+			(uuid "8b967a81-19d0-491d-873f-980de9db8b90")
 		)
 		(fp_line
 			(start -1.27 0)
@@ -28606,7 +28633,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "02675208-0d21-4ceb-82b6-0e335bd1c2bb")
+			(uuid "9fc60f35-1a0d-4024-8f40-ed59e203972f")
 		)
 		(fp_line
 			(start 0 -1.27)
@@ -28616,7 +28643,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "28de5b68-9321-4857-83fa-401f3ae17a03")
+			(uuid "e3fb32b7-a731-4774-9241-f6baaf138848")
 		)
 		(fp_line
 			(start 3.81 -1.27)
@@ -28626,12 +28653,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ad21bed2-96d6-4568-8be8-630d8729416c")
+			(uuid "3dc96750-f538-49ea-aad9-d7810c681a47")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 1.27 19.05 0)
 			(layer "F.Fab")
-			(uuid "567791a3-e9fb-4ec9-874b-5d98f4319209")
+			(uuid "07c00629-81dd-41f5-81bd-a1b16cea9300")
 			(effects
 				(font
 					(size 1 1)
@@ -28648,7 +28675,7 @@
 			(net 43 "/A_OUTL")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "4bc3e582-05ef-4b92-997e-5ba09f4a3503")
+			(uuid "41840428-139d-4b60-8ca8-bd7574e12da0")
 		)
 		(pad "2" thru_hole oval
 			(at 2.54 0 270)
@@ -28659,7 +28686,7 @@
 			(net 138 "/GPIO27")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "063b7a18-35a8-4819-9f86-af4cb2ab2af3")
+			(uuid "8528b3e1-2eaa-4d7f-941e-515d0bda147a")
 		)
 		(pad "3" thru_hole oval
 			(at 0 2.54 270)
@@ -28670,7 +28697,7 @@
 			(net 40 "/A_OUTR")
 			(pinfunction "Pin_3")
 			(pintype "passive")
-			(uuid "a0fb0a4f-9f0c-4db1-b0d1-82668c74ffc3")
+			(uuid "a534c718-355e-4acd-992d-e8e1b2a8188d")
 		)
 		(pad "4" thru_hole oval
 			(at 2.54 2.54 270)
@@ -28681,7 +28708,7 @@
 			(net 137 "/GPIO26")
 			(pinfunction "Pin_4")
 			(pintype "passive")
-			(uuid "49534a44-c367-4225-83b3-b4db13d557ba")
+			(uuid "50d2ff76-1879-4b77-b0d7-47a20b79c75b")
 		)
 		(pad "5" thru_hole oval
 			(at 0 5.08 270)
@@ -28692,7 +28719,7 @@
 			(net 44 "/A_OUTB")
 			(pinfunction "Pin_5")
 			(pintype "passive")
-			(uuid "9414e595-0a67-48bc-b563-f45f9df12cc7")
+			(uuid "d729816d-6b4a-43eb-b627-bce803b1b490")
 		)
 		(pad "6" thru_hole oval
 			(at 2.54 5.08 270)
@@ -28703,7 +28730,7 @@
 			(net 141 "/GPIO28")
 			(pinfunction "Pin_6")
 			(pintype "passive")
-			(uuid "ab2aca53-5443-42b9-8cb8-ab05209e781f")
+			(uuid "6a958b34-3cd4-4ed7-b800-8934d3bb7dc5")
 		)
 		(pad "7" thru_hole oval
 			(at 0 7.62 270)
@@ -28714,7 +28741,7 @@
 			(net 47 "/A_TDAL")
 			(pinfunction "Pin_7")
 			(pintype "passive")
-			(uuid "ca5901f5-cda4-4d01-8e9e-8a944c3d8913")
+			(uuid "1560e108-7e37-4828-ae29-3344da0d9188")
 		)
 		(pad "8" thru_hole oval
 			(at 2.54 7.62 270)
@@ -28725,7 +28752,7 @@
 			(net 43 "/A_OUTL")
 			(pinfunction "Pin_8")
 			(pintype "passive")
-			(uuid "b773fd15-58fd-4eb5-923c-b20f702fbe32")
+			(uuid "e3d4a666-c168-49ce-b12e-4cf7068570cf")
 		)
 		(pad "9" thru_hole oval
 			(at 0 10.16 270)
@@ -28736,7 +28763,7 @@
 			(net 45 "/A_TDAR")
 			(pinfunction "Pin_9")
 			(pintype "passive")
-			(uuid "8c0caccf-1c96-473b-a08b-8904be63668b")
+			(uuid "84ec64c7-04ca-43d2-83bc-7489bd870dc3")
 		)
 		(pad "10" thru_hole oval
 			(at 2.54 10.16 270)
@@ -28747,7 +28774,7 @@
 			(net 40 "/A_OUTR")
 			(pinfunction "Pin_10")
 			(pintype "passive")
-			(uuid "7f3c5241-79fa-4f09-a5f8-64f0f6f72ca9")
+			(uuid "47412149-649e-41a0-adc0-f4b5f3e48ea2")
 		)
 		(pad "11" thru_hole oval
 			(at 0 12.7 270)
@@ -28758,7 +28785,7 @@
 			(net 1 "/LOAD_IN_D")
 			(pinfunction "Pin_11")
 			(pintype "passive")
-			(uuid "0616f846-9823-4367-98e1-7aafb56da456")
+			(uuid "9ad754c4-cb75-401d-9369-2c5d2a34ea48")
 		)
 		(pad "12" thru_hole oval
 			(at 2.54 12.7 270)
@@ -28769,7 +28796,7 @@
 			(net 140 "/GPIO22")
 			(pinfunction "Pin_12")
 			(pintype "passive")
-			(uuid "40ce03db-6bfd-45c1-b288-e4b4cc1240a3")
+			(uuid "fc4e3723-64a8-49ff-8c34-46d252bce5c1")
 		)
 		(pad "13" thru_hole oval
 			(at 0 15.24 270)
@@ -28780,7 +28807,7 @@
 			(net 22 "/MS_DATA_3V")
 			(pinfunction "Pin_13")
 			(pintype "passive")
-			(uuid "b87e1e6c-cf6b-4e9e-9f9e-d98199ef713f")
+			(uuid "fda7b706-dedc-4a6e-9ea6-51a883c3d8d4")
 		)
 		(pad "14" thru_hole oval
 			(at 2.54 15.24 270)
@@ -28791,7 +28818,7 @@
 			(net 136 "/GPIO15")
 			(pinfunction "Pin_14")
 			(pintype "passive")
-			(uuid "1d0f2644-96f9-4b78-ae90-f2e87bdf2ed9")
+			(uuid "c71f9814-b155-4561-a096-c4d754f258cd")
 		)
 		(pad "15" thru_hole oval
 			(at 0 17.78 270)
@@ -28802,7 +28829,7 @@
 			(net 23 "/MS_CLK_3V")
 			(pinfunction "Pin_15")
 			(pintype "passive")
-			(uuid "e2617201-7d72-4a15-9609-8afd51ae4eb7")
+			(uuid "6fa59ba2-4df2-4f79-b2cc-7aa629b05f9b")
 		)
 		(pad "16" thru_hole oval
 			(at 2.54 17.78 270)
@@ -28813,7 +28840,7 @@
 			(net 135 "/GPIO14")
 			(pinfunction "Pin_16")
 			(pintype "passive")
-			(uuid "981a73e6-cefc-4c3c-9d9e-21944f3cba09")
+			(uuid "ab39fd7b-5f22-45f0-9434-28e5df1ef6ba")
 		)
 		(pad "17" thru_hole oval
 			(at 0 20.32 270)
@@ -28824,7 +28851,7 @@
 			(net 24 "/GP1_DATA")
 			(pinfunction "Pin_17")
 			(pintype "passive")
-			(uuid "6dcf44b3-b68d-4b07-85bd-bb306bded976")
+			(uuid "cd3d1a6b-d8fe-4105-a54d-cb389127d2d8")
 		)
 		(pad "18" thru_hole oval
 			(at 2.54 20.32 270)
@@ -28835,7 +28862,7 @@
 			(net 139 "/GPIO16")
 			(pinfunction "Pin_18")
 			(pintype "passive")
-			(uuid "de6d45d7-cda2-43dc-afe4-ba755e246e9d")
+			(uuid "37452450-79a0-464e-b436-c805b0d01ccd")
 		)
 		(pad "19" thru_hole oval
 			(at 0 22.86 270)
@@ -28846,7 +28873,7 @@
 			(net 25 "/GP2_DATA")
 			(pinfunction "Pin_19")
 			(pintype "passive")
-			(uuid "5161410e-50af-473f-809f-8a822f5e5da2")
+			(uuid "c0145b40-052d-4657-818e-654250e812b9")
 		)
 		(pad "20" thru_hole oval
 			(at 2.54 22.86 270)
@@ -28857,7 +28884,7 @@
 			(net 143 "/GPIO17")
 			(pinfunction "Pin_20")
 			(pintype "passive")
-			(uuid "c1a57030-52da-405f-8bff-cf137c768b7f")
+			(uuid "4ddc7a3a-ee76-427e-8a72-25ac1707c786")
 		)
 		(pad "21" thru_hole oval
 			(at 0 25.4 270)
@@ -28868,7 +28895,7 @@
 			(net 46 "/PSR_SOSIO")
 			(pinfunction "Pin_21")
 			(pintype "passive")
-			(uuid "95481447-43bf-46d2-8111-a546056d06ae")
+			(uuid "f500af25-5b1a-4264-8306-19d9952f322d")
 		)
 		(pad "22" thru_hole oval
 			(at 2.54 25.4 270)
@@ -28879,7 +28906,7 @@
 			(net 142 "/GPIO21")
 			(pinfunction "Pin_22")
 			(pintype "passive")
-			(uuid "acffe904-29b6-4303-a688-a596bf7fa61d")
+			(uuid "a4363bec-731d-42af-a580-e1cf9a946831")
 		)
 		(pad "23" thru_hole oval
 			(at 0 27.94 270)
@@ -28890,7 +28917,7 @@
 			(net 41 "/ZERO_VBUS")
 			(pinfunction "Pin_23")
 			(pintype "passive")
-			(uuid "362b963a-41b2-4a62-83ce-2df283afc9b8")
+			(uuid "892ee410-cc80-456b-8a6c-5a779fcd3d16")
 		)
 		(pad "24" thru_hole oval
 			(at 2.54 27.94 270)
@@ -28901,7 +28928,7 @@
 			(net 7 "VBUS")
 			(pinfunction "Pin_24")
 			(pintype "passive")
-			(uuid "d9a09611-937d-48fc-b3dc-b06e255a0417")
+			(uuid "3ffe08e6-6be3-426e-9650-7e46d31bc9b2")
 		)
 		(pad "25" thru_hole oval
 			(at 0 30.48 270)
@@ -28912,7 +28939,7 @@
 			(net 42 "/RS232_TX")
 			(pinfunction "Pin_25")
 			(pintype "passive")
-			(uuid "5905742b-6787-4581-ae3c-dc133c540ef9")
+			(uuid "d7ed700b-c366-4fc5-9dad-5267962665fc")
 		)
 		(pad "26" thru_hole oval
 			(at 2.54 30.48 270)
@@ -28923,7 +28950,7 @@
 			(net 139 "/GPIO16")
 			(pinfunction "Pin_26")
 			(pintype "passive")
-			(uuid "3db3ec8a-62ed-494a-97d6-3d0599e844bf")
+			(uuid "a01d8282-4d29-4760-9c3e-c5fafeeb67b3")
 		)
 		(pad "27" thru_hole oval
 			(at 0 33.02 270)
@@ -28934,7 +28961,7 @@
 			(net 28 "/RS232_RX")
 			(pinfunction "Pin_27")
 			(pintype "passive")
-			(uuid "02e47cf6-e7a3-4d0f-9d8d-83d0a8b1a3b6")
+			(uuid "59dde720-399d-4f33-abd4-c519dc12f236")
 		)
 		(pad "28" thru_hole oval
 			(at 2.54 33.02 270)
@@ -28945,7 +28972,7 @@
 			(net 143 "/GPIO17")
 			(pinfunction "Pin_28")
 			(pintype "passive")
-			(uuid "3a180616-e933-4de3-9497-54c083ef8690")
+			(uuid "36a8012d-d84c-457a-a184-65df60be9296")
 		)
 		(pad "29" thru_hole oval
 			(at 0 35.56 270)
@@ -28956,7 +28983,7 @@
 			(net 26 "/RS232_CTS")
 			(pinfunction "Pin_29")
 			(pintype "passive")
-			(uuid "ffc4da89-4146-4f68-bad7-de164bd5e2ee")
+			(uuid "6c154478-6800-4a5b-9487-288ad3b11a6c")
 		)
 		(pad "30" thru_hole oval
 			(at 2.54 35.56 270)
@@ -28967,7 +28994,7 @@
 			(net 145 "/GPIO18")
 			(pinfunction "Pin_30")
 			(pintype "passive")
-			(uuid "8d28ed26-8c5a-448d-a84d-6a343d1fd72e")
+			(uuid "f283ea44-c2eb-4b5f-a250-0c86f32a83fc")
 		)
 		(pad "31" thru_hole oval
 			(at 0 38.1 270)
@@ -28978,7 +29005,7 @@
 			(net 48 "/RS232_RTS")
 			(pinfunction "Pin_31")
 			(pintype "passive")
-			(uuid "e0c23eab-9d5d-4651-9cc1-b53fa314c519")
+			(uuid "e1416c5d-3241-4a79-9ac1-0290273019de")
 		)
 		(pad "32" thru_hole oval
 			(at 2.54 38.1 270)
@@ -28989,7 +29016,7 @@
 			(net 144 "/GPIO19")
 			(pinfunction "Pin_32")
 			(pintype "passive")
-			(uuid "e23a69f7-b26e-42e2-9966-67b6e1d0e1cc")
+			(uuid "ceac859b-546f-4bc9-a422-ee451e866ed2")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x16_P2.54mm_Vertical.wrl"
 			(offset
@@ -33383,7 +33410,7 @@
 		)
 		(fp_arc
 			(start 19.42 49.32)
-			(mid 19.213496 49.58881)
+			(mid 19.213497 49.588778)
 			(end 18.89 49.69)
 			(stroke
 				(width 0.12)
@@ -33405,7 +33432,7 @@
 		)
 		(fp_arc
 			(start 18.89 -1.43)
-			(mid 19.213502 -1.328793)
+			(mid 19.213484 -1.328785)
 			(end 19.42 -1.06)
 			(stroke
 				(width 0.12)
