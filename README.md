@@ -32,7 +32,7 @@ FRANK supports emulation for a variety of platforms, including:
 
 ## FRANK Models
 
-Currently there are four versions of FRANK built and tested:
+Currently there are the following versions of FRANK available:
 
 * [FRANK M1](./hardware/frank_m1) (latest hardware revision: 1.13)
 * [FRANK M2](./hardware/frank_m2) (latest hardware revision: 2.1)
@@ -46,6 +46,6 @@ Currently there are four versions of FRANK built and tested:
 
 * [Valera](./hardware/valera) - next generation FRANK prototype based on RP2350 (Pico2)
 * [HDMI2VGA](./hardware/hdmi2vga) - HDMI to VGA/Soft Composite passive adaptor
-* [VersaTerm](./hardware/versa) - standalone VestaTerm built on plain RP2040 chip
+* [VersaTerm](./hardware/versa) - standalone VersaTerm built on plain RP2040 chip
 * [USB2PS2](./hardware/usb2ps2) - USB to PS/2 adapter built on plain RP2040 chip
 * [USB2PS2 Zero](./hardware/usb2ps2-zero) - USB to PS/2 adapter built on RP2040-Zero
