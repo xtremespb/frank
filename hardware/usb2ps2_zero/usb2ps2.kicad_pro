@@ -59,17 +59,8 @@
         }
       ],
       "drc_exclusions": [
-        "shorting_items|117680000|84920000|77d79291-e037-4b5d-848c-c5d12fe2f287|261330d4-5636-4f5f-b160-a8bfa13d06ce",
-        "shorting_items|117680000|87460000|191ab237-e5c6-4265-a8ff-f4ea55599690|4fff7c3c-8016-4b58-b775-2fcabd15089e",
-        "shorting_items|117680000|90000000|c8dac1e9-823b-4e4a-879f-040b9d682490|05cf8af8-e65f-40c4-9356-5b3a237f55fa",
-        "shorting_items|117680000|92540000|89c03c9b-8c3e-4980-9ee2-543d13d70f6b|b7522e78-6477-4d99-bb5d-edb0001aa2a2",
-        "shorting_items|117680000|95080000|d705245c-0f03-434f-8ccc-7601e2481f27|6d988b81-026d-44b3-88dc-feb46e89a852",
-        "shorting_items|120220000|100660000|cf581608-d40f-4aa9-8112-fd930816a87c|c0532d84-24b1-4ad5-b908-fe2d03e035db",
-        "shorting_items|127840000|100660000|584d316f-1ab7-46cb-9f83-86f9553904f4|4aa0a9d7-4d95-4cd4-adad-287ea46fca31",
-        "shorting_items|130380000|100660000|03a0ad1f-4894-43cd-9975-e6f52309160c|46164928-4eff-41b6-a4b0-642e5de32ca2",
-        "shorting_items|133420000|100160000|8db1a62c-89fc-4d67-aaeb-66bb14f0296b|50571efa-81c1-441a-858a-b07d436934e6",
-        "shorting_items|133420000|95080000|0c7d0e82-6675-4c70-908c-7c04ca6c3b63|ad06a9ea-8aed-42b6-9277-efa40605091f",
-        "shorting_items|133420000|97620000|b9a3b52c-08cc-4875-82b1-743ab9581bd3|e1411d06-6471-4dca-84a5-2cfe6ad9a5b8"
+        "silk_overlap|183260000|106750000|d2cfbc3c-f561-47da-a8d3-ce8ca8eea205|0cd9eeb8-dd34-448e-90e4-957862c364d5",
+        "silk_overlap|183260000|122950000|b38b24fd-8c0d-471b-84de-d44d422e1a77|0cd9eeb8-dd34-448e-90e4-957862c364d5"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -249,15 +240,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "multiple_net_names|1524000|1130300|f09f9493-1789-44a5-bac5-f0a29d8f74c8|c6125a44-5e65-43af-9cd7-c8bc4162bca7|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61",
-      "multiple_net_names|711200|1257300|58643039-1d05-4351-be2b-ee6286151269|10ad0549-131d-433a-9770-6b620df943b7|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61",
-      "pin_to_pin|1879600|292100|e0eaa48d-ac7c-4d19-958a-53690a79e0ba|6d330a9b-599f-4c57-9ac9-437209780298|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61",
-      "power_pin_not_driven|1727200|292100|a163136a-7ec7-4bb0-b1aa-86abf5e8bc87|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
-      "power_pin_not_driven|317500|1473200|9c874e3b-f676-412c-83f6-6943d6817297|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
-      "power_pin_not_driven|571500|1689100|60ec0b45-a78e-41e0-a522-a75c323dc05a|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
-      "power_pin_not_driven|914400|647700|b5339980-d588-496f-a2ff-2359389b09d9|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -733,10 +716,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers/",
+      "plot": "GERBERS/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "usb2ps2.step",
+      "step": "DOCS/usb2ps2.step",
       "svg": "",
       "vrml": ""
     },
@@ -794,11 +777,23 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -831,7 +826,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "./DOCS",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

@@ -6,9 +6,10 @@
 	(paper "A3")
 	(title_block
 		(title "USB to PS/2 Adapter")
-		(date "2024-12-07")
-		(rev "1.2")
+		(date "2025-02-19")
+		(rev "1.1")
 		(company "Mikhail Matveev")
+		(comment 1 "https://github.com/xtremespb/frank")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_A_Stacked"
@@ -1383,7 +1384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_USB_A_CUI_UJ2-ADH-TH_Horizontal_Stacked"
+		(property "Footprint" "FRANK:USB Type A (stacked)"
 			(at 41.91 62.23 0)
 			(effects
 				(font
@@ -1474,7 +1475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_R_0805"
+		(property "Footprint" "FRANK:Capacitor (0805)"
 			(at 82.2452 49.53 0)
 			(effects
 				(font
@@ -1542,7 +1543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 57.912 66.04 90)
 			(effects
 				(font
@@ -1611,7 +1612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_R_0805"
+		(property "Footprint" "FRANK:Capacitor (0805)"
 			(at 93.6752 49.53 0)
 			(effects
 				(font
@@ -1809,7 +1810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 66.802 64.77 90)
 			(effects
 				(font
@@ -1942,7 +1943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 54.102 59.69 90)
 			(effects
 				(font
@@ -2142,7 +2143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 70.612 71.12 90)
 			(effects
 				(font

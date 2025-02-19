@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP USB1035-GF-P-0-B-B
-D USB Connectors USB A Skt, Dual Top TH R/A, GF, BLK, No ground, W/stake, tray
-K
-F https://gct.co/connector/usb1035
-$ENDCMP
-#
-#End Doc Library
