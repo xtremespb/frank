@@ -6,9 +6,10 @@
 	(paper "A3")
 	(title_block
 		(title "USB to PS/2 Adapter")
-		(date "2024-12-07")
-		(rev "1.2")
+		(date "2025-02-19")
+		(rev "1.1")
 		(company "Mikhail Matveev")
+		(comment 1 "https://github.com/xtremespb/frank")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
@@ -389,7 +390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_UART_Pin3"
+		(property "Footprint" "FRANK:Pin Header (1x03)"
 			(at 31.75 39.37 0)
 			(effects
 				(font

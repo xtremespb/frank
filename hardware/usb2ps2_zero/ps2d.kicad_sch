@@ -6,253 +6,12 @@
 	(paper "A3")
 	(title_block
 		(title "USB to PS/2 Adapter")
-		(date "2024-12-07")
-		(rev "1.2")
+		(date "2025-02-19")
+		(rev "1.1")
 		(company "Mikhail Matveev")
+		(comment 1 "https://github.com/xtremespb/frank")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Mini-DIN-6"
 			(pin_names
 				(offset 1.016)
@@ -1584,54 +1343,6 @@
 	)
 	(hierarchical_label "CLK1"
 		(shape input)
-		(at 156.21 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "127175eb-727e-4334-ac90-c75190e6bbd3")
-	)
-	(hierarchical_label "DATA1"
-		(shape input)
-		(at 156.21 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "12ef3a06-53d9-4a44-8e81-cd7ea4f62db3")
-	)
-	(hierarchical_label "DATA2"
-		(shape input)
-		(at 156.21 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3b1c191d-65eb-47f5-944b-1b2670ac203e")
-	)
-	(hierarchical_label "CLK2"
-		(shape input)
-		(at 156.21 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "496e587e-a41b-4234-b7ff-cb74b692ef55")
-	)
-	(hierarchical_label "CLK1"
-		(shape input)
 		(at 115.57 49.53 90)
 		(fields_autoplaced yes)
 		(effects
@@ -1770,7 +1481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_D_0805"
+		(property "Footprint" "FRANK:Diode (SOD-323)"
 			(at 52.07 52.07 90)
 			(effects
 				(font
@@ -1906,7 +1617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Connector_Mini-DIN_Female_6Pin_2rows"
+		(property "Footprint" "FRANK:MiniDIN (6 Pin, female)"
 			(at 92.71 90.17 0)
 			(effects
 				(font
@@ -2052,7 +1763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_D_0805"
+		(property "Footprint" "FRANK:Diode (SOD-323)"
 			(at 52.07 59.69 90)
 			(effects
 				(font
@@ -2120,7 +1831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 56.642 72.39 90)
 			(effects
 				(font
@@ -2232,80 +1943,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 151.13 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96af2dc1-54b0-4db9-b25c-4909b30f27c8")
-		(property "Reference" "CN3"
-			(at 151.765 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PS/2 Pins"
-			(at 151.765 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LIBS:Medved_PinHeader_1x04"
-			(at 151.13 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 151.13 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6f53ed9e-ae01-4545-a15a-a2bcaa2e8ebf")
-		)
-		(pin "4"
-			(uuid "471bd868-0770-46d0-a748-a56ccb2a314b")
-		)
-		(pin "2"
-			(uuid "af9ea556-9a7c-48f6-aeac-4d88ffa1708a")
-		)
-		(pin "1"
-			(uuid "5210929d-e535-4c9d-98cd-9ca1f7e2801b")
-		)
-		(instances
-			(project ""
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/6c767f01-0461-4c4b-955a-2f0ac89894b4"
-					(reference "CN3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 124.46 72.39 180)
 		(unit 1)
@@ -2330,7 +1967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 126.238 72.39 90)
 			(effects
 				(font
@@ -2535,7 +2172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 65.532 72.39 90)
 			(effects
 				(font
@@ -2602,7 +2239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_D_0805"
+		(property "Footprint" "FRANK:Diode (SOD-323)"
 			(at 130.81 59.69 90)
 			(effects
 				(font
@@ -2669,7 +2306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 117.348 72.39 90)
 			(effects
 				(font
@@ -2736,7 +2373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_D_0805"
+		(property "Footprint" "FRANK:Diode (SOD-323)"
 			(at 130.81 52.07 90)
 			(effects
 				(font
