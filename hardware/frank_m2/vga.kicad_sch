@@ -5,9 +5,9 @@
 	(uuid "76589e0a-824a-47f4-83e0-a6f1ed94e34f")
 	(paper "A4")
 	(title_block
-		(title "FRANK")
-		(date "2025-02-18")
-		(rev "1.13")
+		(title "FRANK M2")
+		(date "2025-02-19")
+		(rev "2.1")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1508,7 +1508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://gr.mouser.com/datasheet/2/418/8/ENG_CD_2301844_H-2497630.pdf"
 			(at 80.01 46.99 0)
 			(effects
 				(font

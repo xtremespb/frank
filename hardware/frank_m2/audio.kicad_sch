@@ -5,9 +5,9 @@
 	(uuid "d788f764-34cb-4eaf-85d8-4a3d830ab970")
 	(paper "A4")
 	(title_block
-		(title "FRANK")
-		(date "2025-02-18")
-		(rev "1.13")
+		(title "FRANK M2")
+		(date "2025-02-19")
+		(rev "2.1")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)

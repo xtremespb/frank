@@ -92,10 +92,7 @@
         "shorting_items|127460000|72480000|b5d3fbea-991d-4531-a02c-662521512ef9|efd2dd55-dbf4-4ef3-9744-222305414f2d",
         "shorting_items|189370000|83280000|7f5c806d-316b-41fd-a6d3-f694a65fd743|c0be1b1a-5481-4a98-97c9-4237d91f299f",
         "shorting_items|194450000|83280000|80934651-bacb-4194-881b-64c574c16ff2|8023e70c-b52f-4d1e-b2ca-4aa3f1b579a8",
-        "shorting_items|199530000|83280000|507d7a6e-d68a-4267-9ce5-789809b59034|f2532108-fe42-4e22-9faf-e326fea3d801",
-        "text_thickness|138600000|99000000|8f97c677-3464-4439-85b6-59b05d915d6e|00000000-0000-0000-0000-000000000000",
-        "text_thickness|153800000|99000000|f406e869-548d-466e-a687-19b61a3e6a40|00000000-0000-0000-0000-000000000000",
-        "text_thickness|200000000|52500000|9689750e-987e-4753-b76d-3d5ada61d0e8|00000000-0000-0000-0000-000000000000"
+        "shorting_items|199530000|83280000|507d7a6e-d68a-4267-9ce5-789809b59034|f2532108-fe42-4e22-9faf-e326fea3d801"
       ],
       "meta": {
         "version": 2
@@ -141,7 +138,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "ignore",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -556,10 +553,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/",
+      "plot": "GERBERS/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "CMZJ2.step",
+      "step": "DOCS/CMZJ2.step",
       "svg": "",
       "vrml": ""
     },
@@ -677,6 +674,12 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AliExpress",
+          "name": "AliExpress",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -723,7 +726,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "./DOCS",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
