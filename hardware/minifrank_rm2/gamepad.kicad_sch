@@ -5,9 +5,9 @@
 	(uuid "6ddff74a-3d7d-43d7-8712-e887cd4e7274")
 	(paper "A4")
 	(title_block
-		(title "Frank M2")
-		(date "2025-02-02")
-		(rev "1.02")
+		(title "Frank RM2")
+		(date "2025-02-23")
+		(rev "1.03")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -1319,7 +1319,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e3bc68fc-1a90-4165-9d37-467f5079ac2b"
-					(reference "D16")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -1403,7 +1403,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e3bc68fc-1a90-4165-9d37-467f5079ac2b"
-					(reference "C44")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -1485,7 +1485,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e3bc68fc-1a90-4165-9d37-467f5079ac2b"
-					(reference "R76")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -1558,7 +1558,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e3bc68fc-1a90-4165-9d37-467f5079ac2b"
-					(reference "#PWR096")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -1640,7 +1640,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e3bc68fc-1a90-4165-9d37-467f5079ac2b"
-					(reference "D15")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -1713,7 +1713,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e3bc68fc-1a90-4165-9d37-467f5079ac2b"
-					(reference "#PWR098")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -1786,7 +1786,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e3bc68fc-1a90-4165-9d37-467f5079ac2b"
-					(reference "#PWR097")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -1973,7 +1973,7 @@
 			)
 			(project "valera-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/e3bc68fc-1a90-4165-9d37-467f5079ac2b"
-					(reference "R77")
+					(reference "R40")
 					(unit 1)
 				)
 			)

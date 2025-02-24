@@ -5,9 +5,9 @@
 	(uuid "177bde90-bd8a-463b-bdae-e9d72a38388c")
 	(paper "A4")
 	(title_block
-		(title "Frank M2")
-		(date "2025-02-02")
-		(rev "1.02")
+		(title "Frank RM2")
+		(date "2025-02-23")
+		(rev "1.03")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -2857,7 +2857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01b930a0-3e4c-4a2a-a1c7-4e81f52e76ac")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR015"
 			(at 167.64 77.47 0)
 			(effects
 				(font
@@ -2908,7 +2908,7 @@
 		(instances
 			(project "frank-m2-2350A"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR017")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4362,7 +4362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e75e37b1-78f0-4a6c-b1de-424239f90028")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR016"
 			(at 177.8 80.01 0)
 			(effects
 				(font
@@ -4413,7 +4413,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01"
-					(reference "#PWR019")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
