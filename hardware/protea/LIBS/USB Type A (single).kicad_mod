@@ -1,7 +1,7 @@
 (footprint "USB Type A (single)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USB type A, Horizontal, https://www.molex.com/pdm_docs/sd/676433910_sd.pdf")
 	(tags "USB_A Female Connector receptacle")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "25b164ef-f452-431b-a20d-45442e3bdd5a")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -128,16 +115,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "070d01df-f3ca-4841-83c8-ebec6014f02f")
-	)
-	(fp_line
-		(start -0.9 -2.6)
-		(end 0.9 -2.6)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "217aca3c-f000-4746-88bd-aa296dd7edd7")
 	)
 	(fp_line
 		(start 10.16 -2.38)
@@ -459,6 +436,7 @@
 		(remove_unused_layers no)
 		(uuid "4116e289-901a-4ecf-a607-51921cceb415")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_Molex_67643_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
