@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "8c0b3d8b-46d3-4173-ab1e-a61765f77d61")
 	(paper "A3")
 	(title_block
@@ -258,7 +258,6 @@
 	)
 	(label "GPIO15"
 		(at 116.84 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -269,7 +268,6 @@
 	)
 	(label "GPIO3"
 		(at 116.84 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -280,7 +278,6 @@
 	)
 	(label "GPIO1"
 		(at 63.5 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -291,7 +288,6 @@
 	)
 	(label "GPIO12"
 		(at 116.84 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -302,7 +298,6 @@
 	)
 	(label "GPIO11"
 		(at 63.5 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -313,7 +308,6 @@
 	)
 	(label "GPIO2"
 		(at 63.5 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -324,7 +318,6 @@
 	)
 	(label "GPIO14"
 		(at 63.5 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -335,7 +328,6 @@
 	)
 	(label "GPIO14"
 		(at 116.84 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -346,7 +338,6 @@
 	)
 	(label "GPIO3"
 		(at 63.5 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -357,7 +348,6 @@
 	)
 	(label "GPIO0"
 		(at 63.5 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -368,7 +358,6 @@
 	)
 	(label "GPIO4"
 		(at 116.84 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -379,7 +368,6 @@
 	)
 	(label "GPIO15"
 		(at 63.5 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -390,7 +378,6 @@
 	)
 	(label "GPIO1"
 		(at 116.84 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -401,7 +388,6 @@
 	)
 	(label "GPIO5"
 		(at 63.5 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -412,7 +398,6 @@
 	)
 	(label "GPIO4"
 		(at 63.5 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -423,7 +408,6 @@
 	)
 	(label "GPIO11"
 		(at 116.84 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -434,7 +418,6 @@
 	)
 	(label "GPIO12"
 		(at 63.5 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -445,7 +428,6 @@
 	)
 	(label "GPIO0"
 		(at 116.84 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -456,7 +438,6 @@
 	)
 	(label "GPIO2"
 		(at 116.84 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -467,7 +448,6 @@
 	)
 	(label "GPIO5"
 		(at 116.84 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -479,6 +459,10 @@
 	(sheet
 		(at 88.9 54.61)
 		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -509,43 +493,43 @@
 		)
 		(pin "D1+" input
 			(at 101.6 57.15 0)
+			(uuid "7517956c-eb55-4059-95bd-42f5c2f19bb7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7517956c-eb55-4059-95bd-42f5c2f19bb7")
 		)
 		(pin "D1-" input
 			(at 101.6 59.69 0)
+			(uuid "1bf9ff34-1ded-4afb-b698-5f9cc9599972")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1bf9ff34-1ded-4afb-b698-5f9cc9599972")
 		)
 		(pin "D2+" input
 			(at 101.6 62.23 0)
+			(uuid "4a8a2fc7-9d53-44da-8156-94c66028286e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4a8a2fc7-9d53-44da-8156-94c66028286e")
 		)
 		(pin "D2-" input
 			(at 101.6 64.77 0)
+			(uuid "17e464c8-1db1-4417-b9f9-a7f134cfd2bc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "17e464c8-1db1-4417-b9f9-a7f134cfd2bc")
 		)
 		(instances
 			(project "usb2ps2"
@@ -558,6 +542,10 @@
 	(sheet
 		(at 88.9 73.66)
 		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -588,43 +576,43 @@
 		)
 		(pin "CLK1" input
 			(at 101.6 76.2 0)
+			(uuid "2ce1d110-7bd3-4b36-a644-39b43702543f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2ce1d110-7bd3-4b36-a644-39b43702543f")
 		)
 		(pin "DATA1" input
 			(at 101.6 78.74 0)
+			(uuid "79cc4bcb-0e22-4b73-aeb4-535e58ff2714")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "79cc4bcb-0e22-4b73-aeb4-535e58ff2714")
 		)
 		(pin "DATA2" input
 			(at 101.6 83.82 0)
+			(uuid "bd44023b-792d-4324-87c1-09b4ac87556e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bd44023b-792d-4324-87c1-09b4ac87556e")
 		)
 		(pin "CLK2" input
 			(at 101.6 81.28 0)
+			(uuid "0d209e38-11a6-49bd-97b4-305a6a452c6f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0d209e38-11a6-49bd-97b4-305a6a452c6f")
 		)
 		(instances
 			(project "usb2ps2"
@@ -637,6 +625,10 @@
 	(sheet
 		(at 88.9 41.91)
 		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -667,23 +659,23 @@
 		)
 		(pin "GPIO0" input
 			(at 101.6 44.45 0)
+			(uuid "0fb5389f-4efc-4371-ae84-f67bf2914a82")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0fb5389f-4efc-4371-ae84-f67bf2914a82")
 		)
 		(pin "GPIO1" input
 			(at 101.6 46.99 0)
+			(uuid "c8525515-29eb-4256-9ed8-32eb6e0af94c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c8525515-29eb-4256-9ed8-32eb6e0af94c")
 		)
 		(instances
 			(project "usb2ps2"
@@ -696,6 +688,10 @@
 	(sheet
 		(at 35.56 40.64)
 		(size 12.7 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -726,213 +722,213 @@
 		)
 		(pin "GPIO3" input
 			(at 48.26 44.45 0)
+			(uuid "9687dc94-71b6-4a78-bda0-00c23efd9f9b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9687dc94-71b6-4a78-bda0-00c23efd9f9b")
 		)
 		(pin "GPIO4" input
 			(at 48.26 46.99 0)
+			(uuid "e6e5e671-60af-470f-80df-7b7e22ae0002")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e6e5e671-60af-470f-80df-7b7e22ae0002")
 		)
 		(pin "GPIO5" input
 			(at 48.26 49.53 0)
+			(uuid "8567e88b-f081-47bf-a389-1c97dcebad20")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8567e88b-f081-47bf-a389-1c97dcebad20")
 		)
 		(pin "GPIO6" input
 			(at 48.26 52.07 0)
+			(uuid "4593b198-32c0-425d-8a77-6c75bd5a5c4b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4593b198-32c0-425d-8a77-6c75bd5a5c4b")
 		)
 		(pin "3V3" input
 			(at 48.26 54.61 0)
+			(uuid "3f34ff0c-0137-4b91-a009-84813aab8621")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3f34ff0c-0137-4b91-a009-84813aab8621")
 		)
 		(pin "GPIO29" input
 			(at 48.26 57.15 0)
+			(uuid "a13c2cf6-6391-4561-94af-7e62fb47750c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a13c2cf6-6391-4561-94af-7e62fb47750c")
 		)
 		(pin "GPIO8" input
 			(at 48.26 59.69 0)
+			(uuid "95e4362a-7e50-4b2a-b35e-91c46caf7a3e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "95e4362a-7e50-4b2a-b35e-91c46caf7a3e")
 		)
 		(pin "GPIO0" input
 			(at 48.26 62.23 0)
+			(uuid "429822eb-6411-4ed9-bb1a-1684ec12a92d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "429822eb-6411-4ed9-bb1a-1684ec12a92d")
 		)
 		(pin "GPIO1" input
 			(at 48.26 64.77 0)
+			(uuid "351dac66-e55b-4793-b913-1e8743e841cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "351dac66-e55b-4793-b913-1e8743e841cd")
 		)
 		(pin "GPIO2" input
 			(at 48.26 67.31 0)
+			(uuid "d48290e2-557c-480b-acfe-83d98dd43807")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d48290e2-557c-480b-acfe-83d98dd43807")
 		)
 		(pin "GPIO7" input
 			(at 48.26 69.85 0)
+			(uuid "a9d44db8-2a4f-4b06-a9ac-b74c0eb90c0f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a9d44db8-2a4f-4b06-a9ac-b74c0eb90c0f")
 		)
 		(pin "GPIO9" input
 			(at 48.26 72.39 0)
+			(uuid "31a42578-cbcf-44b0-a024-b382fbc6c511")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "31a42578-cbcf-44b0-a024-b382fbc6c511")
 		)
 		(pin "GPIO10" input
 			(at 48.26 74.93 0)
+			(uuid "ee30490d-031d-459a-bb59-a9560ad18e16")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ee30490d-031d-459a-bb59-a9560ad18e16")
 		)
 		(pin "GPIO11" input
 			(at 48.26 77.47 0)
+			(uuid "8169b0cf-d343-472e-976a-b76fcf0bd39d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8169b0cf-d343-472e-976a-b76fcf0bd39d")
 		)
 		(pin "GPIO12" input
 			(at 48.26 80.01 0)
+			(uuid "35e2cdb7-88de-4298-80bb-015bc0404762")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "35e2cdb7-88de-4298-80bb-015bc0404762")
 		)
 		(pin "GPIO13" input
 			(at 48.26 82.55 0)
+			(uuid "e24e7000-52b4-4a28-9e85-13bfc29e728e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e24e7000-52b4-4a28-9e85-13bfc29e728e")
 		)
 		(pin "GPIO14" input
 			(at 48.26 85.09 0)
+			(uuid "4bc93443-bd59-4ae4-a616-4ca6c3efaf42")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4bc93443-bd59-4ae4-a616-4ca6c3efaf42")
 		)
 		(pin "GPIO15" input
 			(at 48.26 87.63 0)
+			(uuid "306c2a55-c1e7-498e-9d34-4bce4726737e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "306c2a55-c1e7-498e-9d34-4bce4726737e")
 		)
 		(pin "GPIO26" input
 			(at 48.26 92.71 0)
+			(uuid "5338d435-e761-4db9-af15-6f5c690146b9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5338d435-e761-4db9-af15-6f5c690146b9")
 		)
 		(pin "GPIO27" input
 			(at 48.26 90.17 0)
+			(uuid "b863e684-28bd-4bdb-b59e-42e9599dde54")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b863e684-28bd-4bdb-b59e-42e9599dde54")
 		)
 		(pin "GPIO28" input
 			(at 48.26 95.25 0)
+			(uuid "820c37cf-a1a7-4751-a6f7-31d434fcdb74")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "820c37cf-a1a7-4751-a6f7-31d434fcdb74")
 		)
 		(instances
 			(project "usb2ps2"
@@ -947,4 +943,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
