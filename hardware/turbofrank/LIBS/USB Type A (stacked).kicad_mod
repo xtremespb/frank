@@ -1,7 +1,7 @@
 (footprint "USB Type A (stacked)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USB-A two stacked horizontal receptacle, through-hole (https://www.cuidevices.com/product/resource/uj2-adh-th.pdf)")
 	(tags "USB-A CUI stacked horizontal through-hole")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "69989bee-0c61-4bf7-b8fd-8b92bfcf4902")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -68,36 +55,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -11.58 10.13)
-		(end -4.73 10.13)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "b70b3b60-dc54-4ab0-8ef6-f6c6b8cb4fbb")
-	)
-	(fp_line
-		(start -4.73 -3.13)
-		(end -11.58 -3.13)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "d8229630-9d9a-4d13-8c92-bd746184bc32")
-	)
-	(fp_line
-		(start 4.07 8.4)
-		(end 4.07 -1.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "8ac0e7d5-fc4f-45f7-972c-b1abce8fe048")
-	)
 	(fp_line
 		(start -11.58 10.13)
 		(end -4.73 10.13)
@@ -430,7 +387,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c520205c-ce34-4f0d-90c9-d18cdb2e955d")
 	)
@@ -441,7 +398,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f35d86b5-83b6-43bd-a2e7-98c5c212ab7f")
 	)
@@ -552,6 +509,7 @@
 		(remove_unused_layers no)
 		(uuid "5ae399ab-60e0-47fa-973b-a1a784c7c200")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/3D/USB1035-GF-P-0-B-B.stp"
 		(offset
 			(xyz -2.5 -3.5 0)
