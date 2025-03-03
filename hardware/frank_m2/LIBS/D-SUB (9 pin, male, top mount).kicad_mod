@@ -1,7 +1,7 @@
 (footprint "D-SUB (9 pin, male, top mount)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, male, pitch 2.77x2.84mm, pin-PCB-offset 4.9399999999999995mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 7.4799999999999995mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 	(tags "9-pin D-Sub connector horizontal angled 90deg THT male pitch 2.77x2.84mm pin-PCB-offset 4.9399999999999995mm mounting-holes-distance 25mm mounting-hole-offset 25mm")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "59933fbc-fb98-4eaf-8b65-e4e5812cc6be")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -68,36 +55,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -9.945 -2.76)
-		(end 21.025 -2.76)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "543e8632-8aca-4674-a536-b3edd8261562")
-	)
-	(fp_line
-		(start -9.945 7.72)
-		(end -9.945 -2.76)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "2adfc3ea-47ab-43ba-8d90-08de9ede594a")
-	)
-	(fp_line
-		(start 21.025 -2.76)
-		(end 21.025 7.72)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "73aa26e4-5912-4362-bdb6-64e6a36ec788")
-	)
 	(fp_line
 		(start -9.945 -2.76)
 		(end 21.025 -2.76)
@@ -529,6 +486,7 @@
 		(remove_unused_layers no)
 		(uuid "5954ff78-578e-471b-af50-021aa989f5b0")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/3D/DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm.wrl"
 		(offset
 			(xyz 0 0 0)

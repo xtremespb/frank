@@ -1,7 +1,7 @@
 (footprint "RCA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Crystal SERIES SMD0603/4 http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-4.pdf, 6.0x3.5mm^2 package")
 	(tags "SMD SMT crystal")
@@ -25,18 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "626d0f3e-94c5-4ee4-9eb7-86380ffb2235")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -66,106 +54,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -5 -1)
-		(end -5 -2.9375)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "02cfa701-43ff-4819-8544-28dcba81ddbb")
-	)
-	(fp_line
-		(start -5 5)
-		(end -5 3.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "06341b97-c8d8-46e5-8cc8-2f78226989c8")
-	)
-	(fp_line
-		(start -4 5)
-		(end -5 5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "0d412ec0-4fe1-4ecb-be6a-c520cbb79214")
-	)
-	(fp_line
-		(start -1.25 5)
-		(end -2.5 5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "52d02332-6eea-4ce7-825c-4e8445bae9a3")
-	)
-	(fp_line
-		(start 2.5 5)
-		(end 1.1 5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "63416d92-ee23-40d5-b1e7-015d86b52495")
-	)
-	(fp_line
-		(start 5 -2.75)
-		(end 5 -1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "8ee1026c-4439-4331-b26e-e0f4e762555b")
-	)
-	(fp_line
-		(start 5 -1)
-		(end 5 -2.9375)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "a4bf031e-7c8d-4768-afb6-923cd5f19df3")
-	)
-	(fp_line
-		(start 5 3.75)
-		(end 5 5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "5a54b2de-945c-4b2e-9a0b-d7863c5899eb")
-	)
-	(fp_line
-		(start 5 5)
-		(end 4 5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "fed26da3-8576-4e58-bb74-cf214dd69679")
-	)
-	(fp_line
-		(start 5 5)
-		(end 5 3.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "c7f5ea44-61f7-486c-ac8f-98e5e48ed421")
-	)
 	(fp_line
 		(start -5 5)
 		(end -5 -2.75)
@@ -357,6 +245,7 @@
 		(remove_unused_layers no)
 		(uuid "5444c1c2-8c39-42fc-b5ba-18e10796d890")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/3d/CUI_DEVICES_RCJ-013.step"
 		(offset
 			(xyz 0 -3 6.5)
