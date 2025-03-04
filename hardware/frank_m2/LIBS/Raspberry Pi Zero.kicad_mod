@@ -1,7 +1,7 @@
 (footprint "Raspberry Pi Zero"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "U?"
 		(at 0 -0.96 0)
@@ -24,18 +24,6 @@
 			(font
 				(size 0.6096 0.6096)
 				(thickness 0.0762)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4743aab6-5e59-41c0-8d59-6a3c4202a5c5")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -64,90 +52,6 @@
 		)
 	)
 	(attr through_hole exclude_from_pos_files)
-	(fp_line
-		(start -9 11.23)
-		(end -9 -11.24)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "746cee31-fe74-4f63-a147-9a3afda05ad9")
-	)
-	(fp_line
-		(start -8.5 -11.74)
-		(end 8.49 -11.74)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "bcef1b3e-7bfe-48eb-8e76-0b6293917ddf")
-	)
-	(fp_line
-		(start 8.49 11.73)
-		(end -8.5 11.73)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "92a7bd33-74ef-4cdd-ac17-37500541d657")
-	)
-	(fp_line
-		(start 8.99 -11.24)
-		(end 8.99 11.23)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "22881e5b-6f21-473d-8339-f9d666716df0")
-	)
-	(fp_arc
-		(start -9 -11.24)
-		(mid -8.853553 -11.593553)
-		(end -8.5 -11.74)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "cba644ad-5ccf-4f3b-910f-42ec42a34b02")
-	)
-	(fp_arc
-		(start -8.5 11.73)
-		(mid -8.853553 11.583553)
-		(end -9 11.23)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "466977a4-77f1-476d-839c-e5630554a699")
-	)
-	(fp_arc
-		(start 8.49 -11.74)
-		(mid 8.843553 -11.593553)
-		(end 8.99 -11.24)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "7438688a-3085-465b-8f8e-0411f0889309")
-	)
-	(fp_arc
-		(start 8.99 11.23)
-		(mid 8.843553 11.583553)
-		(end 8.49 11.73)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "8d56fda5-3165-4dda-8ddc-104f8494fc00")
-	)
 	(fp_line
 		(start -9 -11.25)
 		(end -9 -11)
@@ -447,7 +351,7 @@
 	(pad "1" smd oval
 		(at 8.12 -10.16)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "88d8f0c3-3b75-492c-ac2d-644b23c9a6f8")
 	)
 	(pad "2" thru_hole oval
@@ -461,7 +365,7 @@
 	(pad "2" smd oval
 		(at 8.12 -7.62)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0f9424dc-c294-40c8-89a1-718aa5a07098")
 	)
 	(pad "3" thru_hole oval
@@ -475,7 +379,7 @@
 	(pad "3" smd oval
 		(at 8.12 -5.08)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "394c805f-59c3-46cf-b5d6-9567bc5ab5bf")
 	)
 	(pad "4" thru_hole oval
@@ -489,7 +393,7 @@
 	(pad "4" smd oval
 		(at 8.12 -2.54)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "99ae3373-40dd-4b64-98fa-19346cfc7f89")
 	)
 	(pad "5" thru_hole oval
@@ -503,7 +407,7 @@
 	(pad "5" smd oval
 		(at 8.12 0)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "71d714e4-6f3f-471f-bd5a-49c16febe0c8")
 	)
 	(pad "6" thru_hole oval
@@ -517,7 +421,7 @@
 	(pad "6" smd oval
 		(at 8.12 2.54)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "94bdd712-d86a-42af-bb27-62a58481ba61")
 	)
 	(pad "7" thru_hole oval
@@ -531,7 +435,7 @@
 	(pad "7" smd oval
 		(at 8.12 5.08)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3dbe9226-aa30-4009-bcf2-9342e2369ecf")
 	)
 	(pad "8" thru_hole oval
@@ -545,7 +449,7 @@
 	(pad "8" smd oval
 		(at 8.12 7.62)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "463dea5f-c1c9-4c85-a6db-36d93732ed04")
 	)
 	(pad "9" thru_hole oval
@@ -559,7 +463,7 @@
 	(pad "9" smd oval
 		(at 8.12 10.16)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "66ad240a-1f91-48d6-bcc2-9bded2032563")
 	)
 	(pad "10" thru_hole oval
@@ -573,7 +477,7 @@
 	(pad "10" smd oval
 		(at 5.08 10.66 90)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "71e989e8-7143-4485-8c36-35ee6a5234f5")
 	)
 	(pad "11" thru_hole oval
@@ -587,7 +491,7 @@
 	(pad "11" smd oval
 		(at 2.54 10.66 90)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6a948a98-25bf-466f-8369-777bc9baa4b4")
 	)
 	(pad "12" thru_hole oval
@@ -601,7 +505,7 @@
 	(pad "12" smd oval
 		(at 0 10.66 90)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6242ddab-bd49-44ad-a744-d056d461bbea")
 	)
 	(pad "13" thru_hole oval
@@ -615,7 +519,7 @@
 	(pad "13" smd oval
 		(at -2.54 10.66 90)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cdcd8b88-0690-42ea-97b9-826788c58fc8")
 	)
 	(pad "14" thru_hole oval
@@ -629,13 +533,13 @@
 	(pad "14" smd oval
 		(at -5.08 10.66 90)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b0bd3a18-c1e0-48c2-ac05-ff95e8d2c83e")
 	)
 	(pad "15" smd oval
 		(at -8.12 10.16)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fdff4834-6ebe-46b6-b89b-ba525da8780d")
 	)
 	(pad "15" thru_hole oval
@@ -649,7 +553,7 @@
 	(pad "16" smd oval
 		(at -8.12 7.62)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d8b58dd6-3506-4d7b-9dea-32e76b05a5ea")
 	)
 	(pad "16" thru_hole oval
@@ -663,7 +567,7 @@
 	(pad "17" smd oval
 		(at -8.12 5.08)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d42bc684-cc23-4457-9da6-b10296f9d5fd")
 	)
 	(pad "17" thru_hole oval
@@ -677,7 +581,7 @@
 	(pad "18" smd oval
 		(at -8.12 2.54)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d2d403d8-830b-4d02-aa37-28cec3a5cc2b")
 	)
 	(pad "18" thru_hole oval
@@ -691,7 +595,7 @@
 	(pad "19" smd oval
 		(at -8.12 0)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d81d5f7d-edd9-4c1a-8a61-b12ac2cc5d08")
 	)
 	(pad "19" thru_hole oval
@@ -705,7 +609,7 @@
 	(pad "20" smd oval
 		(at -8.12 -2.54)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "36a5ac24-a1b0-4ddc-9eab-9283d881a8bd")
 	)
 	(pad "20" thru_hole oval
@@ -719,7 +623,7 @@
 	(pad "21" smd oval
 		(at -8.12 -5.08)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4432d991-1ec8-4dc4-9f71-9957e6bd7b29")
 	)
 	(pad "21" thru_hole oval
@@ -733,7 +637,7 @@
 	(pad "22" smd oval
 		(at -8.12 -7.62)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bd4653d1-92d6-442c-8cc1-5b7b25ffd4d6")
 	)
 	(pad "22" thru_hole oval
@@ -747,7 +651,7 @@
 	(pad "23" smd oval
 		(at -8.12 -10.16)
 		(size 2.5 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "31750825-cd40-4a76-9392-a983858def4e")
 	)
 	(pad "23" thru_hole oval
@@ -758,6 +662,7 @@
 		(remove_unused_layers no)
 		(uuid "8a11f86e-586e-495d-a11e-a1e650589934")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/3D/RP2040-ZERO-WAVESHARE with headers.STEP"
 		(offset
 			(xyz 0 0 11.04)

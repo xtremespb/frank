@@ -1,14 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "c326cd3a-5e0e-4f9d-aedd-01b162fbbdf0")
 	(paper "A3")
 	(title_block
 		(title "USB to PS/2 Adapter")
-		(date "2024-12-07")
-		(rev "1.2")
+		(date "2025-03-04")
+		(rev "1.02")
 		(company "Mikhail Matveev")
+		(comment 1 "https://github.com/xtremespb/frank")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_A_Stacked"
@@ -103,9 +104,10 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center -0.889 -1.27)
-					(radius 0.635)
+				(polyline
+					(pts
+						(xy -1.524 3.175) (xy -0.254 3.175) (xy -0.889 4.445) (xy -1.524 3.175)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -114,11 +116,35 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start -0.254 7.366)
-					(end -3.048 7.874)
+				(polyline
+					(pts
+						(xy -0.889 0) (xy -0.889 0.635) (xy 0.381 1.27) (xy 0.381 2.54)
+					)
 					(stroke
-						(width 0)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.635) (xy -0.889 0) (xy -2.159 1.27) (xy -2.159 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.889 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -137,66 +163,19 @@
 					)
 				)
 				(rectangle
-					(start -0.127 -12.7)
-					(end 0.127 -11.938)
+					(start -0.254 7.366)
+					(end -3.048 7.874)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 3.175) (xy -0.254 3.175) (xy -0.889 4.445) (xy -1.524 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -0.635) (xy -0.889 0) (xy -2.159 1.27) (xy -2.159 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 0) (xy -0.889 0.635) (xy 0.381 1.27) (xy 0.381 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 2.794)
-					(end 0.762 2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
 						(type outline)
 					)
 				)
 				(rectangle
-					(start 0 7.112)
-					(end -3.302 8.382)
+					(start -0.127 -12.7)
+					(end 0.127 -11.938)
 					(stroke
 						(width 0)
 						(type default)
@@ -217,6 +196,28 @@
 					)
 				)
 				(rectangle
+					(start 0 7.112)
+					(end -3.302 8.382)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 2.794)
+					(end 0.762 2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
 					(start 2.413 -12.7)
 					(end 2.667 -11.938)
 					(stroke
@@ -228,41 +229,8 @@
 					)
 				)
 				(rectangle
-					(start 7.62 -5.207)
-					(end 6.858 -4.953)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 7.62 -2.667)
-					(end 6.858 -2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 7.62 -0.127)
-					(end 6.858 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 7.62 2.413)
-					(end 6.858 2.667)
+					(start 7.62 10.033)
+					(end 6.858 10.287)
 					(stroke
 						(width 0)
 						(type default)
@@ -283,8 +251,41 @@
 					)
 				)
 				(rectangle
-					(start 7.62 10.033)
-					(end 6.858 10.287)
+					(start 7.62 2.413)
+					(end 6.858 2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 -0.127)
+					(end 6.858 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 -2.667)
+					(end 6.858 -2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 -5.207)
+					(end 6.858 -4.953)
 					(stroke
 						(width 0)
 						(type default)
@@ -307,53 +308,17 @@
 						(type none)
 					)
 				)
-				(pin power_in line
-					(at 10.16 10.16 180)
+				(pin passive line
+					(at -2.54 -15.24 90)
 					(length 2.54)
-					(name "VBUS1"
+					(name "Shield"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "D1-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "D1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -380,6 +345,42 @@
 					)
 				)
 				(pin power_in line
+					(at 2.54 -15.24 90)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "VBUS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 10.16 7.62 180)
 					(length 2.54)
 					(name "VBUS2"
@@ -398,16 +399,34 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 -5.08 180)
+					(at 10.16 2.54 180)
 					(length 2.54)
-					(name "D2-"
+					(name "D1+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "D1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -433,35 +452,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 2.54 -15.24 90)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
 					(length 2.54)
-					(name "GND2"
+					(name "D2-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -15.24 90)
-					(length 2.54)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -470,9 +471,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -545,7 +549,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -557,7 +561,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -606,9 +610,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -727,12 +734,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_1"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -823,6 +835,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -902,7 +915,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -919,6 +933,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VBUS"
 			(power)
@@ -996,7 +1011,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1008,7 +1023,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1022,7 +1037,8 @@
 			(symbol "VBUS_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "VBUS"
 						(effects
 							(font
@@ -1039,6 +1055,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1312,7 +1329,6 @@
 	(hierarchical_label "D2+"
 		(shape input)
 		(at 68.58 80.01 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1324,7 +1340,6 @@
 	(hierarchical_label "D1-"
 		(shape input)
 		(at 59.69 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1336,7 +1351,6 @@
 	(hierarchical_label "D1+"
 		(shape input)
 		(at 55.88 74.93 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1348,7 +1362,6 @@
 	(hierarchical_label "D2-"
 		(shape input)
 		(at 72.39 80.01 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1367,7 +1380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bdfeba4-77f8-4615-bb7d-148f012d4d0e")
-		(property "Reference" "USB2"
+		(property "Reference" "USB1"
 			(at 38.1 30.48 0)
 			(effects
 				(font
@@ -1383,7 +1396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_USB_A_CUI_UJ2-ADH-TH_Horizontal_Stacked"
+		(property "Footprint" "FRANK:USB Type A (stacked)"
 			(at 41.91 62.23 0)
 			(effects
 				(font
@@ -1441,7 +1454,7 @@
 		(instances
 			(project "usb2ps2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "USB2")
+					(reference "USB1")
 					(unit 1)
 				)
 			)
@@ -1456,7 +1469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14d74d73-55ac-43cc-b2e7-f8c098551b88")
-		(property "Reference" "C17"
+		(property "Reference" "C1"
 			(at 84.201 44.5516 0)
 			(effects
 				(font
@@ -1474,7 +1487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_R_0805"
+		(property "Footprint" "FRANK:Capacitor (0805)"
 			(at 82.2452 49.53 0)
 			(effects
 				(font
@@ -1510,7 +1523,7 @@
 		(instances
 			(project "usb2ps2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "C17")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1526,7 +1539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b236318-aee0-4986-9366-9f5de15741ac")
-		(property "Reference" "R11"
+		(property "Reference" "R3"
 			(at 61.722 66.04 90)
 			(effects
 				(font
@@ -1542,7 +1555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 57.912 66.04 90)
 			(effects
 				(font
@@ -1578,7 +1591,7 @@
 		(instances
 			(project "usb2ps2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "R11")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1593,7 +1606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33ecd39b-745b-4382-b20b-ac45fdbdaee7")
-		(property "Reference" "C18"
+		(property "Reference" "C2"
 			(at 95.631 44.5516 0)
 			(effects
 				(font
@@ -1611,7 +1624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_R_0805"
+		(property "Footprint" "FRANK:Capacitor (0805)"
 			(at 93.6752 49.53 0)
 			(effects
 				(font
@@ -1647,7 +1660,7 @@
 		(instances
 			(project "usb2ps2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "C18")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -1662,7 +1675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "408ea11a-0d89-4d7a-a6a9-976b1fa2a90c")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR04"
 			(at 52.07 40.64 0)
 			(effects
 				(font
@@ -1712,7 +1725,7 @@
 		(instances
 			(project "usb2ps2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "#PWR031")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1727,7 +1740,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c893dd3-6e15-40ff-afe6-95f360e54ae5")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR06"
 			(at 81.28 57.15 0)
 			(effects
 				(font
@@ -1777,7 +1790,7 @@
 		(instances
 			(project "usb2ps2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "#PWR033")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1793,7 +1806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "582ccf44-e6fd-42d8-be40-46a5dc3e829c")
-		(property "Reference" "R10"
+		(property "Reference" "R2"
 			(at 70.612 64.77 90)
 			(effects
 				(font
@@ -1809,7 +1822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 66.802 64.77 90)
 			(effects
 				(font
@@ -1845,7 +1858,7 @@
 		(instances
 			(project "usb2ps2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "R10")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1860,7 +1873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7676a6d-a984-4841-9bd6-c39ae7845892")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR07"
 			(at 92.71 57.15 0)
 			(effects
 				(font
@@ -1910,7 +1923,7 @@
 		(instances
 			(project "usb2ps2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "#PWR034")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -1926,7 +1939,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db5e383d-fb6a-4607-9fda-3c40f76195a6")
-		(property "Reference" "R9"
+		(property "Reference" "R1"
 			(at 57.912 59.69 90)
 			(effects
 				(font
@@ -1942,7 +1955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 54.102 59.69 90)
 			(effects
 				(font
@@ -1978,7 +1991,7 @@
 		(instances
 			(project "usb2ps2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "R9")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1993,7 +2006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec15ef34-0187-4cea-8701-0eeb491628d5")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR05"
 			(at 58.42 40.64 0)
 			(effects
 				(font
@@ -2043,7 +2056,7 @@
 		(instances
 			(project "usb2ps2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "#PWR032")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2060,7 +2073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0b9bdf3-09d1-480f-95c0-72aac9717088")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR08"
 			(at 38.1 73.66 0)
 			(effects
 				(font
@@ -2110,7 +2123,7 @@
 		(instances
 			(project ""
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "#PWR035")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2126,7 +2139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdb7960e-d102-40df-b235-dbb8261b5659")
-		(property "Reference" "R12"
+		(property "Reference" "R4"
 			(at 74.422 71.12 90)
 			(effects
 				(font
@@ -2142,7 +2155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LIBS:Medved_R_0805"
+		(property "Footprint" "FRANK:Resistor (0805)"
 			(at 70.612 71.12 90)
 			(effects
 				(font
@@ -2178,7 +2191,7 @@
 		(instances
 			(project "usb2ps2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/0026ee43-61f7-4da2-b06e-4811e7b74caa"
-					(reference "R12")
+					(reference "R4")
 					(unit 1)
 				)
 			)
