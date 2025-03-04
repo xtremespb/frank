@@ -36,9 +36,9 @@ Currently there are the following versions of FRANK available:
 
 * [FRANK M1](./hardware/frank_m1) (latest hardware revision: 1.14)
 * [FRANK M2](./hardware/frank_m2) (latest hardware revision: 1.02)
-* [MiniFRANK RM1](./hardware/minifrank_rm1) (latest hardware revision: 2.00)
-* [MiniFRANK RM1U](./hardware/minifrank_rm1u) (latest hardware revision: 1.00)
-* [MiniFRANK RM2](./hardware/minifrank_rm2) (latest hardware revision: 1.03)
+* [MiniFRANK RM1](./hardware/minifrank_rm1) (latest hardware revision: 2.01)
+* [MiniFRANK RM1U](./hardware/minifrank_rm1u) (latest hardware revision: 1.01)
+* [MiniFRANK RM2](./hardware/minifrank_rm2) (latest hardware revision: 1.04)
 * [TurboFRANK](./hardware/turbofrank) (latest hardware revision: 1.02)
 
 ## Side Projects
