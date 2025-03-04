@@ -1,22 +1,26 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "8391c966-08b7-49e8-8033-b2f36d1f6bb0")
 	(paper "A4")
 	(title_block
-		(title "MiniFRANK")
-		(date "2025-01-14")
-		(rev "2.0")
+		(title "MiniFRANK RM1")
+		(date "2025-03-04")
+		(rev "2.01")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
 	(lib_symbols
 		(symbol "GND_1"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -107,10 +111,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_Push_Dual"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -168,17 +175,6 @@
 			)
 			(symbol "SW_Push_Dual_0_1"
 				(circle
-					(center -2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
 					(center -2.032 2.54)
 					(radius 0.508)
 					(stroke
@@ -189,10 +185,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -1.016)
-					)
+				(circle
+					(center -2.032 -2.54)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -203,31 +198,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.508) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.016) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 2.54)
+						(xy 0 3.81) (xy 0 5.588)
 					)
 					(stroke
 						(width 0)
@@ -251,7 +222,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.81) (xy 0 5.588)
+						(xy 0 2.032) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -263,8 +234,54 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
+						(xy 0 1.016) (xy 0 1.524)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -285,20 +302,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -326,24 +333,6 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "3"
@@ -354,6 +343,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -393,7 +400,19 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "This button connects RUN pin of RP2040\nand GND."
+		(exclude_from_sim no)
+		(at 39.624 27.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cae7307f-6f09-4452-ab75-c4de47f45651")
 	)
 	(junction
 		(at 48.26 50.8)
@@ -547,21 +566,9 @@
 		)
 		(uuid "ed8ebf26-4454-4ab9-aced-2ba02cc2e344")
 	)
-	(text "This button connects RUN pin of RP2040\nand GND."
-		(exclude_from_sim no)
-		(at 39.624 27.432 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cae7307f-6f09-4452-ab75-c4de47f45651")
-	)
 	(hierarchical_label "RUN"
 		(shape input)
 		(at 48.26 71.12 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -1,7 +1,7 @@
 (footprint "D-SUB (9 pin, male)"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "9-pin D-Sub connector, solder-cups edge-mounted, male, x-pin-pitch 2.77mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 	(tags "9-pin D-Sub connector edge mount solder cup male x-pin-pitch 2.77mm mounting holes distance 25mm")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a3a43a64-555a-41e0-aa5e-cdde1d00951e")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -874,58 +861,59 @@
 	(pad "1" smd rect
 		(at -5.54 0)
 		(size 1.846667 3.48)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2d83f048-9b06-4194-aad8-6f9b59e5eaca")
 	)
 	(pad "2" smd rect
 		(at -2.77 0)
 		(size 1.846667 3.48)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0122080a-d6f7-45a8-b372-d55c257cf079")
 	)
 	(pad "3" smd rect
 		(at 0 0)
 		(size 1.846667 3.48)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f6a933a8-7324-40db-bb0b-b2689d596890")
 	)
 	(pad "4" smd rect
 		(at 2.77 0)
 		(size 1.846667 3.48)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "05bcce79-d4f1-4edc-85bc-fd69e312beba")
 	)
 	(pad "5" smd rect
 		(at 5.54 0)
 		(size 1.846667 3.48)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4d8bf785-16d5-4bf0-b771-a873f800b5ef")
 	)
 	(pad "6" smd rect
 		(at -4.155 0)
 		(size 1.846667 3.48)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "36e9f775-0c58-415a-9684-d083fd23f0b4")
 	)
 	(pad "7" smd rect
 		(at -1.385 0)
 		(size 1.846667 3.48)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "3bf0f91e-a057-41fb-851c-e22cc62a9bdb")
 	)
 	(pad "8" smd rect
 		(at 1.385 0)
 		(size 1.846667 3.48)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "89a514a0-2f57-40fb-9a64-0599d45603c1")
 	)
 	(pad "9" smd rect
 		(at 4.155 0)
 		(size 1.846667 3.48)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "47002767-7b9f-4438-bcab-61bedf441643")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-9_Male_Vertical_P2.77x2.84mm.step"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-9_Pins_Vertical_P2.77x2.84mm_MountingHoles.step"
 		(offset
 			(xyz -5.5 -3 0.7)
 		)
@@ -933,7 +921,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
