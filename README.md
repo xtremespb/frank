@@ -34,18 +34,15 @@ FRANK supports emulation for a variety of platforms, including:
 
 Currently there are the following versions of FRANK available:
 
-* [FRANK M1](./hardware/frank_m1) (latest hardware revision: 1.13)
-* [FRANK M2](./hardware/frank_m2) (latest hardware revision: 2.1)
-* [MiniFRANK RM1](./hardware/minifrank_rm1) (latest hardware revision: 2.0)
-* [MiniFRANK RM1U](./hardware/minifrank_rm1u) (latest hardware revision: 1.0)
-* [MiniFRANK RM2](./hardware/minifrank_rm2) (latest hardware revision: 1.2)
-* [MiniFRANK RM2U](./hardware/minifrank_rm2u) (latest hardware revision: 1.0)
-* [TurboFRANK](./hardware/turbofrank) (latest hardware revision: 1.01)
+* [FRANK M1](./hardware/frank_m1) (latest hardware revision: 1.14)
+* [FRANK M2](./hardware/frank_m2) (latest hardware revision: 1.02)
+* [MiniFRANK RM1](./hardware/minifrank_rm1) (latest hardware revision: 2.00)
+* [MiniFRANK RM1U](./hardware/minifrank_rm1u) (latest hardware revision: 1.00)
+* [MiniFRANK RM2](./hardware/minifrank_rm2) (latest hardware revision: 1.03)
+* [TurboFRANK](./hardware/turbofrank) (latest hardware revision: 1.02)
 
 ## Side Projects
 
-* [Valera](./hardware/valera) - next generation FRANK prototype based on RP2350 (Pico2)
-* [HDMI2VGA](./hardware/hdmi2vga) - HDMI to VGA/Soft Composite passive adaptor
-* [VersaTerm](./hardware/versa) - standalone VersaTerm built on plain RP2040 chip
-* [USB2PS2](./hardware/usb2ps2) - USB to PS/2 adapter built on plain RP2040 chip
-* [USB2PS2 Zero](./hardware/usb2ps2-zero) - USB to PS/2 adapter built on RP2040-Zero
+* [HDMI2VGA](./hardware/hdmi2vga) - HDMI to VGA/Soft Composite passive adaptor (latest hardware revision: 2.01)
+* [USB2PS2](./hardware/usb2ps2) - USB to PS/2 adapter built on RP2040-Zero (latest hardware revision: 1.02)
+* [Protea](./hardware/protea) - hardware fork of [VersaTerm](https://github.com/dhansel/VersaTerm) DIY terminal built on plain RP2040 chip (latest hardware revision: 2.02)
