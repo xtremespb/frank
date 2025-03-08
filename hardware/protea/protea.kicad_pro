@@ -249,6 +249,14 @@
   "erc": {
     "erc_exclusions": [
       [
+        "pin_not_driven|584200|571500|6be01ac1-9b01-4018-8a5d-32851ab3e138|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|",
+        ""
+      ],
+      [
+        "pin_not_driven|584200|596900|21947fde-fa9f-48d2-9dd5-23890e6d507f|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|",
+        ""
+      ],
+      [
         "power_pin_not_driven|1790700|685800|3ea58aa9-034e-458e-9991-d9a637841bda|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b0409f8e-084a-4c18-99f6-a5d70280ca34|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b0409f8e-084a-4c18-99f6-a5d70280ca34|",
         ""
       ],
@@ -752,10 +760,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers/",
+      "plot": "GERBERS/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "DOCS/versa.step",
+      "step": "DOCS/protea.step",
       "svg": "",
       "vrml": ""
     },
