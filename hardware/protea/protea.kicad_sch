@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Protea")
-		(date "2025-03-03")
-		(rev "2.02")
+		(date "2025-03-08")
+		(rev "2.03")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -113,6 +113,10 @@
 		(uuid "66e33459-23be-46e3-b57d-deb35c0b7bf6")
 	)
 	(no_connect
+		(at 105.41 53.34)
+		(uuid "66fd3ce2-9b8f-4efb-8999-17452e08e748")
+	)
+	(no_connect
 		(at 81.28 86.36)
 		(uuid "687e0e63-39ba-488a-b8ff-b29dd237531b")
 	)
@@ -127,6 +131,10 @@
 	(no_connect
 		(at 81.28 53.34)
 		(uuid "98cc07bf-4e7f-4f66-8531-b5eb3f98bd76")
+	)
+	(no_connect
+		(at 105.41 50.8)
+		(uuid "9eb69f6e-999a-4a30-a194-d483712a675b")
 	)
 	(no_connect
 		(at 81.28 119.38)
@@ -188,6 +196,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 50.8) (xy 81.28 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b333f11-0ceb-4f71-8558-38e1b5e55980")
+	)
+	(wire
+		(pts
 			(xy 68.58 127) (xy 81.28 127)
 		)
 		(stroke
@@ -215,6 +233,16 @@
 			(type default)
 		)
 		(uuid "19f39e89-6a01-4f23-9170-8998a65b3d14")
+	)
+	(wire
+		(pts
+			(xy 68.58 58.42) (xy 81.28 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292c5630-09f9-4c67-9900-166de7a1fb04")
 	)
 	(wire
 		(pts
@@ -348,16 +376,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 50.8) (xy 81.28 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89113e48-a3fe-4b61-9006-e33d67d29823")
-	)
-	(wire
-		(pts
 			(xy 68.58 96.52) (xy 81.28 96.52)
 		)
 		(stroke
@@ -385,16 +403,6 @@
 			(type default)
 		)
 		(uuid "92b0a594-6baa-4499-898e-7de2bfd64235")
-	)
-	(wire
-		(pts
-			(xy 68.58 58.42) (xy 81.28 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "957dbe25-720b-4773-af27-8faea836b1f8")
 	)
 	(wire
 		(pts
@@ -566,7 +574,7 @@
 		)
 		(uuid "09a118ad-d649-4277-9787-e3bb339b854f")
 	)
-	(label "D+"
+	(label "PD+"
 		(at 105.41 53.34 0)
 		(effects
 			(font
@@ -596,6 +604,26 @@
 		)
 		(uuid "0c76d41f-5239-4960-952c-90d04683fd96")
 	)
+	(label "RD-"
+		(at 68.58 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0eff7107-a95e-4770-9821-150c3c371cfe")
+	)
+	(label "RD+"
+		(at 68.58 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e2ec456-512d-4ea7-8858-9f47a34b05ae")
+	)
 	(label "GPIO15"
 		(at 140.97 53.34 0)
 		(effects
@@ -605,16 +633,6 @@
 			(justify left bottom)
 		)
 		(uuid "2c81a83e-6c1f-40e1-a76e-0b1e7869d4b2")
-	)
-	(label "D+"
-		(at 68.58 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "322e4f96-55bd-4e2e-a743-12cf28b4e782")
 	)
 	(label "GPIO1"
 		(at 105.41 66.04 0)
@@ -646,7 +664,7 @@
 		)
 		(uuid "4e76fe4e-4714-4425-b470-7d141961d852")
 	)
-	(label "D-"
+	(label "RD-"
 		(at 105.41 77.47 0)
 		(effects
 			(font
@@ -696,7 +714,7 @@
 		)
 		(uuid "665ceadf-a413-4b35-a946-449ae18b2c42")
 	)
-	(label "D+"
+	(label "RD+"
 		(at 105.41 80.01 0)
 		(effects
 			(font
@@ -906,7 +924,7 @@
 		)
 		(uuid "c99d5ac9-cfc3-48be-9ad6-3c7b8fb5aff9")
 	)
-	(label "D-"
+	(label "PD-"
 		(at 105.41 50.8 0)
 		(effects
 			(font
@@ -945,16 +963,6 @@
 			(justify left bottom)
 		)
 		(uuid "ea80f969-f44c-4395-b9b6-78681024998b")
-	)
-	(label "D-"
-		(at 68.58 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f177c053-1c67-40d6-b472-2b30afbc7c28")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -1268,7 +1276,7 @@
 			)
 		)
 		(instances
-			(project "versa"
+			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "5")
 				)
@@ -1321,7 +1329,7 @@
 			)
 		)
 		(instances
-			(project "versa"
+			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "9")
 				)
@@ -1404,7 +1412,7 @@
 			)
 		)
 		(instances
-			(project "versa"
+			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "7")
 				)
@@ -1467,7 +1475,7 @@
 			)
 		)
 		(instances
-			(project "versa"
+			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "3")
 				)
@@ -1530,7 +1538,7 @@
 			)
 		)
 		(instances
-			(project "versa"
+			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "4")
 				)
@@ -1913,7 +1921,7 @@
 			)
 		)
 		(instances
-			(project "versa"
+			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "2")
 				)
@@ -2036,7 +2044,7 @@
 			)
 		)
 		(instances
-			(project "versa"
+			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "10")
 				)
@@ -2099,7 +2107,7 @@
 			)
 		)
 		(instances
-			(project "versa"
+			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(page "9")
 				)

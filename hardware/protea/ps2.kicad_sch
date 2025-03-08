@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Protea")
-		(date "2025-03-03")
-		(rev "2.02")
+		(date "2025-03-08")
+		(rev "2.03")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
