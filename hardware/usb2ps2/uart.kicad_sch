@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "USB to PS/2 Adapter")
-		(date "2025-03-04")
-		(rev "1.02")
+		(date "2025-03-09")
+		(rev "1.03")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
@@ -380,7 +380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fa310f8-0dcf-405b-9b13-aee8c40f9a86")
-		(property "Reference" "CN2"
+		(property "Reference" "CN1"
 			(at 32.385 31.75 0)
 			(effects
 				(font
@@ -435,7 +435,7 @@
 		(instances
 			(project "usb2ps2"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/806fcbb1-aec7-4a20-b8ef-b5e6440967de"
-					(reference "CN2")
+					(reference "CN1")
 					(unit 1)
 				)
 			)

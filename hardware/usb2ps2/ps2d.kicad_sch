@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "USB to PS/2 Adapter")
-		(date "2025-03-04")
-		(rev "1.02")
+		(date "2025-03-09")
+		(rev "1.03")
 		(company "Mikhail Matveev")
 		(comment 1 "https://github.com/xtremespb/frank")
 	)
