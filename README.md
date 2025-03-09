@@ -37,11 +37,11 @@ Currently there are the following versions of FRANK available:
 * [FRANK M1](./hardware/frank_m1) (latest hardware revision: 1.14)
 * [FRANK M2](./hardware/frank_m2) (latest hardware revision: 1.02)
 * [MiniFRANK RM1](./hardware/minifrank_rm1) (latest hardware revision: 2.01)
-* [MiniFRANK RM2](./hardware/minifrank_rm2) (latest hardware revision: 1.04)
+* [MiniFRANK RM2](./hardware/minifrank_rm2) (latest hardware revision: 1.05)
 * [TurboFRANK](./hardware/turbofrank) (latest hardware revision: 1.02)
 
 ## Side Projects
 
 * [HDMI2VGA](./hardware/hdmi2vga) - HDMI to VGA/Soft Composite passive adaptor (latest hardware revision: 2.01)
-* [USB2PS2](./hardware/usb2ps2) - USB to PS/2 adapter built on RP2040-Zero (latest hardware revision: 1.02)
-* [Protea](./hardware/protea) - hardware fork of [VersaTerm](https://github.com/dhansel/VersaTerm) DIY terminal built on plain RP2040 chip (latest hardware revision: 2.02)
+* [USB2PS2](./hardware/usb2ps2) - USB to PS/2 adapter built on RP2040-Zero (latest hardware revision: 1.03)
+* [Protea](./hardware/protea) - hardware fork of [VersaTerm](https://github.com/dhansel/VersaTerm) DIY terminal built on plain RP2040 chip (latest hardware revision: 2.03)
