@@ -3127,7 +3127,7 @@
 				)
 			)
 		)
-		(property "Value" "Pin Header 2x18"
+		(property "Value" "SD04H0SB"
 			(at 236.22 30.48 0)
 			(effects
 				(font
@@ -3144,7 +3144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.aliexpress.com/item/1005006144087226.html"
 			(at 234.95 39.37 0)
 			(effects
 				(font
@@ -3162,13 +3162,21 @@
 				(hide yes)
 			)
 		)
-		(property "AliExpress" "https://www.aliexpress.com/item/1005006804478835.html"
+		(property "AliExpress" "https://www.ckswitches.com/media/1324/sd.pdf"
 			(at 234.95 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 234.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "10"
@@ -3228,7 +3236,7 @@
 				)
 			)
 		)
-		(property "Value" "Reset"
+		(property "Value" "TS-1233"
 			(at 236.22 62.23 0)
 			(effects
 				(font
@@ -3245,7 +3253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.sohantech.com/3x3x1-5-push-button-switch-product/"
+		(property "Datasheet" "https://parts4laptops.eu/en/microbuttons/3300-microbutton-tact-switch-ts-1233-33x33x15mm-smt-mounting.html"
 			(at 236.22 69.85 0)
 			(effects
 				(font
@@ -3270,6 +3278,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 236.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3322,7 +3338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 234.95 87.63 0)
 			(effects
 				(font
@@ -3338,6 +3354,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 234.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005007039504981.html"
+			(at 234.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -3498,6 +3530,14 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 21.59 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "core"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
@@ -3571,6 +3611,14 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 21.59 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "core"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
@@ -3642,6 +3690,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 21.59 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -3782,6 +3838,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 21.59 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
