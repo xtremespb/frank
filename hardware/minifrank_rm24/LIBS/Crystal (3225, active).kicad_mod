@@ -76,50 +76,6 @@
 		(layer "F.SilkS")
 		(uuid "b84ef4fb-6cfb-4cf4-9d6b-ae3622dc0891")
 	)
-	(fp_circle
-		(center 0 0)
-		(end 0.058333 0)
-		(stroke
-			(width 0.116667)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Adhes")
-		(uuid "0f35a3a0-aca4-4430-9eea-8ef4288c3fcd")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.133333 0)
-		(stroke
-			(width 0.083333)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Adhes")
-		(uuid "c50d7bee-b2f0-4f6c-9712-6d0cac04c590")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.208333 0)
-		(stroke
-			(width 0.083333)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Adhes")
-		(uuid "22f8b9e9-ff9e-4d0e-95b6-42c79bc7ee9f")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.25 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Adhes")
-		(uuid "e96379d0-bcfe-4424-8f30-9ca1ee95c55f")
-	)
 	(fp_line
 		(start -2 -1.7)
 		(end -2 1.7)
@@ -250,17 +206,6 @@
 		(layer "F.Fab")
 		(uuid "5d1db7c1-df3c-4f8c-8b17-b9b94b8732b7")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(uuid "1f45d2cb-3ffc-4d93-ad23-e242e2159b61")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.105)
-			)
-		)
-	)
 	(pad "1" smd rect
 		(at -1.05 0.825)
 		(size 1.3 1.1)
@@ -286,7 +231,7 @@
 		(uuid "829a4785-63c2-4b89-bcf3-b873cd2828c7")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm.wrl"
+	(model "${KIPRJMOD}/3D/3225 SMD Crystal Oscillator.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -294,7 +239,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
